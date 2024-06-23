@@ -116,8 +116,11 @@ const Recommendations = ({ setActiveTab }) => {
       classTitle: course["Title"],
       professorName: course["Instructor"]
     }));
-    localStorage.setItem('recommendedClasses', JSON.stringify(classInfo));
+  
+    const message = `Can you tell me more about these classes: ${classInfo.map(c => c.classTitle).join(', ')}?`;
+
     setActiveTab("AI_Agent");
+    navigate("/", {state: {aiAgentMessage: message}});
   };
 
   const getRecommendedClasses = () => {
