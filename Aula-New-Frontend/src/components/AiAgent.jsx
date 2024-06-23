@@ -44,30 +44,56 @@ const AI_Agent = () => {
   };
 
   const handleSend = async () => {
-  setMessages((prevMessages) => [...prevMessages, { type: 'user', message: input }]);
-  localStorage.setItem('messages', JSON.stringify([...messages, { type: 'user', message: input }]));
-  setInput('');
-  setLoading(true);
-  try{
-    const response = await fetch('http://localhost:5001/chat', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        threadId: threadId,
-        messages: messages,
-      }),
-    });
-    console.log(response);
-    const data = await response.json();
-    setMessages((prevMessages) => [...prevMessages, { type: 'assistant', message: data.run.data[0].content[0].text.value }]);
-    localStorage.setItem('messages', JSON.stringify([...messages, { type: 'assistant', message: data.run.data[0].content[0].text.value }]));
-    setLoading(false);
-  } catch (error) {
-    console.error('Error Sending the Chat Message:', error);
-    setMessages((prevMessages) => [...prevMessages, { type: 'assistant', message: 'Sorry, I have encountered a problem' }]);
-  }
+    if (!input.trim()) return; // Don't send empty messages
+  
+    const newMessage = { type: 'user', message: input };
+    setMessages((prevMessages) => [...prevMessages, newMessage]);
+    localStorage.setItem('messages', JSON.stringify([...messages, newMessage]));
+    setInput('');
+    setLoading(true);
+  
+    try {
+      const response = await fetch('http://localhost:5001/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          threadId: threadId,
+          messages: [newMessage], // Send only the new message
+        }),
+      });
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+  
+      const data = await response.json();
+      console.log("Response from server:", data); // Log the entire response
+  
+      // Fetch the last message from the thread
+      const lastMessageResponse = await fetch(`http://localhost:5001/chat/last-message/${data.run.thread_id}`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+  
+      if (!lastMessageResponse.ok) {
+        throw new Error(`HTTP error! status: ${lastMessageResponse.status}`);
+      }
+  
+      const lastMessageData = await lastMessageResponse.json();
+      const assistantMessage = { type: 'assistant', message: lastMessageData.message };
+      
+      setMessages((prevMessages) => [...prevMessages, assistantMessage]);
+      localStorage.setItem('messages', JSON.stringify([...messages, newMessage, assistantMessage]));
+    } catch (error) {
+      console.error('Error Sending the Chat Message:', error);
+      setMessages((prevMessages) => [...prevMessages, { type: 'assistant', message: 'Sorry, I have encountered a problem' }]);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleInputChange = (e) => {
@@ -84,7 +110,17 @@ const AI_Agent = () => {
           <div className="chat">
             {messages.length > 0 &&
               messages.map((message, index) => (
-                <p key={index}>{message.message}</p>
+                <div key={index} className={`message ${message.type}`}>
+                  <strong>{message.type === 'user' ? 'You:' : 'AI:'}</strong>
+                  <div className="message-content">
+                    {message.message.split('\n').map((line, i) => (
+                      <React.Fragment key={i}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </div>
+                </div>
               ))}
           </div>
           <div className="input">
