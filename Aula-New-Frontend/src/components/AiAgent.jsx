@@ -16,14 +16,7 @@ import {
 } from "react-bootstrap";
 
 const AI_Agent = () => {
-  // const [subject, setSubject] = useState("");
-  // const [recommendations, setRecommendations] = useState([]);
   const [input, setInput] = useState('')// User input
-  // const [loading, setLoading] = useState(false)// Loading state
-  // const [promptTokens, setPromptTokens] = useState(0)
-  // const [completionTokens, setCompletionTokens] = useState(0)
-  // const [totalTokens, setTotalTokens] = useState(0)
-  // const [threadId, setThreadId] = useState(undefined)
   const [messages, setMessages] = useState([])
 
   useEffect(() => {

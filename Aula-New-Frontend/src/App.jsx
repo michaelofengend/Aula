@@ -23,6 +23,7 @@ import AI_Agent from "./components/AiAgent";
 import StudentForum from "./components/StudentForum";
 
 const App = () => {
+  const [activeTab, setActiveTab] = useState("search");
 
   return (
     <Router>
@@ -47,9 +48,9 @@ const App = () => {
           </Row>
           <Row>
             <Col>
-              <Tabs defaultActiveKey="search">
+            <Tabs activeKey={activeTab} onSelect={(k) => setActiveTab(k)}>
                 <Tab eventKey="search" title="Catalog Search">
-                  <CatalogSearch />
+                  <CatalogSearch setActiveTab={setActiveTab} />
                 </Tab>
                 <Tab eventKey="courseMap" title="Course Map">
                   <CourseMap />
@@ -58,7 +59,7 @@ const App = () => {
                   <Reviews />
                 </Tab>
                 <Tab eventKey="recommendations" title="Recommendations">
-                  <Recommendations />
+                <Recommendations setActiveTab={setActiveTab} />
                 </Tab>
                 <Tab eventKey="AI_Agent" title="AI Agent">
                   <AI_Agent />

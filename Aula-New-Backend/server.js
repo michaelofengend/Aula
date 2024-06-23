@@ -37,8 +37,8 @@ app.post('/run-python', (req, res) => {
 
 app.get('/classes', (req, res) => {
   const results = [];
-
   fs.createReadStream(`./CSberkeley_classes.csv`)
+  // fs.createReadStream(`./berkeley_classesFA24.csv`)
     .pipe(parse({
       columns: true,
       skip_empty_lines: true
@@ -64,6 +64,21 @@ app.get('/classes', (req, res) => {
 app.get('/professors', (req, res) => {
   const results = [];
 
+  fs.createReadStream(`./professors.csv`)
+    .pipe(parse({
+      columns: true,
+      skip_empty_lines: true
+    }))
+    .on('data', (data) => results.push(data))
+    .on('end', () => {
+      res.json(results);
+    })
+    .on('error', (error) => {
+      res.status(500).json({ error: 'Error reading CSV file' });
+    });
+});
+app.get('/reviews', (req, res) => {
+  const results = [];
   fs.createReadStream(`./professors.csv`)
     .pipe(parse({
       columns: true,
