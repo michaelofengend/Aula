@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import OpenAI from 'openai';
+import './Chat.css';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,

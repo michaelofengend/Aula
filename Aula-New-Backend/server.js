@@ -33,6 +33,24 @@ app.post('/run-python', (req, res) => {
   });
 });
 
+const recommendCourses = (subject) => {
+  // Mock data for demonstration
+  const courses = [
+    { courseName: 'Introduction to Artificial Intelligence - CS188', professorName: 'Professor John', classRating: '4.5/5.0', professorRating: '4.0/5.0' },
+    { courseName: 'Technology in Music - Music 135', professorName: 'Professor John Smith', classRating: '4.5/5.0', professorRating: '4.0/5.0' },
+    // Add more courses here
+  ];
+
+  // Filter courses based on subject (simple example)
+  return courses.filter(course => course.courseName.toLowerCase().includes(subject.toLowerCase()));
+};
+
+app.get('/recommend', (req, res) => {
+  const subject = req.query.subject;
+  const recommendations = recommendCourses(subject);
+  res.json(recommendations);
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port number ${port}`);
 });

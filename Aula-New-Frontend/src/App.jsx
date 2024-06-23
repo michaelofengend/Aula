@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import "./App.css";
 import {
   Tabs,
   Tab,
@@ -14,160 +15,19 @@ import {
   Table,
   ListGroup,
 } from "react-bootstrap";
-
+import CatalogSearch from "./components/CatalogSearch";
 import CourseMap from "./components/CourseMap";
-
-const CatalogSearch = () => (
-  <div>
-    <h2>Catalog Search</h2>
-    <Form>
-      <Form.Group controlId="searchQuery">
-        <Form.Control type="text" placeholder="Search courses" />
-      </Form.Group>
-      <Button variant="primary" type="submit">
-        Search
-      </Button>
-    </Form>
-  </div>
-);
-
-const Preferences = () => (
-  <div>
-    <h2>Preferences</h2>
-    <Form>
-      <Form.Group controlId="campusPreference">
-        <Form.Label>Preferred Campus</Form.Label>
-        <Form.Control as="select">
-          <option>Time slots: Late afternoon</option>
-          <option>Satisfies Major requirements</option>
-          <option>Online</option>
-        </Form.Control>
-      </Form.Group>
-      <Button variant="primary" type="submit">
-        Save Preferences
-      </Button>
-    </Form>
-  </div>
-);
-
-const Reviews = () => (
-  <div>
-    <h2>Reviews</h2>
-    <Card>
-      <Card.Body>
-        <Card.Title>Course Name</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">
-          Professor Name
-        </Card.Subtitle>
-        <Card.Text>Course review goes here...</Card.Text>
-      </Card.Body>
-    </Card>
-  </div>
-);
-
-const AverageGrades = () => (
-  <div>
-    <h2>Average Grades</h2>
-    <Table striped bordered hover>
-      <thead>
-        <tr>
-          <th>Course</th>
-          <th>Average Grade</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Course 1</td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td>Course 2</td>
-          <td>B+</td>
-        </tr>
-      </tbody>
-    </Table>
-  </div>
-);
-
-const WaitlistProbability = () => (
-  <div>
-    <h2>Waitlist Probability</h2>
-    <ListGroup>
-      <ListGroup.Item>Course 1: 80%</ListGroup.Item>
-      <ListGroup.Item>Course 2: 50%</ListGroup.Item>
-    </ListGroup>
-  </div>
-);
-
-const RecommendationAlgorithm = () => (
-  <div>
-    <h2>Recommendation Algorithm</h2>
-    <Card>
-      <Card.Body>
-        <Card.Title>Recommended Courses</Card.Title>
-        <ListGroup>
-          <ListGroup.Item>CS 189 spring version for ML route </ListGroup.Item>
-          <ListGroup.Item>Music 20 for music theory</ListGroup.Item>
-          <ListGroup.Item>Math 110 as intro to Math upper divs</ListGroup.Item>
-        </ListGroup>
-      </Card.Body>
-    </Card>
-  </div>
-);
-
-const ConnectWithAlumni = () => (
-  <div>
-    <h2>Connect with Alumni</h2>
-    <Card>
-      <Card.Body>
-        <Card.Title>Alumni Network</Card.Title>
-        <Form>
-          <Form.Group controlId="alumniSearch">
-            <Form.Control type="text" placeholder="Search alumni" />
-          </Form.Group>
-          <Button variant="primary" type="submit">
-            Search
-          </Button>
-        </Form>
-      </Card.Body>
-    </Card>
-  </div>
-);
-const AI_Agent = () => (
-  <div>
-    <h2>AI Agent</h2>
-    <Card>
-      <Card.Body>
-        <Card.Title>AI Agent</Card.Title>
-        <Form>
-          <Form.Group controlId="alumniSearch">
-            <Form.Control type="text" placeholder="Ask me anything" />
-          </Form.Group>
-          <Button variant="primary" type="submit">
-            Ask
-          </Button>
-        </Form>
-      </Card.Body>
-    </Card>
-  </div>
-);
-
-const StudentForum = () => (
-  <div>
-    <h2>Student Forum</h2>
-    <div className="forum-section">
-      <h3>Welcome to the Student Forum</h3>
-      <p>
-        Discuss courses, share experiences, and connect with fellow students.
-      </p>
-      <Button variant="primary">Join the Discussion</Button>
-    </div>
-  </div>
-);
+import Preferences from "./components/Preferences";
+import Reviews from "./components/Reviews";
+import AverageGrades from "./components/AverageGrades";
+import WaitlistProbability from "./components/WaitlistProbability";
+import Recommendations from "./components/Recommendations";
+import ConnectWithAlumni from "./components/ConnectWithAlumni";
+import AI_Agent from "./components/AiAgent";
+import StudentForum from "./components/StudentForum";
 
 const App = () => {
   const [data, setData] = useState([]);
-
   useEffect(() => {
     // Fetch data from the backend
     fetch("/api/data")
@@ -203,22 +63,22 @@ const App = () => {
 
   return (
     <Router>
-      <div className="v10_3">
+      <div>
         <Navbar bg="light" expand="lg" className="v10_4">
-          <Navbar.Brand className="v10_76">BConnected</Navbar.Brand>
+          <Navbar.Brand>BConnected</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="/login" className="v10_21">
-                Welcome Michael Ofengenden
-              </Nav.Link>
+              <Nav.Link href="/login">Welcome Michael Ofengenden</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
         <Container>
           <Row>
             <Col>
-              <h1 className="v10_22">AULA</h1>
+              <div className="aula">
+                <h1>AULA</h1>
+              </div>
             </Col>
           </Row>
           <Row>
@@ -243,7 +103,7 @@ const App = () => {
                   <WaitlistProbability />
                 </Tab>
                 <Tab eventKey="recommendations" title="Recommendations">
-                  <RecommendationAlgorithm />
+                  <Recommendations />
                 </Tab>
                 <Tab eventKey="alumni" title="Connect with Alumni">
                   <ConnectWithAlumni />
