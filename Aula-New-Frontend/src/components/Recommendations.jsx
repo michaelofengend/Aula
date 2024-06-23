@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   Form,
   Button,
@@ -14,6 +15,25 @@ const Recommendations = ({ setActiveTab }) => {
   const [step, setStep] = useState(1);
   const [year, setYear] = useState("");
   const [major, setMajor] = useState("");
+  const [csvData, setCsvData] = useState([]);
+  const [csvProfessorData, setCsvProfessorData] = useState([]);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    fetch('http://localhost:5001/classes')
+      .then(response => response.json())
+      .then(data => setCsvData(data))
+      .catch(error => console.error('Error fetching CSV data:', error));
+  }, []);
+
+  useEffect(() => {
+    fetch('http://localhost:5001/professors')
+      .then(response => response.json())
+      .then(data => setCsvProfessorData(data))
+      .catch(error => console.error('Error fetching CSV data:', error));
+  }, []);
+  
+  const professorMap = new Map(csvProfessorData.map(prof => [prof["Name"], prof]));
 
   const years = ["Incoming", "Transfer", "Freshman", "Sophomore", "Junior", "Senior"];
   const majors = ["Computer Science", "Biology", "Mathematics", "Psychology", "Economics", "Engineering"];
@@ -29,7 +49,10 @@ const Recommendations = ({ setActiveTab }) => {
   };
 
   const handleNewRecommendations = () => {
-    setActiveTab("AI_Agent");
+    // Reset the form and go back to the first step
+    setStep(1);
+    setYear("");
+    setMajor("");
   };
 
   const renderYearForm = () => (
@@ -78,56 +101,90 @@ const Recommendations = ({ setActiveTab }) => {
     </Card>
   );
 
-  const renderRecommendations = () => (
-    <div>
-      <h2>Recommended Classes for {year} {major} Students</h2>
-      <Card>
-        <Card.Body className="recommendations-grid">
-          <ClassCard
-            classNumber="CS 61A"
-            classTitle="The Structure and Interpretation of Computer Programs"
-            classTime="MWF 10-11am"
-            professorName="John DeNero"
-            professorRating="4.5"
-            professorDifficulty="3.0"
-            overallRating="4.5"
-          />
-          <ClassCard
-            classNumber="MATH 54"
-            classTitle="Linear Algebra and Differential Equations"
-            classTime="TTh 2-3:30pm"
-            professorName="Jane Smith"
-            professorRating="4.2"
-            professorDifficulty="3.5"
-            overallRating="4.0"
-          />
-          <ClassCard
-            classNumber="EECS 16A"
-            classTitle="Designing Information Devices and Systems I"
-            classTime="MWF 1-2pm"
-            professorName="Anant Sahai"
-            professorRating="4.0"
-            professorDifficulty="4.0"
-            overallRating="3.8"
-          />
-        </Card.Body>
+  const majorToCoursePrefix = {
+    "Computer Science": "compsci",
+    "Biology": "bio",
+    "Mathematics": "math",
+    "Psychology": "psych",
+    "Economics": "econ",
+    "Engineering": "engin"
+  };
+
+  const handleAIAgentClick = (recommendedClasses) => {
+    // Prepare the class information to send to the AI Agent
+    const classInfo = recommendedClasses.map(course => ({
+      classNumber: course["Course Code"],
+      classTitle: course["Title"],
+      professorName: course["Instructor"]
+    }));
+
+    // You can store this information in localStorage or pass it as a prop
+    // For this example, we'll use localStorage
+    localStorage.setItem('recommendedClasses', JSON.stringify(classInfo));
+
+    // Switch to the AI Agent tab
+    setActiveTab("AI_Agent");
+  };
+
+  const getRecommendedClasses = () => {
+    const coursePrefix = majorToCoursePrefix[major] || major.toLowerCase();
+    
+    return csvData.filter(course => {
+      const courseCode = course["Course Code"].toLowerCase();
+      return courseCode.startsWith(coursePrefix);
+    }).slice(0, 5); // Return top 5 matches
+  };
+
+  const renderRecommendations = () => {
+    const recommendedClasses = getRecommendedClasses();
+    
+    if (recommendedClasses.length === 0) {
+      return (
+        <Alert variant="info">
+          No classes found for {year} {major} students. Try a different major or year.
+        </Alert>
+      );
+    }
+    return (
+      <div>
+        <h2>Recommended Classes for {year} {major} Students</h2>
+        <div className="class-card-grid">
+          {recommendedClasses.map((course, index) => (
+            <ClassCard
+              key={index}
+              classNumber={course["Course Code"]}
+              classTitle={course["Title"]}
+              classTime={`${course["Days"]} ${course["Time"]}`}
+              professorName={course["Instructor"]}
+              professorRating={professorMap.get(course["Instructor"])?.Rating || "N/A"}
+              professorDifficulty={professorMap.get(course["Instructor"])?.Difficulty || "N/A"}
+              overallRating={professorMap.get(course["Instructor"])?.["Would Take Again"] || "N/A"}
+              onReviewClick={() => {}} // You may want to implement this function
+            />
+          ))}
+        </div>
         <Button className="recommendation-button" onClick={handleNewRecommendations}>
           New Recommendations
         </Button>
-      </Card>
-    </div>
-  );
+        <Button className="ai-agent-button" onClick={() => handleAIAgentClick(recommendedClasses)}>
+            Ask AI Agent About These Classes
+          </Button>
+      </div>
+    );
+  };
 
   return (
-    <Container>
-      <Row className="justify-content-md-center">
-        <Col md={8}>
-          {step === 1 && renderYearForm()}
-          {step === 2 && renderMajorForm()}
-          {step === 3 && renderRecommendations()}
-        </Col>
-      </Row>
-    </Container>
+    <div className="main">
+      <Container>
+        <Row className="justify-content-md-center">
+          <Col md={8}>
+            {step === 1 && renderYearForm()}
+            {step === 2 && renderMajorForm()}
+            {step === 3 && renderRecommendations()}
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 };
 
