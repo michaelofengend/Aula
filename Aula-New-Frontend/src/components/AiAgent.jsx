@@ -1,52 +1,24 @@
-import React, {useEffect, useState} from "react"
+import React, {useEffect, useState, useCallback} from "react";
 import "./AiAgent.css";
-
+import { useLocation, useNavigate } from "react-router-dom";
 import {
-  Tabs,
-  Tab,
-  Container,
-  Row,
-  Col,
-  Form,
-  Button,
   Card,
-  Navbar,
-  Nav,
-  Table,
-  ListGroup,
+  Button,
 } from "react-bootstrap";
 
 const AI_Agent = () => {
-  const [input, setInput] = useState('')
-  const [messages, setMessages] = useState([])
-  const [threadId, setThreadId] = useState(undefined)
-  const [loading, setLoading] = useState(false)
-  useEffect(() => {
-    const messages = localStorage.getItem('messages')
-    if (messages) {
-      setMessages(JSON.parse(messages))
-    }
-    const threadId = localStorage.getItem('threadId')
-    if (threadId) {
-      setThreadId(threadId)
-    }else{
-      const id = Math.floor(Math.random() * 100)
-      setThreadId(id)
-      localStorage.setItem('threadId', id)
-    }
-  }, [])
+  const [input, setInput] = useState('');
+  const [messages, setMessages] = useState([]);
+  const [threadId, setThreadId] = useState(undefined);
+  const [loading, setLoading] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
-  const resetChat = () => {
-    setMessages([])
-    setThreadId(undefined)
-    localStorage.removeItem('messages')
-    localStorage.removeItem('threadId');
-  };
-
-  const handleSend = async () => {
-    if (!input.trim()) return; // Don't send empty messages
+  const handleSend = useCallback(async (customInput) => {
+    const messageToSend = customInput || input;
+    if (!messageToSend.trim()) return;
   
-    const newMessage = { type: 'user', message: input };
+    const newMessage = { type: 'user', message: messageToSend };
     setMessages((prevMessages) => [...prevMessages, newMessage]);
     localStorage.setItem('messages', JSON.stringify([...messages, newMessage]));
     setInput('');
@@ -60,7 +32,7 @@ const AI_Agent = () => {
         },
         body: JSON.stringify({
           threadId: threadId,
-          messages: [newMessage], // Send only the new message
+          messages: [newMessage],
         }),
       });
   
@@ -69,9 +41,8 @@ const AI_Agent = () => {
       }
   
       const data = await response.json();
-      console.log("Response from server:", data); // Log the entire response
+      console.log("Response from server:", data);
   
-      // Fetch the last message from the thread
       const lastMessageResponse = await fetch(`http://localhost:5001/chat/last-message/${data.run.thread_id}`, {
         method: 'GET',
         headers: {
@@ -94,12 +65,41 @@ const AI_Agent = () => {
     } finally {
       setLoading(false);
     }
+  }, [messages, threadId]);
+
+  useEffect(() => {
+    const messages = localStorage.getItem('messages')
+    if (messages) {
+      setMessages(JSON.parse(messages))
+    }
+    const threadId = localStorage.getItem('threadId')
+    if (threadId) {
+      setThreadId(threadId)
+    } else {
+      const id = Math.floor(Math.random() * 100)
+      setThreadId(id)
+      localStorage.setItem('threadId', id)
+    }
+  }, []);
+
+  useEffect(() => {
+    if (location.state && location.state.aiAgentMessage) {
+      setInput(location.state.aiAgentMessage);
+      handleSend(location.state.aiAgentMessage);
+      navigate("/", {state: {}}, {replace: true});
+    }
+  }, [location.state, handleSend, navigate]);
+
+  const resetChat = () => {
+    setMessages([])
+    setThreadId(undefined)
+    localStorage.removeItem('messages')
+    localStorage.removeItem('threadId');
   };
 
   const handleInputChange = (e) => {
     setInput(e.target.value);
   };
-
 
   return (
     <div className="agent">
@@ -130,7 +130,7 @@ const AI_Agent = () => {
               value={input}
               onChange={handleInputChange}
             />
-            <Button variant="primary" type="submit" onClick={handleSend} className="inputSubmit">
+            <Button variant="primary" type="submit" onClick={() => handleSend()} className="inputSubmit">
               {loading ? "Processing" : "Ask"}
             </Button>
             <Button variant="primary" type="submit" onClick={resetChat} className="cancel">
