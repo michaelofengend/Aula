@@ -111,19 +111,17 @@ const Recommendations = ({ setActiveTab }) => {
   };
 
   const handleAIAgentClick = (recommendedClasses) => {
-    // Prepare the class information to send to the AI Agent
     const classInfo = recommendedClasses.map(course => ({
       classNumber: course["Course Code"],
       classTitle: course["Title"],
       professorName: course["Instructor"]
     }));
-
-    // You can store this information in localStorage or pass it as a prop
-    // For this example, we'll use localStorage
-    localStorage.setItem('recommendedClasses', JSON.stringify(classInfo));
-
-    // Switch to the AI Agent tab
+  
+    const message = `Can you tell me more about these classes: ${classInfo.map(c => c.classTitle).join(', ')}?`;
+    
+    // Instead of using localStorage, we'll pass the message as a state parameter
     setActiveTab("AI_Agent");
+    navigate("/", {state: {aiAgentMessage: message}});
   };
 
   const getRecommendedClasses = () => {
