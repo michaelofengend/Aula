@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react"
 import "./AiAgent.css";
-
 import {
   Tabs,
   Tab,
@@ -104,9 +103,9 @@ const AI_Agent = () => {
   return (
     <div className="agent">
       <h2>AI Agent</h2>
-      <Card>
-        <Card.Body>
-          <Card.Title>AI Agent</Card.Title>
+      <Card >
+        <Card.Body className="main-card">
+          <Card.Title>Cal the Counselor</Card.Title>
           <div className="chat">
             {messages.length > 0 &&
               messages.map((message, index) => (

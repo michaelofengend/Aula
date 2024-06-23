@@ -49,7 +49,7 @@ const Recommendations = ({ setActiveTab }) => {
   };
 
   const handleNewRecommendations = () => {
-    // Reset the form and go back to the first step
+
     setStep(1);
     setYear("");
     setMajor("");
@@ -57,7 +57,7 @@ const Recommendations = ({ setActiveTab }) => {
 
   const renderYearForm = () => (
     <Card className="my-4">
-      <Card.Body>
+      <Card.Body className = "inner-card">
         <Card.Title>Select Your Year</Card.Title>
         <Form onSubmit={handleYearSubmit}>
           <Form.Group>
@@ -80,7 +80,7 @@ const Recommendations = ({ setActiveTab }) => {
 
   const renderMajorForm = () => (
     <Card className="my-4">
-      <Card.Body>
+      <Card.Body className = "inner-card">
         <Card.Title>Select Your Major</Card.Title>
         <Form onSubmit={handleMajorSubmit}>
           <Form.Group>
@@ -111,18 +111,12 @@ const Recommendations = ({ setActiveTab }) => {
   };
 
   const handleAIAgentClick = (recommendedClasses) => {
-    // Prepare the class information to send to the AI Agent
     const classInfo = recommendedClasses.map(course => ({
       classNumber: course["Course Code"],
       classTitle: course["Title"],
       professorName: course["Instructor"]
     }));
-
-    // You can store this information in localStorage or pass it as a prop
-    // For this example, we'll use localStorage
     localStorage.setItem('recommendedClasses', JSON.stringify(classInfo));
-
-    // Switch to the AI Agent tab
     setActiveTab("AI_Agent");
   };
 

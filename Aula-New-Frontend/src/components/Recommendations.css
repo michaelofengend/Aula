@@ -5,10 +5,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-height: 80vh; /* Adjust as needed */
+    max-height: 80vh; 
     overflow-y: auto;
     padding: 20px;
 }
 .recommendation-button {
     margin: 10px;
+}
+.inner-card{
+    background-color: grey;
 }

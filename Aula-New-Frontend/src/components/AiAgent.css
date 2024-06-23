@@ -34,10 +34,15 @@
 }
 
 .input {
+  
   display: flex;
   gap: 10px;
 }
 
 .input input {
   flex-grow: 1;
+  
+}
+.main-card{
+  background-color: grey;
 }
