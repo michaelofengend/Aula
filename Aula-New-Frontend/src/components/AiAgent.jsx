@@ -1,6 +1,7 @@
 import React, {useEffect, useState, useCallback} from "react";
 import "./AiAgent.css";
 import { useLocation, useNavigate } from "react-router-dom";
+
 import {
   Card,
   Button,
@@ -104,9 +105,9 @@ const AI_Agent = () => {
   return (
     <div className="agent">
       <h2>AI Agent</h2>
-      <Card>
-        <Card.Body>
-          <Card.Title>AI Agent</Card.Title>
+      <Card >
+        <Card.Body className="main-card">
+          <Card.Title>Cal the Counselor</Card.Title>
           <div className="chat">
             {messages.length > 0 &&
               messages.map((message, index) => (

@@ -49,7 +49,7 @@ const Recommendations = ({ setActiveTab }) => {
   };
 
   const handleNewRecommendations = () => {
-    // Reset the form and go back to the first step
+
     setStep(1);
     setYear("");
     setMajor("");
@@ -57,7 +57,7 @@ const Recommendations = ({ setActiveTab }) => {
 
   const renderYearForm = () => (
     <Card className="my-4">
-      <Card.Body>
+      <Card.Body className = "inner-card">
         <Card.Title>Select Your Year</Card.Title>
         <Form onSubmit={handleYearSubmit}>
           <Form.Group>
@@ -80,7 +80,7 @@ const Recommendations = ({ setActiveTab }) => {
 
   const renderMajorForm = () => (
     <Card className="my-4">
-      <Card.Body>
+      <Card.Body className = "inner-card">
         <Card.Title>Select Your Major</Card.Title>
         <Form onSubmit={handleMajorSubmit}>
           <Form.Group>
@@ -118,8 +118,7 @@ const Recommendations = ({ setActiveTab }) => {
     }));
   
     const message = `Can you tell me more about these classes: ${classInfo.map(c => c.classTitle).join(', ')}?`;
-    
-    // Instead of using localStorage, we'll pass the message as a state parameter
+
     setActiveTab("AI_Agent");
     navigate("/", {state: {aiAgentMessage: message}});
   };
