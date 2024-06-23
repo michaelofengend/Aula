@@ -6,3 +6,66 @@
   padding: 10px;
 
 }
+
+.form-control {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+
+.class-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin: 20px auto;
+}
+
+.card {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+.card-title,
+.card-subtitle,
+.card-text {
+  color: var(--text-color);
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+  background-color: darken(var(--accent-color), 10%);
+  border-color: darken(var(--accent-color), 10%);
+}.main {
+  padding: 10px;
+}
+
+.class-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-height: 80vh; /* Adjust as needed */
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/* Optional: Style the scrollbar */
+.class-card-grid::-webkit-scrollbar {
+  width: 10px;
+}
+
+.class-card-grid::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.class-card-grid::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.class-card-grid::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

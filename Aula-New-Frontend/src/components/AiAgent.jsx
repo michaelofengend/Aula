@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react"
 import "./AiAgent.css";
 import {
   Tabs,
@@ -16,14 +16,36 @@ import {
 } from "react-bootstrap";
 
 const AI_Agent = () => {
-  const [subject, setSubject] = useState("");
-  const [recommendations, setRecommendations] = useState([]);
+  // const [subject, setSubject] = useState("");
+  // const [recommendations, setRecommendations] = useState([]);
+  const [input, setInput] = useState('')// User input
+  // const [loading, setLoading] = useState(false)// Loading state
+  // const [promptTokens, setPromptTokens] = useState(0)
+  // const [completionTokens, setCompletionTokens] = useState(0)
+  // const [totalTokens, setTotalTokens] = useState(0)
+  // const [threadId, setThreadId] = useState(undefined)
+  const [messages, setMessages] = useState([])
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const response = await fetch(`/recommend?subject=${subject}`);
-    const data = await response.json();
-    setRecommendations(data);
+  useEffect(() => {
+    const messages = localStorage.getItem('messages')
+    if (messages) {
+      setMessages(JSON.parse(messages))
+    }
+  }, [])
+  const resetChat = () => {
+    setMessages([])
+    localStorage.removeItem('messages')
+  };
+  
+
+   const handleSend = async () => {
+    setMessages((prevMessages) => [...prevMessages, { type: 'user', message: input }]);
+    localStorage.setItem('messages', JSON.stringify([...messages, { type: 'user', message: input }]));
+    setInput('');
+  };
+
+  const handleInputChange = (e) => {
+    setInput(e.target.value);
   };
 
   return (
@@ -32,38 +54,25 @@ const AI_Agent = () => {
       <Card>
         <Card.Body>
           <Card.Title>AI Agent</Card.Title>
-          <Form onSubmit={handleSubmit}>
-            <Form.Group controlId="subject">
-              <Form.Control
-                type="text"
-                value={subject}
-                onChange={(e) => setSubject(e.target.value)}
-                placeholder="Ask me anything"
-              />
-            </Form.Group>
-            <Button variant="primary" type="submit">
+          <div className="chat">
+            {messages.length > 0 &&
+              messages.map((message, index) => (
+                <p key={index}>{message.message}</p>
+              ))}
+          </div>
+          <div className="input">
+            <input
+              type="text"
+              placeholder="Type your message here..."
+              value={input}
+              onChange={handleInputChange}
+            />
+            <Button variant="primary" type="submit" onClick={handleSend} className="inputSubmit">
               Ask
             </Button>
-          </Form>
-          <div>
-            {recommendations.length > 0 && (
-              <Card>
-                <Card.Body>
-                  <Card.Title>Recommended Courses</Card.Title>
-                  <ListGroup>
-                    {recommendations.map((course, index) => (
-                      <ListGroup.Item key={index}>
-                        {course.courseName} - {course.professorName}
-                        <br />
-                        Class Rating: {course.classRating}
-                        <br />
-                        Professor Rating: {course.professorRating}
-                      </ListGroup.Item>
-                    ))}
-                  </ListGroup>
-                </Card.Body>
-              </Card>
-            )}
+            <Button variant="primary" type="submit" onClick={resetChat} className="cancel">
+              Delete
+            </Button>
           </div>
         </Card.Body>
       </Card>

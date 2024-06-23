@@ -1,0 +1,68 @@
+.class-card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  .class-number {
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 10px 0;
+  }
+  
+  .class-title {
+    font-size: 18px;
+    color: #555;
+    margin: 0 0 15px 0;
+  }
+  
+  .class-time {
+    font-size: 14px;
+    color: #777;
+    margin: 0 0 15px 0;
+  }
+  
+  .professor-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .professor-name {
+    font-size: 16px;
+    color: #444;
+    margin: 0;
+  }
+  
+  .professor-rating {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+  
+
+  
+  .overall-rating-button {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .overall-rating-button:hover {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }

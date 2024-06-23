@@ -1,19 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
+  --primary-color: #1e293b; /* Dark background color */
+  --secondary-color: #334155; /* Slightly lighter dark color for accents */
+  --text-color: #e2e8f0; /* Light color for text */
+  --accent-color: #6366f1; /* Accent color, e.g., for buttons */
+  --border-color: rgba(255, 255, 255, 0.1); /* Border color for elements */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  margin: 10px;
-  padding: 20px;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-
-  display: flex;
-  justify-content: center;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
 }
 
-
+body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
