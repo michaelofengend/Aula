@@ -23,38 +23,6 @@ import AI_Agent from "./components/AiAgent";
 import StudentForum from "./components/StudentForum";
 
 const App = () => {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch("/api/data")
-      .then((response) => response.json())
-      .then((data) => {
-        setData(data);
-      });
-  }, []);
-
-  async function runPythonScript(data) {
-    const response = await fetch("http://localhost:5001/run-python", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ data }),
-    });
-
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const result = await response.text();
-    console.log(result);
-    return result;
-  }
-
-  useEffect(() => {
-    runPythonScript("Hello, Python!").then((result) => {
-      setData(result.split("\n"));
-    });
-  }, []);
 
   return (
     <Router>
@@ -68,6 +36,7 @@ const App = () => {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+
         <Container>
           <Row>
             <Col>
@@ -101,14 +70,7 @@ const App = () => {
             </Col>
           </Row>
         </Container>
-        <Container>
-          <h1>Data from the Backend:</h1>
-          <ul>
-            {data.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </Container>
+
       </div>
     </Router>
   );

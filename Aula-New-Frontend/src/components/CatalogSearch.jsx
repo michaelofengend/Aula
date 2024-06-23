@@ -43,7 +43,7 @@ const CatalogSearch = () => {
       <h2>Catalog Search</h2>
       <Form>
         <Form.Group controlId="searchQuery" className="form">
-          <Form.Control type="text" placeholder="Search courses" />
+          <Form.Control type="text" placeholder="Search courses" className="form-input"/>
         </Form.Group>
         <Button variant="primary" type="submit" className="search">
           Search
@@ -54,47 +54,19 @@ const CatalogSearch = () => {
         {csvData.map((row, index) => (
           
           <div key={index}>
-            <ClassCard 
-            classNumber={row["Course Code"]}
-            classTitle={row["Title"]}
-            classTime={`${row["Days"]} ${row["Time"]}`}
-            professorName={row["Instructor"]}
-            professorRating={professorMap[row["Instructor"]]|| "N/A"}
-            professorDifficulty={professorMap[row["Instructor"]] || "N/A"}
-            overallRating={professorMap[row["Instructor"]] || "N/A"}
-          />
+            <ClassCard
+  classNumber={row["Course Code"]}
+  classTitle={row["Title"]}
+  classTime={`${row["Days"]} ${row["Time"]}`}
+  professorName={row["Instructor"]}
+  professorRating={professorMap.get(row["Instructor"])?.Rating || "N/A"}
+  professorDifficulty={professorMap.get(row["Instructor"])?.Difficulty || "N/A"}
+  overallRating={professorMap.get(row["Instructor"])?.["Would Take Again"] || "N/A"}
+/>
           </div>
         ))}
         </div>
-        <div>
-          <h2>Testing</h2>
-          {professorMap.forEach((value, key) => {
-            <p>{value}</p>
-          })}
-        </div>
-        {/* <div>
-          <h2>Professor Ratings</h2>
-          <Table striped bordered hover>
-            <thead>
-              <tr>
-                <th>Professor</th>
-                <th>Rating</th>
-                <th>Difficulty</th>
-                <th>Would Take Again</th>
-              </tr>
-            </thead>
-            <tbody>
-              {csvProfessorData.map((row, index) => (
-                <tr key={index}>
-                  <td>{row["Name"]}</td>
-                  <td>{row["Rating"]}</td>
-                  <td>{row["Difficulty"]}</td>
-                  <td>{row["Would Take Again"]}</td>
-                </tr>
-              ))}
-            </tbody>
-          </Table>
-        </div> */}
+
     </div>
   );
 };
