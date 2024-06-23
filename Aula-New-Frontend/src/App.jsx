@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import React, { useState } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import {
   Tabs,
@@ -7,13 +7,8 @@ import {
   Container,
   Row,
   Col,
-  Form,
-  Button,
-  Card,
   Navbar,
   Nav,
-  Table,
-  ListGroup,
 } from "react-bootstrap";
 import CatalogSearch from "./components/CatalogSearch";
 import CourseMap from "./components/CourseMap";
@@ -27,28 +22,23 @@ const App = () => {
 
   return (
     <Router>
-      <div>
-        <Navbar bg="light" expand="lg" className="navbar">
-          <Navbar.Brand>BConnected</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Link href="/login">Welcome Michael Ofengenden</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+      <div className="app-wrapper">
+        <Navbar expand="lg" className="navbar">
+          <Container>
+            <Navbar.Brand className="mr-auto">AULA</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+              <Nav>
+                <Nav.Item>Welcome Michael Ofengenden</Nav.Item>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
         </Navbar>
 
-        <Container>
+        <Container className="main-container">
           <Row>
             <Col>
-              <div className="aula">
-                <h1>AULA</h1>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-            <Tabs activeKey={activeTab} onSelect={(k) => setActiveTab(k)}>
+              <Tabs activeKey={activeTab} onSelect={(k) => setActiveTab(k)}>
                 <Tab eventKey="search" title="Catalog Search">
                   <CatalogSearch setActiveTab={setActiveTab} />
                 </Tab>
@@ -59,7 +49,7 @@ const App = () => {
                   <Reviews />
                 </Tab>
                 <Tab eventKey="recommendations" title="Recommendations">
-                <Recommendations setActiveTab={setActiveTab} />
+                  <Recommendations setActiveTab={setActiveTab} />
                 </Tab>
                 <Tab eventKey="AI_Agent" title="AI Agent">
                   <AI_Agent />
@@ -71,7 +61,6 @@ const App = () => {
             </Col>
           </Row>
         </Container>
-
       </div>
     </Router>
   );
