@@ -1,0 +1,47 @@
+h2 {
+  padding: 10px;
+}
+
+.subfield-interest label {
+  padding: 10px;
+}
+
+.graph {
+  display: block;
+  text-align: center;
+  margin: auto;
+  background-color: ghostwhite;
+}
+
+.links line {
+  stroke: #aaa;
+}
+
+.nodes circle {
+  pointer-events: all;
+}
+
+.group_selection {
+  text-align: center;
+  font-size: 125%;
+}
+
+.img {
+  width: 500px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.im {
+  width: 60%;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+}

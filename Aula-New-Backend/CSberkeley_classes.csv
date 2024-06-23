@@ -1,0 +1,53 @@
+Title,Course Code,Instructor,Days,Time,Location,Description
+Introduction to Machine Learning,COMPSCI 289A,Jennifer Listgarten,"TU, TH",2:00 pm - 3:29 pm,Haas Faculty Wing F295,N/A
+Special Topics: Large Scale Vision and Language Models,COMPSCI 294,Trevor Darrell,M,3:00 pm - 4:59 pm,Berkeley Way West 1213,N/A
+Special Topics: Immersive Computing and Virtual Reality,COMPSCI 294,Allen Y Yang,"TU, TH",3:30 pm - 4:59 pm,Soda 306,N/A
+Special Topics: Machine Learning Systems,COMPSCI 294,"Joseph E. Gonzalez, Matei Zaharia","M, W",2:00 pm - 3:29 pm,Soda 310,N/A
+Special Topics: Computational Human Vision,COMPSCI 294,Ren Ng,TU,1:00 pm - 3:59 pm,Berkeley Way West 1217,N/A
+Special Topics: Special Topics on Decentralized Finance,COMPSCI 294,Xiaodong Dawn Song,M,10:00 am - 11:59 am,Joan and Sanford I. Weill 101D,N/A
+Special Topics: Special Topics on Decentralized Intelligence: Large Language Model Agents,COMPSCI 294,Xiaodong Dawn Song,M,3:00 pm - 4:59 pm,Latimer 120,N/A
+Special Topics: STAR Assessments for Proficiency-Based Learning,COMPSCI 294,"Dan Garcia, Armando Fox, Narges Norouzi",M,2:00 pm - 3:29 pm,Soda 606,N/A
+Special Topics: Learning Problems in Quantum Computing,COMPSCI 294,John Wright,"M, W",10:30 am - 11:59 am,Soda 405,N/A
+Special Topics: Research in AI Education,COMPSCI 294,"Gireeja Vishnu Ranade, Narges Norouzi",TU,2:00 pm - 3:29 pm,Soda 606,N/A
+"Group Studies Seminars, or Group Research: Theory Seminar",COMPSCI 298,"Prasad Raghavendra, Avishay Tal",W,12:00 pm - 1:29 pm,Soda 438,N/A
+"Group Studies Seminars, or Group Research: EECS Colloquium",COMPSCI 298,Jelani Nelson,W,4:00 pm - 4:59 pm,Soda 306,N/A
+"Group Studies Seminars, or Group Research: Database Seminar",COMPSCI 298,"Joseph M Hellerstein, Aditya Parameswaran",W,11:00 am - 11:59 am,Soda 438,N/A
+Adaptive Instruction Methods in Computer Science,COMPSCI 370,Christopher Todd Hunn,TU,5:00 pm - 6:59 pm,Wheeler 212,N/A
+Adaptive Instruction Methods in Computer Science,COMPSCI 370,Christopher Todd Hunn,TH,5:00 pm - 6:59 pm,Wheeler 212,N/A
+Teaching Techniques for Computer Science,COMPSCI 375,Armando Fox,F,10:00 am - 11:59 am,Soda 438,N/A
+Introduction to Machine Learning,COMPSCI 189,Jennifer Listgarten,"TU, TH",2:00 pm - 3:29 pm,Haas Faculty Wing F295,N/A
+Special Topics: Computational Human Vision,COMPSCI 194,Ren Ng,TU,1:00 pm - 3:59 pm,Berkeley Way West 1217,N/A
+Special Topics: Special Topics on Decentralized Finance,COMPSCI 194,Xiaodong Dawn Song,M,10:00 am - 11:59 am,Joan and Sanford I. Weill 101D,N/A
+Special Topics: Special Topics on Decentralized Intelligence: Large Language Model Agents,COMPSCI 194,Xiaodong Dawn Song,M,3:00 pm - 4:59 pm,Latimer 120,N/A
+Special Topics: STAR Assessments for Proficiency-Based Learning,COMPSCI 194,"Dan Garcia, Armando Fox, Narges Norouzi",M,2:00 pm - 3:29 pm,Soda 606,N/A
+Special Topics: Research in AI Education,COMPSCI 194,"Gireeja Vishnu Ranade, Narges Norouzi",TU,2:00 pm - 3:29 pm,Soda 606,N/A
+Social Implications of Computer Technology,COMPSCI 195,Lisa Yan,TU,3:30 pm - 4:59 pm,Physics Building 1,N/A
+Honors Social Implications of Computer Technology,COMPSCI H195,Lisa Yan,TU,3:30 pm - 4:59 pm,Physics Building 1,N/A
+Field Study,COMPSCI 197,Satish B Rao,,,,N/A
+Directed Group Studies for Advanced Undergraduates,COMPSCI 198,Dan Garcia,"M, W, F",11:00 am - 11:59 am,Soda 606,N/A
+Introduction to Embedded Systems,COMPSCI C249A,"Prabal Dutta, Sanjit A Seshia","TU, TH",2:00 pm - 3:29 pm,Soda 306,N/A
+Human-Computer Interaction Research,COMPSCI 260B,Bjoern Hartmann,"TU, TH",12:30 pm - 1:59 pm,Moffitt Library 102,N/A
+Compiler Optimization and Code Generation,COMPSCI 265,Max Willsey,"TU, TH",2:00 pm - 3:29 pm,Soda 405,N/A
+Combinatorial Algorithms and Data Structures,COMPSCI 270,Satish B Rao,"TU, TH",11:00 am - 12:29 pm,Soda 306,N/A
+Randomness and Computation,COMPSCI 271,Alistair J Sinclair,"TU, TH",9:30 am - 10:59 am,Wheeler 200,N/A
+Cryptography,COMPSCI 276,Sanjam Garg,"TU, TH",11:00 am - 12:29 pm,Soda 405,N/A
+Intro to Computer Vision and Computational Photography,COMPSCI 280A,Alexei Efros,"M, W",5:00 pm - 6:29 pm,Li Ka Shing 245,N/A
+Natural Language Processing,COMPSCI 288,"Alane Suhr, Dan Klein","TU, TH",12:30 pm - 1:59 pm,Donner Lab 155,N/A
+The Beauty and Joy of Computing,COMPSCI 10,Dan Garcia,"M, W",1:00 pm - 1:59 pm,Hearst Field Annex A1,N/A
+Completion of Work in Computer Science 61A,COMPSCI 47A,John DeNero,,,,N/A
+Completion of Work in Computer Science 61B,COMPSCI 47B,"Justin Yokota, Peyrin Kao",,,,N/A
+Completion of Work in Computer Science 61C,COMPSCI 47C,"Dan Garcia, Peyrin Kao",,,,N/A
+The Structure and Interpretation of Computer Programs,COMPSCI 61A,John DeNero,"M, W, F",1:00 pm - 1:59 pm,Wheeler 150,N/A
+Data Structures,COMPSCI 61B,"Peyrin Kao, Justin Yokota","M, W, F",2:00 pm - 2:59 pm,Wheeler 150,N/A
+Great Ideas of Computer Architecture (Machine Structures),COMPSCI 61C,"Dan Garcia, Peyrin Kao","M, W, F",10:00 am - 10:59 am,Dwinelle 155,N/A
+Discrete Mathematics and Probability Theory,COMPSCI 70,"Joshua A Hug, Satish B Rao","TU, TH",5:00 pm - 6:29 pm,Pimentel 1,N/A
+Computer Security,COMPSCI 161,David Wagner,"TU, TH",9:30 am - 10:59 am,Hearst Field Annex A1,N/A
+Operating Systems and System Programming,COMPSCI 162,Ion Stoica,"TU, TH",6:30 pm - 7:59 pm,Dwinelle 155,N/A
+Programming Languages and Compilers,COMPSCI 164,Koushik Sen,"M, W",2:00 pm - 3:29 pm,Soda 306,N/A
+Introduction to the Internet: Architecture and Protocols,COMPSCI 168,Sylvia Ratnasamy,"TU, TH",11:00 am - 12:29 pm,Haas Faculty Wing F295,N/A
+Introduction to Software Engineering,COMPSCI 169A,Michael Ball,"M, W",5:00 pm - 6:29 pm,Genetics & Plant Bio 100,N/A
+Efficient Algorithms and Intractable Problems,COMPSCI 170,"Prasad Raghavendra, Sanjam Garg","TU, TH",2:00 pm - 3:29 pm,Valley Life Sciences 2050,N/A
+Computability and Complexity,COMPSCI 172,Avishay Tal,"TU, TH",5:00 pm - 6:29 pm,Lewis 9,N/A
+Intro to Computer Vision and Computational Photography,COMPSCI 180,Alexei Efros,"M, W",5:00 pm - 6:29 pm,Li Ka Shing 245,N/A
+Introduction to Database Systems,COMPSCI 186,Alvin Cheung,"M, W",10:00 am - 11:29 am,Soda 306,N/A
+Introduction to Artificial Intelligence,COMPSCI 188,"Pieter Abbeel, Igor Mordatch","TU, TH",3:30 pm - 4:59 pm,Dwinelle 155,N/A

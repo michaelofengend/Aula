@@ -1,0 +1,61 @@
+/* StudentForum.css */
+
+/* Main container for the student forum */
+.student-forum-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Title styling */
+.student-forum-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Forum section styling */
+.forum-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+/* Forum section title styling */
+.forum-section h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4CAF50; /* Changed to a brighter color */
+}
+
+/* Forum section text styling */
+.forum-section p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+/* Button styling */
+.forum-section button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.forum-section button:hover {
+  background-color: #0056b3;
+}
