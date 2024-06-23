@@ -1,3 +1,9 @@
 .agent {
-  padding: 10px;
+  margin: 10px;
+}
+.inputSubmit{
+  margin: 5px;
+}
+.cancel{
+  margin:5px;
 }

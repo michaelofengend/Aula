@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Reviews.css";
+import { useLocation,useParams  } from "react-router";
 import {
   Tabs,
   Tab,
@@ -16,6 +17,9 @@ import {
 } from "react-bootstrap";
 
 const Reviews = () => {
+  const location = useLocation();
+  const params = useParams();
+  const professorName = params.professorName || location.state?.professorName || 'Select a professor';
   const reviews = [
     {
       id: 1,
@@ -38,7 +42,7 @@ const Reviews = () => {
 
   return (
     <div className="reviews-container">
-      <h2>Reviews</h2>
+      <h2>Reviews for {professorName}</h2>
       <div className="reviews-list">
         {reviews.map((review) => (
           <Card key={review.id} className="review-card">

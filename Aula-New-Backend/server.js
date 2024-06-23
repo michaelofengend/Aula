@@ -1,4 +1,6 @@
 const express = require('express');
+const fs = require('fs');
+const { parse } = require('csv-parse');
 const { spawn } = require('child_process');
 const app = express();
 const port = 5001; // Backend server port
@@ -32,6 +34,66 @@ app.post('/run-python', (req, res) => {
     res.send(result);
   });
 });
+
+app.get('/classes', (req, res) => {
+  const results = [];
+  fs.createReadStream(`./CSberkeley_classes.csv`)
+  // fs.createReadStream(`./berkeley_classesFA24.csv`)
+    .pipe(parse({
+      columns: true,
+      skip_empty_lines: true
+    }))
+    .on('data', (data) => {
+      // Modify the professor name to include only first and last name
+      if (data.Instructor) {
+        const nameParts = data.Instructor.split(' ');
+        if (nameParts.length >= 2) {
+          data.Instructor = `${nameParts[0]} ${nameParts[nameParts.length - 1]}`;
+        }
+      }
+      results.push(data);
+    })
+    .on('end', () => {
+      res.json(results);
+    })
+    .on('error', (error) => {
+      res.status(500).json({ error: 'Error reading CSV file' });
+    });
+});
+
+app.get('/professors', (req, res) => {
+  const results = [];
+
+  fs.createReadStream(`./professors.csv`)
+    .pipe(parse({
+      columns: true,
+      skip_empty_lines: true
+    }))
+    .on('data', (data) => results.push(data))
+    .on('end', () => {
+      res.json(results);
+    })
+    .on('error', (error) => {
+      res.status(500).json({ error: 'Error reading CSV file' });
+    });
+});
+app.get('/reviews', (req, res) => {
+  const results = [];
+  fs.createReadStream(`./professors.csv`)
+    .pipe(parse({
+      columns: true,
+      skip_empty_lines: true
+    }))
+    .on('data', (data) => results.push(data))
+    .on('end', () => {
+      res.json(results);
+    })
+    .on('error', (error) => {
+      res.status(500).json({ error: 'Error reading CSV file' });
+    });
+});
+
+
 
 const recommendCourses = (subject) => {
   // Mock data for demonstration

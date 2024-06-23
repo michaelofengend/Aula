@@ -1,9 +1,61 @@
-:root {
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+/* App.css */
 
+.navbar {
+  background-color: var(--secondary-color) !important;
+  padding: 20px;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--text-color) !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+/* Other existing styles */
+.container {
+  background-color: var(--secondary-color);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border: 1px solid var(--border-color);
+}
+
+.aula h1 {
+  color: var(--text-color);
+}
+
+.nav-tabs .nav-link {
+  color: var(--text-color);
+}
+
+.nav-tabs .nav-link.active {
+  background-color: var(--accent-color);
+  color: white !important;
+}
+
+.tab-content {
+  padding-top: 1rem;
+}
+
+h2 {
+  color: var(--text-color);
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+  background-color: darken(var(--accent-color), 10%);
+  border-color: darken(var(--accent-color), 10%);
 }

@@ -3,7 +3,11 @@ h2 {
 }
 
 .subfield-interest label {
+  border-radius: 10px;
   padding: 10px;
+}
+.subfield-interest input {
+  border-radius: 7px;
 }
 
 .graph {

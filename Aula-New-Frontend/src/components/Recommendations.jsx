@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Recommendations.css";
+import ClassCard from "./ClassCard";
 import {
   Tabs,
   Tab,
@@ -14,20 +15,54 @@ import {
   Table,
   ListGroup,
 } from "react-bootstrap";
-const Recommendations = () => {
+const Recommendations = ({setActiveTab}) => {
+
+  const handleNewRecommendations = () => {
+    setActiveTab("AI_Agent");
+  };
+
   return (
     <div>
       <h2>Recommendation Algorithm</h2>
       <Card>
-        <Card.Body>
-          <Card.Title>Recommended Courses</Card.Title>
-          <ListGroup>
-            <ListGroup.Item>CS 189 spring version for ML route </ListGroup.Item>
-            <ListGroup.Item>Music 20 for music theory</ListGroup.Item>
-            <ListGroup.Item>Math 110 as intro to Math upper divs</ListGroup.Item>
-          </ListGroup>
+        <Card.Body className="recommendations-grid">
+          {/* {filteredData.map((row, index) => (
+          <div key={index}> */}
+            <ClassCard
+              classNumber="CS 61A"
+              classTitle="The Structure and Interpretation of Computer Programs"
+              classTime="MWF 10-11am"
+              professorName="John DeNero"
+              professorRating="4.5"
+              professorDifficulty="3.0"
+              overallRating="4.5"
+            />
+            <ClassCard
+              classNumber="CS 61A"
+              classTitle="The Structure and Interpretation of Computer Programs"
+              classTime="MWF 10-11am"
+              professorName="John DeNero"
+              professorRating="4.5"
+              professorDifficulty="3.0"
+              overallRating="4.5"
+            />
+            <ClassCard
+              classNumber="CS 61A"
+              classTitle="The Structure and Interpretation of Computer Programs"
+              classTime="MWF 10-11am"
+              professorName="John DeNero"
+              professorRating="4.5"
+              professorDifficulty="3.0"
+              overallRating="4.5"
+            />
+          {/* </div>
+        ))} */}
         </Card.Body>
+        <Button className="recommendation-button" onClick={handleNewRecommendations}>
+          New Recommendations
+          </Button>
       </Card>
+      
     </div>
   );
 };

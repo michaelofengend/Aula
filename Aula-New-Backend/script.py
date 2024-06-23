@@ -10,7 +10,7 @@ if __name__ == "__main__":
     professor = ratemyprofessor.get_professor_by_school_and_name(ratemyprofessor.get_school_by_name("University of California Berkeley"), "Frenkel")
     professors = ratemyprofessor.get_professors_by_school_and_name(school, "")
     print(len(professors))
-    print(school(173))
+    print(school)
 
     if professor is not None:
         print("%sworks in the %s Department at the %s." % (professor.name, professor.department, professor.school.name))

@@ -17,54 +17,18 @@ import {
 } from "react-bootstrap";
 import CatalogSearch from "./components/CatalogSearch";
 import CourseMap from "./components/CourseMap";
-import Preferences from "./components/Preferences";
 import Reviews from "./components/Reviews";
-import AverageGrades from "./components/AverageGrades";
-import WaitlistProbability from "./components/WaitlistProbability";
 import Recommendations from "./components/Recommendations";
-import ConnectWithAlumni from "./components/ConnectWithAlumni";
 import AI_Agent from "./components/AiAgent";
 import StudentForum from "./components/StudentForum";
 
 const App = () => {
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    // Fetch data from the backend
-    fetch("/api/data")
-      .then((response) => response.json())
-      .then((data) => {
-        setData(data);
-      });
-  }, []);
-
-  async function runPythonScript(data) {
-    const response = await fetch("http://localhost:5001/run-python", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ data }),
-    });
-
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-
-    const result = await response.text();
-    console.log(result);
-    return result;
-  }
-
-  useEffect(() => {
-    runPythonScript("Hello, Python!").then((result) => {
-      setData(result.split("\n"));
-    });
-  }, []);
+  const [activeTab, setActiveTab] = useState("search");
 
   return (
     <Router>
       <div>
-        <Navbar bg="light" expand="lg" className="v10_4">
+        <Navbar bg="light" expand="lg" className="navbar">
           <Navbar.Brand>BConnected</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -73,6 +37,7 @@ const App = () => {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+
         <Container>
           <Row>
             <Col>
@@ -83,30 +48,18 @@ const App = () => {
           </Row>
           <Row>
             <Col>
-              <Tabs defaultActiveKey="search">
+            <Tabs activeKey={activeTab} onSelect={(k) => setActiveTab(k)}>
                 <Tab eventKey="search" title="Catalog Search">
-                  <CatalogSearch />
+                  <CatalogSearch setActiveTab={setActiveTab} />
                 </Tab>
                 <Tab eventKey="courseMap" title="Course Map">
                   <CourseMap />
                 </Tab>
-                <Tab eventKey="preferences" title="Preferences">
-                  <Preferences />
-                </Tab>
                 <Tab eventKey="reviews" title="Reviews">
                   <Reviews />
                 </Tab>
-                <Tab eventKey="grades" title="Average Grades">
-                  <AverageGrades />
-                </Tab>
-                <Tab eventKey="waitlist" title="Waitlist Probability">
-                  <WaitlistProbability />
-                </Tab>
                 <Tab eventKey="recommendations" title="Recommendations">
-                  <Recommendations />
-                </Tab>
-                <Tab eventKey="alumni" title="Connect with Alumni">
-                  <ConnectWithAlumni />
+                <Recommendations setActiveTab={setActiveTab} />
                 </Tab>
                 <Tab eventKey="AI_Agent" title="AI Agent">
                   <AI_Agent />
@@ -118,16 +71,10 @@ const App = () => {
             </Col>
           </Row>
         </Container>
-        <Container>
-          <h1>Data from the Backend:</h1>
-          <ul>
-            {data.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </Container>
+
       </div>
     </Router>
   );
 };
+
 export default App;
