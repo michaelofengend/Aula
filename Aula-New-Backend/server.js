@@ -1,13 +1,16 @@
-const express = require('express');
-const fs = require('fs');
-const { parse } = require('csv-parse');
-const { spawn } = require('child_process');
+import express from 'express';
+import fs from 'fs';
+import { parse } from 'csv-parse';
+import { spawn } from 'child_process';
 const app = express();
 const port = 5001; // Backend server port
-const cors = require('cors');
+import cors from 'cors';
+import chatRouter from './api/assistant.js';
+
 app.use(cors());
 
 app.use(express.json()); // Middleware to parse JSON request bodies
+app.use('/chat', chatRouter)
 
 app.get('/', (req, res) => {
   res.send('Hello from the Node backend!');
@@ -34,6 +37,37 @@ app.post('/run-python', (req, res) => {
     res.send(result);
   });
 });
+
+
+// app.post('/chat', async (req, res) => { 
+//   const threads = {};
+//   const threadId = req.body.threadId
+//   const messages  = req.body.messages
+//   const assistantId = "asst_vAB6iUNHYPQecCVZIu5pnB0n"
+  
+//   try {
+      
+//       if (threads[threadId] === undefined) {
+//           const openAiThread = await openai.beta.threads.create();
+//           console.log("New thread created with ID: ", openAiThread.id, "\n");
+//           threads[threadId] = openAiThread.id;
+//       }
+//       await openai.beta.threads.messages.create(threads[threadId], {
+//           role: "user",
+//           content: messages[messages.length - 1].message
+//       });
+
+//       const run = await openai.beta.threads.runs.createAndPoll(threads[threadId], {
+//           assistant_id: assistantId
+//       });
+//       console.log(run);
+//       return res.json({run});
+
+//   }catch (error) {
+//       console.error("Error creating thread:", error);
+//       res.status(500).json({error: "Internal server error"});
+//   }
+// });
 
 app.get('/classes', (req, res) => {
   const results = [];
