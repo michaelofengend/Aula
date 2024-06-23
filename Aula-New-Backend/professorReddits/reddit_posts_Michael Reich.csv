@@ -1,0 +1,55 @@
+title,link,post_time,post_text,comments
+"Seattle's groundbreaking minimum wage law is raising pay for low-paid workers without hurting jobs, even as pay reached $13 for workers in large companies, according to a report released June 20 by University of California, Berkeley economists. Professor Michael Reich is lead author of the report.",http://irle.berkeley.edu/seattles-minimum-wage-raises-pay-without-costing-jobs/,2017-06-25 22:57:11,,"I just heard the exact opposite on my local public radio station, NPR probably. They said hours were being decreased per employee. 
+
+It seemed to me like that would be a temporary unsustainable response though, and would expect hours to go back up. 
+Well, that's one way to spin it. https://www.washingtonpost.com/news/wonk/wp/2017/06/26/new-study-casts-doubt-on-whether-a-15-minimum-wage-really-helps-workers/
+There's a good FiveThirtyEight article that compares the two studies and weaknesses of each: https://fivethirtyeight.com/features/seattles-minimum-wage-hike-may-have-gone-too-far/?ex_cid=538fb
+Thanks, I'll check it out"
+"More than 1,000 economists, co-organized by Cal economics professor Michael Reich, have signed a petition asking the American Economic Association to create a new job-search site to address sexism in the economics field. The motion comes after a recent study by Berkeley graduate student Alice Wu.",https://blogs.wsj.com/economics/2017/10/26/to-avoid-sexism-on-job-posting-site-economists-petition-to-start-their-own/,2017-10-26 23:10:23,,"*I'm an Econ PhD student here using a trash account for (unfortunately) obvious reasons.  I'm just going to offer another perspective (and maybe more information) on this, as it has been quite the topic among PhD students and faculty here.  And, as another disclaimer, her answers align with virtually everyone's prior, including my own; so I'm only criticizing the methods of the paper and the community (mostly specific people) for ""overreaching"" on the results/methodology of the paper for selfish reasons. 
+
+&nbsp; 
+
+Anyway, Alice's undergraduate thesis was asking (and attempting to answer) a few interesting things:
+
+(1) Is the language being used on this site (EJMR) gendered?  
+(2) If so, is the difference tantamount to sexism?  
+(3) If 1) and 2) hold, does this extend to the academic economic community, at large?  
+(Additionally: A few other interesting observables, such as whether or not these differences are more pronounced when restricting to subsets of authors based on RePEc rankings, etc.)
+
+&nbsp; 
+
+EJMR:  
+Economics Job Market Rumors (EJMR) is an anonymous board intended for, wouldn't you guess it, rumors about the Economics job market or profession, generally.  You can think of the setup like any other anonymous board (Reddit, etc.).  It is intended for Economists, but anyone can post there.  Importantly, the vast majority (likely 95%+) of posts made are assigned random identifiers that only hold within a thread (think 4chan, in this regard).  That is, if you don't sign into an account linked to an .edu address with a pre-assigned username, then any post you make will be assigned a random 4 character alphanumeric code (44ac, 56df, etc.) that I assume is seeded when you start that session.  
+
+&nbsp;
+
+Data:  
+She parses text data from EJMR from 2014-2016.  She takes the 10,000 most used words from this set, presumably excluding exceedingly common strings that provide no information (""and"", ""or"", etc.).  She manually classifies certain strings as identifiers for Female (44 strings will map to ""Female"", such as ""woman"" and ""wife""; while 134 map to ""Male"", such as ""man"" and ""husband"").  She constructs additional indicators to determine general ""topics"" being discussed, such as whether or not the thread is to do with ""academics"", etc.  This is good, as it allows her to see what people are talking about when they are using the pre-determined ""gendered"" words. 
+
+&nbsp;
+
+Analysis:  
+Using a difference-in-differences on a (probably too simplistic, but at least reasonable) proxy of ""Topic difference"" (i.e. when people use ""Female"" strings vs ""Male ones), she finds that ""posts related to female [are] much less academic-oriented...""  She also uses k-fold cross-validation (on a lasso, which is basically a penalized regression) to try for a more appropriate proxy, but most of this part is illegible and is most likely used to try to add sophistication to the model choice.  Honestly, the simple proxy was probably fine to convince the reader of the basic result.  So, she's almost definitely established (1) and possibly established (2).  
+She goes on to analyze basically the same thing in the next section, but with a less stringent sample restriction (looking at any thread that has at least one post that triggers the ""female"" indicator).  She finds basically the same thing.  She also uses something that she calls ""state dependence,"" to determine effects of preceding posts on a post, but this doesn't really show anything?  If anything, it just shows that they are still on topic.  This whole section (3.2) is kind of confusing but you can look at it if you'd like.  
+The final part of the analysis looks at the Economist-level using RePEC rankings to restrict the sample.   The idea here is that highly cited female authors might come under even more attack than a female economist, in expectation.  This section is basically riddled with sample selection issues (data size, right-tail influences, etc.), so I think it's best to just omit it.  
+
+&nbsp;
+
+Conclusion:  
+She concludes that (1) and (2) hold.  Her language in her conclusion should be pulled back though; particularly, she writes such things as, ""occurrence of [female] words [associated with non-academic topics] in a forum that was meant to be academic and professional exposes the issues of explicit biases in social media.""  I have no idea how she concluded this.  Additionally, she basically asserts that (3) holds.
+
+&nbsp;
+
+Issues:  
+Most of the issues with the paper come down to identification and external validity.  That is, as mentioned in the summary of EJMR, above, any post someone makes will be assigned a random 4 character alphanumeric code and there is virtually no way to follow ""posters"".  Just this issue alone makes basically any conclusion from the paper suspect, as you can imagine a world where a handful of posters are making all of the ""trouble"", but it is not possible to identify this.  This is especially true if the relative number of ""gendered"" posts is low.  On external validity, *anyone* can post as often as they'd like on the board.  It simply is not possible to draw conclusions about the economic community at large from this data, regardless of methodology.  I don't think this issue can be overcome.
+
+&nbsp;
+
+Anyway.  It's a good undergraduate thesis; almost certainly better than my own!  The AEA's reaction to the study, however, shows tremendous bias that shouldn't be present in any academic community.  Again, the findings align with almost everyone's prior (including mine), but that doesn't mean the paper is right.  For example, my prior on whether increasing the minimum wage reduces employment was, ""of course!""  Card and Krueger show that the answer is not always that simple.  The kind of scientific skepticism that lead to that paper should always be present when doing your own research or when reading another's.  That's all I ask.
+
+&nbsp;
+
+Edit (link to the paper):  
+https://www.dropbox.com/s/v6q7gfcbv9feef5/Wu_EJMR_paper.pdf
+I didn't notice her asserting (3). (1) and (2) were what I took away from reading the paper. I think the AEA's response comes from the belief that no one should have to wade through sexist language to get the information on EJMR, not from the belief that all economists are sexist.
+EJMR is an absolute cesspool. When the presentation was announced, my first thought was that she was going to be shooting asshole fish in an asshole barrel."

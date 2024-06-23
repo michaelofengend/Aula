@@ -1,0 +1,79 @@
+title,link,post_time,post_text,comments
+Course reviews for fall 2021,https://www.reddit.com/r/berkeley/comments/rnq16c/course_reviews_for_fall_2021/,2021-12-24 08:49:08,"For the benefit of students who want to know more about these courses (since I would’ve liked to know more about them before enrolling, and Reddit was my main research tool), below are my reviews for the classes I took this fall.
+
+IND ENG 142 (or IEOR 142): 8/10
+
+- Please note that this course does not really require IND ENG 165 as a prerequisite. I didn’t take it (although I had taken DATA 100, which probably helped) and it really had no impact on me.
+- I took the course with Professor Grigas, who was a good lecturer even though the lectures were online (synchronous, but attendance not required).
+- The course grade, for this semester at least, was based on 5 homework assignments (lowest dropped), a midterm, and a final project. The homework can take anywhere from 5 to 8 hours to complete, which is fair. The midterm was challenging but mostly fair. The final project was cool because it allowed us to form our own groups and do modeling on any topic we wanted. However, the staff, for as good as they were previously, provided no clear rubric and seemed to be pretty harsh with the grading, and the grades were released the day grades were submitted to the registrar, so no regrades whatsoever. A bit unfair if you ask me.
+- As far as material goes, I mainly learned about linear regression, logistic  regression, classification and regression trees, random forests, and boosting. There were certainly other topics, but there was less of a focus on them (e.g. time series, regularization, sentiment analysis). I appreciated the pace of this material, as it wasn’t all crammed together and each topic took its time.
+- Discussion was online and synchronous (there was also an in-person section), but I never attended any and just reviewed the code after it was released, and I did fine.
+- The course requires you to know or learn Python, so if for whatever reason you are unfamiliar with Python, I’d recommend learning the basics before taking the course. With that said, much of the important code is given to you.
+- Overall, highly recommend this course!
+- Workload: 3-4 hours a week
+
+IND ENG 172 (or IEOR 172): 7/10
+
+- I took this with Professor Righter, so keep this in mind, as different professors probably run the course differently
+- MATH 53 is not really necessary to understand this course for Professor Righter. 
+- Definitely go to the lectures (in-person), otherwise you’re dead. Righter’s lectures can be a bit messy, but she’s very smart and she’ll always endeavor to answer your questions. Overall a good lecturer.
+- The textbook is ass and you shouldn’t bother reading it.
+- The grade is based on around 12 semi-weekly problem sets, two midterms, and a final. The problem sets range from super easy to “pain in the ass”, but there are more of the former than the latter. They seem to be graded on completion. The midterms and final were much easier than the problem sets, and they were very fair. You even get to submit your own problems to be put on the exams! I got my problems on every single exam, so I got a bunch of free points.
+- The discussion sections were helpful, although I stopped going to them because they’re not really worth the 1-hour total walk for me. This didn’t really impact my performance in the class, and they certainly weren’t mandatory.
+- Overall a highly manageable probability course, and a good professor. Would recommend.
+- Workload: 5 hours a week 
+
+EPS 50: 8/10
+
+- This review is just for the iteration run by Professor Harriet Lau
+- Professor Lau is a wonderful professor and human being. Seriously the nicest most passionate professor I’ve ever had.
+- I personally don’t find earth science very interesting, so I was still mostly bored despite Professor Lau’s clear passion for the subject. However, if it interests you, she is definitely the perfect professor for you.
+- There was an earth science field trip at the beginning of the semester, which was cool, even if I didn’t learn all that much lol
+- Very easy A. The grade is solely based on a few labs (easy) and a final presentation on an earth science topic of your choice (no final exam!). It was easy, but the groups were assigned and I happened to get a shitty group, so be wary of that.
+- Overall, highly recommend taking Lau’s EPS 50 if you need it to fulfill some requirement or breadth.
+- Workload: Less than 1 hour a week
+
+PB HLTH 142 (or PH 142): 8/10
+
+- I took this with Professor Corinne Riddell, who is also a great, passionate lecturer. Again, keep the professor in mind though, as different professors run the course differently.
+- Most important to me as a data science major was that this course taught me the R programming language. As someone with quite a bit of programming experience, I could’ve done with a more fast-paced curriculum, but I understand that this course is geared towards public health majors and other students that haven’t done coding before. I don’t know if I can truly say whether it’s a gentle intro to programming, but it seemed fine to me, especially since the lab sections walk you through everything.
+- The grade was based on weekly labs, semi-weekly quizzes, two midterms, a final, and a semester-long project. I felt all of these were very easy and fair.
+- The project in particular was shockingly easy. It’s a group project, and it took us, collectively and working together over a Zoom call, just 4 hours over the entire semester.
+- The course was divided into three sections: intro to coding in R, probability and confidence interval stuff, and finally hypothesis testing. I liked this separation of material, and it was decently interesting to me as a data science major. I actually really recommend this course if you are a data science major in need of more upper division units, as it also teaches you R, which is nice to put on the resume.
+- Workload: 2-3 hours a week","My turn. 
+
+CS 170 - 6/10
+
+* Nelson is an amazing lecturer. Probably the best I’ve ever had here. 
+* Homework can be challenging but it’s fine if you have a study group and/or peruse OH. Though they take upwards of a month to grade some of them. 
+* I’m not a fan of project grading being based on a leaderboard, but I do like the programming aspect. I also like the introduction of coding HW as it makes concepts feel more applicable. I hope it continues. 
+
+Linguistics 100 - 8/10
+
+* It feels like the course has still been optimized for a fully online format, so I’m not sure if it will be that way in the spring. 
+* Just a solid class overall. Good quality lectures, reasonable assignments and exams, and discussion is extremely valuable. 
+* There can be a lot of assignments to keep up with though, not least daily lecture check-ins. Also, because they’re on bCourses you may have to scroll a lot. 
+
+And now...
+
+Data 100 - 3/10
+
+* Just read any Data 100 post on this sub. 
+* Though I will say the content is very practical and useful. And I’ve seen worse quality lecturers. And the TAs know their stuff in section.
+I'm taking IEOR 172 next semester, though it's going to be with Pirutinsky. Could you elaborate on how Math 53 didn't end up playing into the course content? I've never taken a probability/stats relevant class in my life and my Math 53/54 knowledge is pretty shaky, so I'm worried that I won't have a good base going in.
+Could you send me the syllabus to 172 if you don't mind?
+hey I DM'd you about 172 and 142, great post btw!
+Yeah it seems Data 100 has been getting worse and worse. I took it in spring 2021 and I really didn’t get the hype.
+Calculus techniques (exclusively multiple integrals) were used very sparingly in the last two or so weeks of material. Basically all you need to know is that integrals are used to find the probability of some random variable being above or below a certain point. You don’t really need to understand the actual calculus techniques, just that probability for continuous distributions is often calculated using these techniques. However, this was not the focus of the course and there was no calculus on the final exam, just on a handful of the homework problems. You’ll probably have to email Professor Pirutinsky to verify if this is also the case with his iteration of the course, but I did not feel like Math 53 was really necessary.
+
+With regards to probability, I had some minor background in probability since it’s a topic that’s passingly mentioned in high school level stats and pre-calculus, and the barebones are gone over in data 100, which I took. However, I think 172 is a great intro to probability without any background knowledge of any kind. It just means for you the first three or so weeks will be slightly more difficult than it was for me.
+Sure! Pirutinsky's syllabus from last year can be found [here](https://tbp.berkeley.edu/courses/ieor/172/).
+Darn, 
+
+I really hope it's better Spring 2022 with Hug.
+Thank you!!
+as someone who hasn't taken Math 53, would I be fine taking this class with just the required Math 1A and Math 1B pre requisites? it does mention on the IND ENG catalog that we should know multivariable integration (doesn't mention Math 53) so i'm currently trying to self learn that part.
+thanks! how about the fall 2021 syllabus? i don't see that on that website
+Honestly it’s pretty intuitive, I don’t think you’ll even need to self-learn it. You should be perfectly fine with math 1a and b
+I tried finding it on bCourses, but I guess the course was unpublished so I couldn’t get it.
+thats alright thanks anyway!"

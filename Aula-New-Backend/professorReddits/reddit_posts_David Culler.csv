@@ -1,0 +1,235 @@
+title,link,post_time,post_text,comments
+is David Culler a good prof for cs162?,https://www.reddit.com/r/berkeley/comments/bay4uv/is_david_culler_a_good_prof_for_cs162/,2019-04-08 12:40:19,I'm thinking of taking 162 next semester. Culler doesn't have great ratings on ratemyprofessor but some buddies of mine said the lecturer for 162 doesn't really matter. Should I skip out on Culler and wait for a better prof or just take it anyways?,"imo I agree that professor doesn’t matter as much for 162 as long as you keep up with the textbook and discussion sections. I took it with Ion Stoica who was one of the worst lecturers I’ve had here (like 40/500 students showed up for lecture) and I still felt like I got a ton from the class.
+I had Culler for a graduate seminar and I thought he was good, seemed like a nice guy and  smart. Obviously a grad seminar is a little different than an undergrad class, but I think he'd be fine."
+Does CS162 usually have a final with David Culler?,https://www.reddit.com/r/berkeley/comments/c81k3a/does_cs162_usually_have_a_final_with_david_culler/,2019-07-01 16:08:38,Title,"The last time he taught it was fall 2014, so its probably not a good comparison. Our last draft schedule had 1 midterm and a final, but that's being changed again so we really haven't decided."
+"EECS 101 Piazza: March 22, 2017, update on Data Science major by Professors Cathryn Carson and David Culler. ""Requirements can be outlined by the end of the fall: hopefully, people could graduate with it in the spring.""",https://www.reddit.com/r/berkeley/comments/6cfgtc/eecs_101_piazza_march_22_2017_update_on_data/,2017-05-21 01:02:41,"EECS 101 Piazza post: [https://piazza.com/class/hyq0br1u3kx7dg?cid=3606](https://piazza.com/class/hyq0br1u3kx7dg?cid=3606)
+
+## **Student's Piazza post**
+
+> **Update on Data Science major**
+> 
+> Wasn't able to make it out to this event tonight: https://www.facebook.com/events/170120896832529/174036903107595/?notif_t=admin_plan_mall_activity&notif_id=1490151959870601
+>  
+> One of the things to be discussed was the Data Science major, wondering if anybody that attended has information? 
+
+## **Student's Answer**
+
+> Here's my note: 
+> 
+> ###   
+> Faculty Presentation
+> 
+> ### By Prof. Cathryn Carson and David Culler
+> 
+> #### DATA SCIENCE MAJOR & MINOR
+> 
+> - Underway now! 
+> - ""Group major"": group of faculty, bigger than one department putting it together. Both in CoE and L&S (Same Content) 
+> - ~30 to 36 upper divs unit 
+> - Frame 
+>     - Lower div with foundations w/ emphasis on Lower-div anchor (data 8) 
+>     - Upper div 
+>         - Upper-div anchor: data 100 
+>         - Some integrative experience 
+>         - Societal context and ethics 
+> 
+>     - Two part: Depth and Domain Emphasis. 
+>     - Mix of 
+>         - Inference 
+>         - Computation 
+>         - Theory and Practice win the context 
+>         - Applicable to wide range domain 
+>         - Variety of perspective with integrative experience 
+> 
+>     - Integrating existing courses? 
+>         - Lower div -- data 8 + some stats and math 
+>         - Math 1AB, 53, 54 
+>             - Less requirement? Ongoing questions. 
+> 
+>     - Upper div 
+>         - difinitely data 100 
+>         - And some machine learning course 
+>             - currently offered from: stats, CS, or IEOR 
+> 
+>         - then, clusters 
+>             - like cluster system Econ or Stats or Applied Math 
+>             - A bit of mix of required to build technical depth associated with Data Science 
+>             - Some sort of concept of specialization or cluster / or Area 
+>                 - like data driven policy 
+>                 - Urban Planning emphasis 
+>                 - Or theories ... 
+> 
+>             - Integrative experience with a lot of individual choice... 
+> 
+>     - minor: 
+>         - Foundation w/ maths... 
+>         - or another minor with fewer math requirement... 
+>             - Application domain specific &lt;-- need more courses. 
+> 
+>         - 5 upper divs 
+>             - need a set of refined courses 
+> 
+>     - Building a major that's feasible first... improve it semester by semester... 
+>         - Major will come faster than minor. 
+> 
+>     - GPA Capped? 
+>         - Hard to say... 
+> 
+>     - Grandfathering courses? 
+>         - Taken 61A, Stat 20: Data 8 required? 
+>             - This is issue need to deal with... hard to say from now. 
+> 
+>     - Ethics requirement 
+>         - the engineering one too narrow... 
+>         - There are some existing courses that address social context and ethics 
+>         - But there's need for much more courses specific around data science. 
+> 
+> - What should I take, like now? 
+>     - Calculus: Math 1AB/10AB 
+>     - Linear Algebra: 54 OR EE16A(B) 
+>     - Programming and Data structures: 61AB 
+>     - machine learning course: Stats 154 or CS189 
+>     - CS 70? It doesn't do the inference... 
+>     - Stat 134... has a different mix... 
+> 
+> - Time? 
+>     - Pieces are almost all there... 
+>     - Still in the end stage of gathering faculty... 
+>     - More departments need to talk to each other... 
+>     - Expectation: 
+>         - Requirements can be outlined by the end of the fall: hopefully, people could graduate with it in the spring. 
+>         - Yes...There will be advisors! 
+> 
+> - There will be online FAQs...",
+"David Culler, Professor of Electrical Engineering and Computer Sciences, was appointed to be interim dean for the newly created Division of Data Sciences. He will begin his new role on July 1 for a two-year term. He joined the Cal faculty in 1989, and since then has served as EECS department chair.",http://news.berkeley.edu/2017/05/25/eecs-professor-david-culler-named-interim-dean-for-data-sciences/,2017-05-25 23:07:16,,"Anyone know what the new organizational structure is for the ""Division of Data Science""?  Is it a department?  Is it underneath the EECS department?  Is it in the CoE or L&S?
+Not sure about being underneath the EECS department, but I would be very surprised if it was in CoE. Reason being- the more ""math-ie"" your major is in CoE, the more physical sciences breadth you're required to take. For example- Engineering Math and Statistics has to take Physics 7A/B/C, plus Chem 1A/1AL; IEOR has to take Physics 7A/B, Chem 1A/1AL, and three physical sciences breadth courses (like ME 40, MSE 45, CE 70, etc...). 
+
+There would be no real reason to ask Data Science students to take these courses, so I imagine that program will not be in CoE due to insufficient focus on the physical sciences.
+Academic divisions are generally organizational units headed by an academic dean (not the dean of students who is a student affairs administrator). Each college/school is a division, except L&S which has five: Humanities, Math & Physical Sciences, Social Sciences, Biological Sciences, and Interdisciplinary Studies (the last one also includes all undeclared undergrads).
+
+There is already a School of Information which includes classes/programs in data sciences. It's unclear if this new division will replace SOI, be part of it, or be part of a different college (perhaps COE). They have not released the details. 
+
+Overall, I'm wary of it since it seems like either a case of administrative bloat and/or an over inflated title. Berkeley already has too many colleges/schools, and we should focus on making the existing ones work better. I'm a proponent of breaking up L&S into four or five totally separate colleges and merging some of the tiny colleges into them (e.g. COC into a new College of Math & Physical of Sciences). Title inflation has also been very prevalent under Dirks. If you compare the top administration org chart today to the one in 2013, you'll see he's been handing out Vice Chancelorial titles like candy.    
+Isn't there a College of Information now? Also why not split up EECS as most students (?) just do CS and don't require Physics.
+EECS already is split up. If you get a degree in the EECS department you have to chose between ""Electrical and Computer Engineering"" and ""Computer Science and Engineering.""
+No there is no college of information 
+https://www.ischool.berkeley.edu/
+I meant [school](https://www.ischool.berkeley.edu/), not sure if the same thing as college though.
+there's a difference between college and school
+Ah, I thought you meant like a college as in L&S or Engineering. "
+"At a packed town hall-style meeting Thursday, students and staff gathered for presentations and to ask questions about UC Berkeley's planned data science major and minor program, which program organizers hope to make available next semester. David Culler is Interim Dean for Data Sciences.",http://www.dailycal.org/2017/11/02/uc-berkeley-division-data-sciences-works-finalize-new-major-next-semester/,2017-11-02 22:05:58,,
+"Cal has created an interim dean position to lead the development of the new Division of Data Science. The initiative to create the position and division was largely fueled by faculty. David Culler: The position will give data science ""a seat at the table"" when deans are discussing on-campus issues.",http://www.dailycal.org/2017/01/11/campus-announces-search-interim-dean-new-division-data-science/,2017-01-11 20:32:51,,"We already have a School of Information that runs the data science and information science academic programs. Does the I School lack a dean, or is this creating yet another administrative position?"
+"The data science program will likely be open to declare within this academic school year. David Culler, the interim dean of data sciences, plans to have a proposal submitted for approval this semester. It will first appear in the L&S before it will be available to the COE and to other colleges.",http://www.dailycal.org/2017/08/28/data-science-major-minor-likely-to-be-available-within-the-academic-year/,2017-08-28 22:37:15,,
+Data Science approved as an L&S major!,https://www.reddit.com/r/berkeley/comments/8cy6ti/data_science_approved_as_an_ls_major/,2018-04-17 10:09:25,"From the Chancellor:
+
+""Dear campus community,
+
+We are writing with updates on Berkeley’s active engagement with the burgeoning and exciting field of data science, which has the potential to shape numerous fields of study and practice.
+
+Our undergraduates will have many options for studying data science in depth. Of note is a recently approved Data Science major in the College of Letters and Science, effective in Fall 2018, and one in Engineering, which is currently undergoing design and review. A minor is also under consideration for students in all colleges. Even now, more than 3,000 students a year are enrolled in data science courses.
+
+Efforts are also afoot at the graduate level, where we already have three successful masters programs in data science, designated emphases for PhD students, and soon a graduate certificate. Particularly exciting is the student community that has formed, assisting faculty throughout campus to develop new data science-related curricula and discovery experiences.
+
+Data Science is also having a major effect on the creation of new knowledge in nearly every field and profession including science, technology, engineering and mathematics (STEM), arts and humanities, and social sciences. Reflecting this evolution, this year we have asked that academic units consider, in their faculty hiring plans, the connections to Data Science that may exist in their fields.
+
+Advancing our efforts in the field of data science was the motivation for our appointing an interim Dean of Data Sciences, David Culler. He is working closely with us and the rest of the Berkeley community on the question of organizational structures for Data Science that will best meet our needs. We anticipate that during the coming academic year we will continue to engage the campus community in broadly inclusive discussions to move our plans forward. We will keep you posted as opportunities to engage in this discussion develop.
+
+For more information about transformative work underway in data science, please see data.berkeley.edu.
+
+ 
+
+Sincerely,
+
+Carol Christ, Chancellor
+
+Paul Alivisatos, Executive Vice Chancellor and Provost ""","Dirks died for this
+I wonder how hard it will be to transfer into Data Science from a CCC -- was looking at applied math w/cluster in CS but this looks enticing.
+[removed]
+How does data science differ to the ORMS major?
+Here’s the humanities version: DH summer minor [Summer Digital Humanities courses](https://summerdigitalhumanities.berkeley.edu/courses) 
+and christ came down from above to save us
+Not hard 
+Was wondering the same. I'm not sure how it could be much different other than harder for entering undergrads to get into. But hey, what do I know. 
+It's probably for people who applied to CoE"
+CS186 Spring 2015 enrollment: Ask Professor Joseph Hellerstein to help expand the class,https://www.reddit.com/r/berkeley/comments/2k4qtc/cs186_spring_2015_enrollment_ask_professor_joseph/,2014-10-23 13:49:07,"[CS Scheduling Assistant Michael-David Sasson](http://www.eecs.berkeley.edu/Students/Staff/sasson.shtml) wrote on the EECS 101 Piazza at [https://piazza.com/class/hyq0br1u3kx7dg?cid=23](https://piazza.com/class/hyq0br1u3kx7dg?cid=23):
+
+> The waitlist has been significantly expanded.  We apologize for that bottleneck. 
+
+> It's too early to be clear about whether there will be capacity to significantly expand CS186 enrollment limit beyond the current 229 or the projected 327 final enrollment limit.  That won't be likely be clear until at least the beginning of January.  The first step to clarity will require Prof Hellerstein to stop by and talk to Michael-David in 379 Soda.
+
+[Associate Director for EECS Undergraduate Matters Sarah Van Nostrand](http://www.eecs.berkeley.edu/Students/Staff/vannostrand.shtml) wrote:
+
+> I'll pass this information along. I can't promise what the outcome will be, but I appreciate the feedback.
+
+This was in response to the post:
+
+> [The schedule.berkeley.edu page for CS186](http://osoc.berkeley.edu/OSOC/osoc?p_term=SP&x=0&p_classif=--+Choose+a+Course+Classification+--&p_deptname=--+Choose+a+Department+Name+--&p_presuf=--+Choose+a+Course+Prefix%2fSuffix+--&y=0&p_course=186&p_dept=CS) and the [the ScheduleBuilder page for CS186](https://schedulebuilder.berkeley.edu/explore/courses/SP/2015/3372/) say:
+
+> > Enrollment on 10/22/14: Limit:327 Enrolled:229 Waitlist:108 Avail Seats:98
+
+> > 229 student(s) are enrolled, with a limit of 327 and 108 student(s) are on the waiting list, with a limit of 108. There are a lot of threads on Facebook about students not getting into CS186:
+
+> 1. https://www.facebook.com/groups/berkeleycs/permalink/748781745216701/
+
+> 2. https://www.facebook.com/groups/berkeleycs/permalink/749321641829378/
+
+> 3. https://www.facebook.com/groups/berkeleycs/permalink/749328935161982/
+
+> 4. https://www.facebook.com/groups/berkeleycs/permalink/749284358499773/
+
+> 5. https://www.facebook.com/groups/631097886985088/permalink/749253565169519/
+
+> 6. https://www.facebook.com/groups/631097886985088/permalink/749297491831793/
+
+> Will CS186 get expanded? Please move 186 to a bigger room to let more people in.
+
+> It wasn't taught this semester, so there is a HUGE increase in people taking the class.
+
+> A lot of graduating seniors will be shut out from the class if it's not expanded.
+
+> Screenshots below to show the significant level of community support for expanding CS186:
+
+> [1](https://d1b10bmlvqabco.cloudfront.net/attach/hyq0br1u3kx7dg/gxr526imlnz7np/i1m6xko1zvsj/1.png)
+
+> [2](https://d1b10bmlvqabco.cloudfront.net/attach/hyq0br1u3kx7dg/gxr526imlnz7np/i1m6xvwsimx4/2.png)
+
+> [3](https://d1b10bmlvqabco.cloudfront.net/attach/hyq0br1u3kx7dg/gxr526imlnz7np/i1m6y1u2hqr2/3.png)
+
+> [4](https://d1b10bmlvqabco.cloudfront.net/attach/hyq0br1u3kx7dg/gxr526imlnz7np/i1m74m8yv1x8/4.png)
+
+> [5](https://d1b10bmlvqabco.cloudfront.net/attach/hyq0br1u3kx7dg/gxr526imlnz7np/i1m74uvi99l9/5.png)
+
+> [6](https://d1b10bmlvqabco.cloudfront.net/attach/hyq0br1u3kx7dg/gxr526imlnz7np/i1m7538zwjrb/6.png)
+
+One student wrote:
+
+> As much as I want the class to be expanded (I'm a fellow senior undergrad), please understand that resources (GSIs) are limited. The undergrad GSIs for this class in the past have mostly graduated by now, and finding grad students to teach an upper division class has always been challenging (plus Joe just came back from a sabbatical, I don't know if he advised any grad students during this whole time).
+
+> I was screwed before in 170 Spring 13 and 189 Spring 14 for somewhat similar reasons. It's part of the Berkeley experience, especially when demand is much higher than supply at this time. Don't put a lot of high expectation into having the class expanded, and find a backup instead.
+
+A second student wrote:
+
+> I recommend the department to reserve certain amount of seats for juniors this time. Thinking in a long run, who can help if there is still high demand next spring? Only curreny junior who will become senior next year can become UGSIs in order to make the class bigger.
+
+Another student wrote:
+
+> This was predicted by so many students last semester. We even signed  a petition to ensure this would not happen. 
+http://www.change.org/p/david-culler-petition-for-the-offering-of-cs-186-in-fall-2014
+
+> This is going to just get worse over the semesters if the CS staff does not intervene.
+
+[The schedule.berkeley.edu page for CS186](http://osoc.berkeley.edu/OSOC/osoc?p_term=SP&x=0&p_classif=--+Choose+a+Course+Classification+--&p_deptname=--+Choose+a+Department+Name+--&p_presuf=--+Choose+a+Course+Prefix%2fSuffix+--&y=0&p_course=186&p_dept=CS) currently says:
+
+> 229 student(s) are enrolled, with a limit of 327 and 176 student(s) are on the waiting list, with a limit of 500.
+
+> This Waiting List will be processed manually by the department.
+
+Everyone who wants to get into the class or help out fellow students should email [Professor Joseph Hellerstein](http://db.cs.berkeley.edu/jmh/) asking him to help expand the class. [Professor Hellerstein](http://www.eecs.berkeley.edu/Faculty/Homepages/hellerstein.html) this semester is [teaching CS286B](http://www.cs286.net/), but I don't know if he's holding regular office hours for the class.","[deleted]
+Going to his CS286B office hours to bug him about expanding enrollment sounds like a great way to REALLY piss him off. So does spamming him via email.
+
+Look at the waitlist. Clearly there is a ton of demand. He knows that. Everyone knows it.
+
+Demand is not the only or even main factor here. Room space and TA resources play a huge role. 
+HAHAHA I GOT IN EZ OCTOBER 20th TELEBEARS
+-insert obligatory Hilfinger 164 statement-
+yeet"

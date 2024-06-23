@@ -1,0 +1,19 @@
+title,link,post_time,post_text,comments
+Econ 140 vs 141?,https://www.reddit.com/r/berkeley/comments/jdc1a7/econ_140_vs_141/,2020-10-18 00:27:37,"Basically, has anyone taken Bianchi's version of 140? 141 is being taught by a brand new prof. (Vira Semenova), so I doubt anyone has experience with her. But she does seem to have taught one grad course, so maybe someone could share their experience? For reference, I'm taking 101b (Steinsson) right now, and I quite enjoy it. Although I've never formally taken 53 or 54, I do have some experience with both concepts from other classes and prior coursework. Any advice or comments would be greatly appreciated.","
+From my understanding, 140 provides much more examples and uses R and isn’t nearly as math intensive, better suited for someone who isn’t nearly as fluent in math, but has better econ knowledge, whereas 141 is more theory and proof based, and requires much more math and especially stats knowledge.
+
+If you take 141, I’d highly recommend you formally take Math 53 and 54 and Stat 134 plus either stat 20 or 135 or any upper division stats class.
+
+As for the professors, I can’t help you decide who is a better professor since I haven’t had experience with either, but I think you should make a decision based on the content and whether you think you’re ready to take econometrics, as it is a hard class with lots of math prerequisites.
+I took 140 over the summer. With Carson we used Stata, but if you knew how to use R you could use it (but there wasn't a lot of support for learning it). Although Econ 1 is a prereq, I honestly think that it's more important to be able to do basic linear algebra manipulations. If you can't understand the matrix derivation for OLS, you should definitely review linear algebra before the class starts. I didn't think econ 140 was that bad, but I took Data 100 and Stat 140 before, so that may be coloring my experience. 
+
+&#x200B;
+
+Also, the professor was trying to create forced ""grade variation"" to produce a bell-shaped grade curve. Idk if this is official econ department policy (he claimed it was), but if so watch out for it. He was deliberately making things harder to create grade variation, but idk about Bianchi's teaching style.
+Got it. I took stat 88, and am probably going to take 54 next semester. Would you still recommend stat 134?
+
+Edit: I have actually taken lin algebra. I thought 54 was something else. Scratch that.
+[deleted]
+I'd say knowing the basics of probability (conditional expectation, covariance, LLN, gaussians, etc) is moreso the prerequisite rather than 134 (which happens to cover all of the above). Of course, 135 also assumes all of the above knowledge as well, and covers the basics of OLS. 
+
+Assuming you've taken some linear algebra (like 110) the hard part would probably only be the stats if you've never taken 135 - imo stat 20 is far too basic to be useful."

@@ -1,0 +1,56 @@
+title,link,post_time,post_text,comments
+Does anyone know how the professors for EE16A are for Spring 2018: Vladimir Stojanovic and Laura Waller?,https://www.reddit.com/r/berkeley/comments/78e15h/does_anyone_know_how_the_professors_for_ee16a_are/,2017-10-23 23:43:38,,"I had Stojanovic, when I took it he taught the circuit portion of the course. Material can be dry if you're not super into it, but he explained things relatively clearly. Lectures tended to be really simple and homework/exams lots of more complicated shit came up, which was frustrating at times.
+Laura Waller is an absolutely brilliant and approachable person. She is just a bit awkward at times.
+I had Stojanovic for CS61C, I thought he was good in that course.  Not amazing, but solid.
+They can't possibly be as bad as Sahai for teaching linear algebra, so you'll be good for that part at least.
+I'll keep those things mind. Thank you very much.
+I would hope so. Thanks for the input
+Ahaha thanks. I suppose they are better than sahai "
+"A team of researchers led by electrical engineering and computer science professor Vladimir Stojanovic have built a computer chip that transmits data with light, dramatically boosting both transmission speed and energy-efficiency.",http://www.cnet.com/news/chip-promises-faster-computing-with-light-not-electrical-wires/,2016-01-04 20:11:45,,"So this stuff will make data transfer faster, but not actual chips faster? Why is that it won't make chips faster? Forgive me, my 61c is a bit shaky.
+If I had to hazard a guess, I'd say it's because the bottleneck is not the transmission method in chips but rather the computation heavy parts. They're not making transistors smaller, they're reducing the time between stages. That propogation delay is unlikely to be the bottleneck for speed compared to an ALU or reading from memory but if you think back to how a signal is read using a clock, a small improvement in propogation/hold time can lead to reading earlier & less stall operations & less wasted clock cycles used for stalling (think of the 61c pipeline). 
+So the total time to traverse the pipeline is limited by heavy computation (your bottleneck is the slowest stage), but stages can be further pipelined or improved so that they are always full. 
+
+Reading what I just wrote sounds pretty fishy to me, I wasn't an ace at 61c or ee141/cs150 either and these guys are all blindingly smart. I've met a lot of these guys and I'm really happy for them, they all seem like great and brilliant people!!"
+Doable schedule for CS in Spring?,https://www.reddit.com/r/berkeley/comments/3n4k7n/doable_schedule_for_cs_in_spring/,2015-10-01 10:33:46,"Is taking
+CS61C (Randy H. Katz; Vladimir Stojanovic)
+CS160 (Björn Hartmann)
+CS170 (Alessandro Chiesa; Umesh Vazirani)
+in Spring a reasonable workload? Or would replacing 160 with 188 (Peter Abbeel) be a better combination? Thanks in advance.","Seems doable. I think 188 and 170 have better synergy though, plus 160 and 61c are both project-based classes.
+170 is not a difficult class. 
+ehh
+
+CS61C - boring and annoying
+
+CS160 - I've beard bad things about the project-centered format
+
+CS170 - boring and annoying
+
+CS188 - boring and annoying
+yeah I might switch out 160 for 188, thanks!
+I think you mean
+
+61C - oohh glorious eecs
+
+CS160 - make dank eecs designs
+
+CS170 - eecs theory so gr8
+
+CS188 - dank pacman memes
+That's entirely dependant on your personal preferences. For example, 61C is super interesting if you have any interest in how computers actually work. "
+"Is this suicide? CS70, 61B and 61C in one semester",https://www.reddit.com/r/berkeley/comments/3ju6yz/is_this_suicide_cs70_61b_and_61c_in_one_semester/,2015-09-06 01:26:50,"I'm a junior transfer in eecs, and I have a decent amount of programming knowledge. So far I have been flying through 61A, but I'm sure it will get more challenging. I had taken java at my community college but I considered it a joke (the class not java). Anyhow, to be able to intern and take upper div next year, I need to finish my lower div as soon as possible.  
+
+I know for sure I will be taking 61B and CS70 since that's the pre req for every upper div. However, I'm stuck on what my third class should be.. my choices are either 16b(I'm in 16a right now, that's the new ee20/40), 61C, or a upper div humanity.
+
+here is a good layout:
+My current schedule is ee16a, 61a, psych167AC
+Spring: 61B (Joshua Hug), CS70(Venkat Anantharam; Anant Sahai), CS61C(Randy H. Katz; Vladimir Stojanovic)
+
+OR: Spring: 61B (Joshua Hug), CS70(Venkat Anantharam; Anant Sahai), ee16b(Michel Maharbiz)
+
+the 61b teacher looks good, cs70 is going to suck either way, but which is the better teacher between 16b and 61c?
+
+","Its ok to take 61b/61c/70 together because they don't overlap that much, but you might have multiple projects due on the same week... which will be hell week for you. I took 61B with Hug, and he is one of the best professors I had at Berkeley. Sahai for 70 will be tough, but you'll learn a lot
+I've heard some pretty bad things about Maharbiz for EE20/EE40, so I assume it'd be similar for EE16B. I don't think that schedule will be easy but if you have a good amount of programming knowledge and experience then it's possible. I've known some junior transfers that have taken similarly rigorous courseloads and done well.
+I did something similar. I spent basically 7-10 hours in the library every weekday working on homework/projects. If you're okay with that, go for it.
+A friend of mine did 61B, 61C, and 70 all in one semester, with no other classes (except a small decal). It's doable but you'll probably have to spend a LOT of time working on projects. What she did was aim to finish all projects the week before they're due so that she has buffer room to deal with other things. 
+I took EE40 with Maharbiz last semester, and honestly the memes and whatnot are incredibly exaggerated imo. It's a pretty straightforward class, and in terms of work you'll be fine as long as you start on stuff as soon as it's assigned. It's a prelab that takes 2 or so hours a week and hw that takes maybe 4-5 hours."

@@ -1,0 +1,49 @@
+title,link,post_time,post_text,comments
+Math 104 instructors?,https://www.reddit.com/r/berkeley/comments/jf2zvn/math_104_instructors/,2020-10-20 18:05:24,"Sup everyone, Im looking for a good professor for real analysis next semester, but there are a lot of choices:
+
+Mariusz Wodzicki
+
+Yu-Wei Fan
+	
+Koji Shimizu 
+
+Peng Zhou
+
+Dmitry Vaintrob
+
+Ian Charlesworth
+
+Which one should I go with?","Definitely not Wodzicki. Heard good things about Yu-Wei Fan. One of my friends who took it with Shimizu said it was the worst thing he’d ever done
+I’m taking it with Vaintrob rn. He’s a good guy but his lectures are not great, they’re all over the place and he is constantly making errors and correcting himself. It seems like he doesn’t prep for the lessons at all and his notation is totally inconsistent. He has also taken over a month to grade our midterms in a class of 25
+Really?  Everyone I know absolutely loves Shimizu.
+Ahh maybe you’re right. Math 104 is just ass no matter who you’re taking it with, I’m in it rn"
+Proof Experience for Math H54,https://www.reddit.com/r/berkeley/comments/i5jepw/proof_experience_for_math_h54/,2020-08-07 11:40:17,"I'm going to take Math H54 this semester, and I realize that Math H54 is more proof-heavy compared to Math 54.  I'm wondering if I need a lot of proof experience beforehand, as I have only a little bit of experience with proofs.  Does the class expect students to know how to write proofs from the get-go, or will students be able to develop their proof-writing skills during the class?  My professor is Yu-Wei Fan.","You aren't supposed to need it, but know that a lot of the students who take Math H54 will know a ton of linear algebra and will just be taking it to prepare for upper division classes / to review / to learn the differential equations portion.  Most of those people also won't have proofs experience, so if you know some linear algebra then you'll probably have a better time.  If not, it can be pretty iffy to do well.
+I took this class last year with Yu-Wei. He is amazing, walks through proofs, and for linear algebra you reuse the same 1 or 2 proof techniques. Shoot me a message if you have any questions about the class!
+
+You can see our course site here: [Math H54 Fall 2019](https://ywfan-math.github.io/h54f19.html)
+Would I be fine if I only know the very basic linear algebra (matrix operations, determinants, Gaussian-Jordan elimination, inverses)?
+It would probably be okay, but I'll be honest, I don't really know.  I knew a lot of linear algebra and ended up switching from H54 to 110 because I realized it was kind of silly to make the class harder for people who actually wanted to learn linear algebra.  But the sense I got was that it was really tough to get good grades because they ended up making things harder to account for all the people who knew a full linear algebra course going in.
+
+I really recommend trying H54 out, but switching to 54 in the first few weeks or so if H54 is not your thing (or enroll in both and then drop one).  It will definitely be different from year to year and professor to professor, the honors classes are kind of up to the prof.
+You'll be fine. You're experience with computation will help, but linear combinations are what we worked with throughout. DON'T BE INTIMIDATED, YOU WON'T NEED TO EVEN THINK ABOUT DROPPING THIS CLASS.
+
+FWIW- I'm a 28 year old community college transfer who never took linear algebra at CC, I failed multivariable calculus the first time I took it, and the only 'proof' experience I really have is from a philosophy course on symbolic logic.
+Hey masonery,
+
+I'm sure OP appreciates your pining in. Last fall, when I took H54 with Yu-Wei, he did not make getting good grades any tougher. The enrichment for the superstars was 'extra', but getting the meat of linear algebra was enough to get excellent marks.
+Okay, thanks for the advice!
+Thank you, this was really reassuring!
+That's good to hear!  It's definitely the case that honors math courses vary a lot from professor to professor in terms of policies and material.
+Generally honors classes are completely dependent on the professor, so it's hard to generalize. If you care about having smaller class sizes (aka easy office hours access) or want to challenge yourself then I'd consider it. You'll probably end up in the same place one way or another after you take 110, though you could also consider H54 -> H110."
+Help: Which Professor should I take for Math 104?,https://www.reddit.com/r/berkeley/comments/djhxai/help_which_professor_should_i_take_for_math_104/,2019-10-17 20:54:00,"Currently my options are; **Nicholas Miller, Mariusz Wodzicki, Ryan A Hass,**  **Yu-Wei Fan,**  **Sebastian Eterovic, Rui Wang,**  **Philip J Wood**
+
+Thanks for the help!","Not wodzicki if you value your sanity.  I've heard very good about Hass.
+I have Hass right now for 104 and he’s a wonderful teacher! Lectures are very example based, and he walks around the classroom chatting with students. Neat notes for if you miss a class, very fair midterm 1 (aside from one question but whatever), and generally available.
+Echoing the comments about Hass - he's a very engaging lecturer which I find relatively uncommon among professors, and his assignments are reasonable
+Can vouch for Yu-Wei Fan! amazing chalkboard work, his clarity in lecture is superb, and he answers every question thoughtfully and precisely. Every student who’s gone to his office hours lauds him for his helpfulness.
+
+He is also great at managing admin stuff, keeping us students well informed about what material will be covered, and about upcoming deadlines. 
+
+11/10 in my book. And I come from CC, where I feel like I had great professors, but was definitely coddled.
+Not Wang. She means well but the language barrier and accent makes her hard to understand, at least for me.
+Rui Wang, and I cannot stress this enough. Crystal clear lecturer (unless you have an issue with her accent - see another comment below) and is incredibly helpful during office hours and always open to questions. Of all the classes I've taken at cal so far, analysis with Professor Wang probably made me smarter more than any other class has. I found it difficult initially, but that is by virtue of the difficulty of the material and my inexperience coming into the class - not because of quality of instruction. She uses Rudin, and will give you a rigorous foundation in basic topological concepts that should prepare you well for 202 A/B. She structures the class logically, so that you get a complete treatment of the constructions of the reals, and almost everything is generalised to topological spaces and metric spaces, unlike other sections which may just state a completeness axiom for the reals, and then specify all work to the reals for the majority of the semester and do some basic work with metric spaces in the last two weeks (making for a very boring, and much easier class). You will also get some very basic introductory concepts in functional analysis which few of the other sections bother introducing at all (equicontinuity, uniform convergence, arzela ascoli).  I would take her again in a heartbeat. The only possible qualm you may have is her accent, and that the class is rather fast paced if you do not have any background in proof based math at the level of abstraction that 104 goes into (I did not. Many others found the pace just right or too slow even). I for one, did not find her accent particularly hard to follow."

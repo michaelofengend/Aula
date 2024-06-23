@@ -1,0 +1,77 @@
+title,link,post_time,post_text,comments
+CS or EECS for unit ceiling at Cal,https://www.reddit.com/r/berkeley/comments/16haesd/cs_or_eecs_for_unit_ceiling_at_cal/,2023-09-12 19:08:13,"Hello, 
+
+I'm considering transferring to Cal from a CCC for EECS or CS and I'm curious about the experiences of others in managing the 5-semester timeframe set by the CoE. 
+
+Has anyone found this time limit restrictive, especially when aiming to enroll in a series of highly rated courses such as: 
+
+\- CS70: Discrete Math and Probability Theory (offered by Satish Rao or Anant Sahai)
+
+\- CS170: Efficient Algorithms and Intractable Problems (by Christos Papadimitriou)
+
+\- CS188: Introduction to Artificial Intelligence (taught by a team including Anca Dragan, Pieter Abbeel, and Dan Klein)
+
+\- CS189: Introduction to Machine Learning (with Johnathon Shewchuk)
+
+\- CS161: Computer Security (Nick Weaver)
+
+\- CS168: Networking (Scott Shenker)
+
+\- CS186: Databases (Joe Hellerstein)
+
+\- CS164: Programming Languages and Compilers (Paul Hilfinger)
+
+\- CS162: Operating Systems (Ion Stoica)
+
+\- CS184: Computer Graphics (Ren Ng)
+
+Would it be better to apply for CS in the College of Letters since I received most of my credits through AP or dual enrollment during HS?
+
+I would love to take all of these courses if feasible. Would it be better to consider taking some of them (if possible) or their equivalents during graduate school instead?
+
+Thank you!","I don’t think it matters since CS is direct admit now. It seems doable in 5 semesters.
+Typically you’ll want to take 2 techs a semester and transfers usually redo cs61a and Cs61C, many do 61b as well. Also, eecs16a and 16b are mandatory for EECS, so basically junior year is for lower divs. Then with three semesters left you can take 6 techs comfortably or 8/9 very uncomfortably (or using summers). There are two CCCs that can give you credit for 61C and 61B I think.
+So does that mean that CS also must be completed in 5 semesters? Is it not in the College of Letters and Science?
+The 5 semester ceiling is only for CoE transfer students in EECS. 
+
+For L&S CS, you can go as many semesters as you want as long as you are under 130 units (for a single major).  In reality, it would be extremely difficult to go over say 6 semesters without going over 130 units.
+No CS has a unit ceiling policy where you can keep extending if you have <= 130 units."
+Questions about CS 184,https://www.reddit.com/r/berkeley/comments/9tqok2/questions_about_cs_184/,2018-11-02 19:41:06,"I'm currently enrolled in this course for next spring. 
+
+My questions are:
+
+1. Supposedly computer graphics is heavy in linalg. How much linalg is really used in this course? Is calculus important as well? I am a fan of math and am hoping to utilize these skills if at all possible.
+
+2.  Should one be well versed in C/C++ prior to taking the course? Is the C portion of 61C sufficient? Is it a requirement to use C/C++ in the first place (can I use java?)
+
+3. Is the course worthwhile? I'm looking more through a personal enjoyment lens rather than a career based one. 
+
+4. The consensus is that the workload is pretty high. Is this because the projects are conceptually-difficult/long or because they're tedious/hard to debug? 
+
+5. How are Yi-Ren Ng and Jonathan Ragan-Kelley?
+
+6. Is this a bad choice for a first CS-upperdiv? I've taken only the 61-series so far.
+
+7. Any other thoughts on 184?
+
+I appreciate any insight even from those who haven't personally taken this course. Thank you!
+
+","1. Lin alg is used but not very heavily, just the basics are enough.  Calc isn't needed from what I can remember.  There is plenty of other math used however.
+
+2.  c++ is required.  I don't think you have to be well-versed, it is similar to Java and you should be comfortable learning new languages at this point.
+
+3. I did enjoy the course and its projects.  The subject was interesting to me and i thought the projects were satisfying
+
+4. It is high. The projects can have long rendering times making it tedious to test and debug.  The correct solution for 1 project required 4 renders that took approx ~25 mins each on my machine. Each project also requires a HTML page write up with several questions, adding more work to each project.
+
+5. Ren Ng I thought was one of the best cs lecturers and professors that I've had.
+
+6. No, but I wouldn't pair it with another high course e.g. 170, 189
+
+7. Look through previous semester pages to get an idea of the class and see if it interests you.  The 1 midterm wasn't hard and no final.  Just a final project that you had a lot of creative freedom on.  I thought it was more fun and easier than an actual final exam.
+Thanks so much! It's great to hear that you enjoyed the course.
+
+I was planning on taking the course alongside cs70, but those will be my only tech courses and I will only be taking 13 units total.
+
+My laptop is relatively cheap and it has an integrated gpu. Does this sound like an issue? I might be due for a new PC soon anyway. 
+not an issue, you can run renders on instructional machines and then can check your results with software like WinSCP (idk MAC equivalent) "

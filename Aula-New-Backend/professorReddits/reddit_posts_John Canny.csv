@@ -1,0 +1,153 @@
+title,link,post_time,post_text,comments
+Zoom Proctoring has been disallowed by the Chief Campus Counsel,https://www.reddit.com/r/berkeley/comments/fprgkx/zoom_proctoring_has_been_disallowed_by_the_chief/,2020-03-26 22:35:08,"The following message was recently sent to all EECS instructors from Professor John Canny, who was asked to forward this message from Dean Tsu-Jae King Liu:
+
+> Campus leaders have been (and still are) working to find an acceptable way to help ensure academic integrity on exams. **Chief Campus Counsel David Robinson has made it clear this afternoon that presently there is no acceptable remote proctoring option.** Instructors should either allow students to take exams unproctored, or postpone exams until an acceptable proctoring option is communicated from campus leaders.
+> 
+
+Several departments (including the EECS department) are going to hold emergency meetings to determine what to do for the remaining midterms in the coming days. This information was just released a couple of hours ago, so nobody really knows what's going to happen.","would final projects be a viable option for cs classes(particularly upper div)? I can't see self-proctored exams working  out well for them from my experiences taking cs61 courses....
+Emmmm can someone explain to me why Zoom proctoring is a bad idea? Of course it's not perfect but I think it at least discourages people from collaborating during the exam.
+Thank god
+>I can't see self-proctored exams working out well for them from my experiences taking cs61 courses....
+
+To be fair, I think that's why the entire university has been pushing P/NP so hard. It's going to be a clusterfuck, there's no way for it not to be. So they want everyone to be cushioned by PNP at least.
+We have been considering a take-home project-like final for CS 61C. 
+
+>I can't see self-proctored exams working out well for them from my experiences taking cs61 courses....
+
+Yeah– most of the head TAs I know agree with you that self-proctoring will not work out well for CS at all. This email puts everyone in a rather tight corner, with deadlines for upcoming midterms coming up really quickly. :/
+Really depends on the class. If it's not already set up that way, I think it'll be pretty tough. You'd probably have to release very flexible specs and just let people do whatever they want. Not sure you could build the kinds of projects EECS classes often use, which tend to be very thoroughly developed. I have no idea what you'd do for more theoretical classes like CS170.
+It's certainly an option for some, but it might also be more work for students?
+
+Damn, I hate exams so much....
+Not all students have a quiet room in their house, nor now in public such as library, cafe, etc to take or proctor the exam. Also, timezone issues, internet connectivity for some students and lack of a laptop for students, privacy, class/assignment/midterm overlaps, its a bit of a mess; while I understand the need to combat academic dishonesty
+Well, I have a desktop without a webcam, and am living with my mom who is in an at-risk group so I'm not about to go to Best Buy and get one. I was going to order one on Amazon, but it was delayed until April 22.
+
+There are also a lot of students in the positions /u/asucisevil101 mentioned. I just don't think the university should make any decisions under the assumption that all students have a reliable way to use Zoom.
+Idk but it feels like a weird invasion of privacy ig? Because normally you don't feel like there's a watchful eye staring at you while you take exams in an exam hall, but zoom proctors are kind of a constant thing to consider in your mind while taking an exam and that can be quite distracting and intrusive in and of itself regardless of if you are being academically honest or not (hopefully the former ofc).
+i wish mandatory p/np was implemented :( this feels like an unideal half-measure rn
+Hackerrank challenge?
+While definitely some of the things you mentioned were valid concern However, I do feel that the benefit of discouraging cheating outweighs some of the drawbacks. I feel that most students benefit from the curve that's not affected by group cheating. I mentioned this before but I know personally there are people in one of my classes that are thinking about collaborating during the take home exam. I don't feel that this is fair for other students at all.
+Privacy, definitely. Likely accessibility, though I think this should be mostly OK. But also just what it means if we are storing recordings of students in their own homes... that's not really data the university wants to protect.
+I was thinking along the lines of 1 GSI proctoring 30 students. It's more of a symbolic deterrence that will hopefully discourage blatant collaboration during the exam. I get where you're coming from but I don't see how that's different from taking the exam in a lecture hall while the GSI is proctoring the classroom.
+Rao says ""perhaps don't think of the TA's watching you as monitoring you. Think of TA's as rooting for you.""
+I was thinking along the lines of 1 GSI proctoring 30 students. It's more of a symbolic deterrence that will hopefully discourage blatant collaboration during the exam. I get where you're coming from but I don't see how that's different from taking the exam in a lecture hall while the GSI is proctoring the classroom.
+""Unideal half measures"" is apparently the title of the nation's playbook for dealing with this pandemic
+How does that prevent cheating and collaboration?
+You gotta remember that this is an order coming from the school's legal department. This mandate was sent out not to ensure academic fairness, but rather to protect the school from potential lawsuits in the future regarding privacy and accessibility issues.
+Honest thought, but how much cheating goes on under ""normal"" circumstances that we can't really catch? I'm afraid to know sometimes... I am fully aware that some students cheat, but most students are honest people, and a lot of attempted cheating (at least the stuff that I can catch) doesn't even have significant effects on people's grades.
+
+I wish we had better solutions for *detecting* cheating rather than trying to find everything to prevent it...
+Take the classes p/np like the university suggests and a wonky curve shouldn't be so much an issue it pushes you into failing.
+lmao love it
+this is why p/np should be mandatory this semester imo. it accounts for a lot of types of cheating by not allowing anyone to get a letter grade.
+It was actually a combination of both. Mostly because of accessibility issues and academic accommodations, which does encompass academic fairness. That and privacy as you mentioned, in addition to lawsuits in regards to tuition, FERPA, and right to academic choice.
+Ah that's good point.
+I think actually carry out harsher punishment such as expulsion for severe cases could definitely deter most people from cheating. I think part of the reason is that even when some of the cheaters get caught there are rarely any consequential punishments, most of the time it's a slap on the wrist, it doesn't set a good example.
+If Zoom is supposedly accessible then I'm curious how much of a concern the accessibility angle is... though, I imagine that quite a few different accommodations are exacerbated by home conditions aside from proctoring options.
+I think a lot of the cases are pretty severe penalties... Slaps on the wrist do happen, but that's usually for fairly insignificant cases of cheating. 
+
+Things like expulsion are usually reserved for 2nd offenses."
+"L&S CS is looking into modifying declaration policy, for NEW students admitted in Fall 2022",https://www.reddit.com/r/berkeley/comments/k1a501/ls_cs_is_looking_into_modifying_declaration/,2020-11-25 22:37:04,"Dear current and intended undergraduate CS/EECS majors:
+
+We invite you to attend a virtual town hall meeting on the future of L&S CS declaration and the CS program more broadly. The event will take place on Monday, 11/30/2020 at 2pm on Zoom: (link redacted)
+
+While our undergraduate CS program is very successful according to a number of metrics, our current status quo is not tenable for several reasons, affecting students, faculty and staff. The size of the program has become unsustainable. Student stress, and faculty/staff workloads are major concerns. The diversity of the program falls short in several dimensions.
+
+A subcommittee of EECS faculty has begun the process of reforming CS degree declaration and class enrollment for future incoming Cal students.  Note that the policies for students currently at Cal will remain in place. Our intent is formulate changes that will take effect for students who apply to Cal in the Fall of 2021 for admission to Cal in 2022. There are many decisions to make, including when students should apply to the major, which factors should be considered for admission, the scale of our major and courses, how to offer admissions to students who discover CS later in their undergraduate career, how to balance the learning benefits of small courses with the impact of large courses, and how to balance offering of courses to CS/EECS majors, Data Science majors, minors, and others.
+
+The views of students on these matters will be an important input into our considerations. What goals are important to you as we reform admissions and course sizes? What would be most important to you if you were an incoming first year student again?
+
+In this meeting, we’ll provide some additional background information, but most of the time will be devoted to collecting your input. If you cannot attend the meeting in person, or would like to provide input later, we will also share a link to an online form by the date of the town hall.
+
+We are looking forward to your input
+John Canny and Jeff Bokor
+EECS Chairs
+
+Bjoern Hartmann
+CS Degree Declaration Committee Chair","Gg
+3.6 GPA threshold incoming
+All the ppl suggesting cutoff should be 3.7+ are lowkey harsh but i don't blame them. It's just that with those requirements someone like me would have never been able to declare CS. But the major is overcrowded. H~~ow about we take some money out of football and put it into the major.~~  Looks like there is no solution.
+>The diversity of the program falls short in several dimensions.
+
+What does this mean?
+Wait, sorry for the dumb question. let's say I am admitted in Fall 2020, and I take a gap year and decide to declare in Fall 2023. Will I be affected?
+imo they should just make it a direct-admit major to solve the overcrowding+funding problems, and adjust for socioeconomic metrics in the admission process to ensure diversity. This would prob disappoint the least number of people and keep it sustainable lol
+Wait, none of this applies to me if I'm applying to Berkeley this year right?? I'm planning on applying to L&S intended CS. Can I still declare with the 3.3?
+Just allow an extra year with 2 prereq class redos and for anyone coming from shit schools that’ll give them a year to get extra math+cs help so that they can start on more even footing during the second year, essentially a”pre-cs” program, attach a bipoc focused scholarship to cover the 5th year and badda boom
+DS/Math are not really alternative majors for CS. I really wish there’s a software engineering major at Cal
+pls dont make it more inaccessible to bipoc
+I wouldn’t feel bad about needing a 3.3 gpa anymore...
+4.0 or bust
+The football department earns money. It pays for our other athletic programs.
+First dimension is definitely race. LnS CS has awful racial diversity - significantly worse than its peers like EECS, LnS Mathematics, and LnS Statistics.
+
+Second dimension is probably class. These statistics aren't public, but I would not be surprised as a factor correlated to the above that LnS CS is disproportionately attended by well off students. 
+
+Third dimension could be gender, although in this respect LnS CS does *better* than EECS, although worse than statistics.
+I dont believe so. In the past declaration policies, and as mentioned in the email, will apply to based on when students are admitted.
+CS should be an app based major like HaaS. Maybe with a very high alternate cap as a halfway measure, i.e if you have a 4.0 across the 3 lower divs you get auto accepted, below that you submit an application.
+If you apply this year, you will still be under the 3.3 rules
+the problem is they don’t have enough staff. Ideally they’d take everyone but there’s just too much demand
+please no, this school will turn into Waterloo then
+i love getting downvoted for saying cs shouldn't be inaccessible to bipoc
+Not after the big game lol.
+I think an A- avg (3.6 or 3.7, can't remember) would be more appropriate for autoadmit - it's high but not too high, and then the rest would be contingent on ECs/internships/research/projects/etc. just like Haas. It would be criminal to not offer the 2nd option as a way in, as the first option only selects for a very narrow range of students. I'd be very curious to see what the avg. GPA distribution over 61A/B/70 looks like to see how many students this would potentially affect.
+
+Actually, thinking about it more, maybe even a hybrid approach of direct admission and then a separate app process for L&S undeclared majors could work.
+I've seen this floated around here before and it seems like the best idea to me - make eecs the only way to study CS, and give l&s students a pathway to transfer into eecs. The pathway can have a very high alternate cap, like a 3.8 or so.
+Interesting...I wonder what advantages this holds over directly admitting people into the major like CoE. Because many people might prefer certainty to begin with, rather than ending up in a major they don't really want.
+Thank you! Felt my heart drop for a min lol.
+ehh thats not necessarily a bad thing
+[deleted]
+it feels like you are implying bipoc are less likely to clear a gpa cap -> bipoc are dumber than other people
+The advantage is that that's how LS majors work. If someone wants direct admissions they can just apply to eecs currently.
+Under a direct admission scheme, who you were the last year of high school mainly determines your admission outcome. For most people, who they were at the end of high school is much different to who they are on the onset of taking major-specific coursework their sophomore/junior years of college. Everyone knows of people that really let go of academics after high school or actually made an effort to improve their studies and develop their interests in college.
+
+I think an application to a major after you've spent three semesters living and studying on your own is a much better reflection of your ability for succeeding in a college environment. In the unavoidable reality that some majors have more people wishing to pursue them than there are spots available, an application based on your merit in college is fairer for determining who should be able to pursue a major over others than whatever you or I did in high school.
+Yes.... Why I said I wish there’s a software engineering major is because I wish to succeed in industry. Everybody knows that there’s a gap between undergrad curriculums and the practical needs from the industry.
+it absolutely is a terrible thing imo. yes waterloo kids are successful at industry but Berkeley is and should strive above being a glorified intern factory
+
+Also Berkeley tech culture is shitty enough as is, why have a software engineering track to make it even more tech broey?
+Isn’t CS+x essentially just a double major?  CS is already close to only a 3yr major at Berkeley if you come in with AP credit and plenty of people double major already. 
+
+That also runs into the same problem of pushing people into the same CS classes, which you argue DS and cogsci does. As a counterpoint, I’d argue that DS and cogsci only have a couple of overlaps (61ab lower divs and like 2 upper div electives), which would be much less than any CS+x major (all lower divs and most upper div electives).
+>it feels like you are implying bipoc are less likely to clear a gpa cap -> bipoc are dumber than other people
+
+lmao OP to this thread played themselves there
+no im implying that cs has already less than 3% Latinos and 0% black graduates from 2018-2019 and that number is fucking unacceptable.
+
+source: https://www.collegefactual.com/colleges/university-of-california-berkeley/academic-life/academic-majors/computer-information-sciences/computer-science/index.html
+Fair enough, though many also apply l&s CS for the purpose of double majoring / taking more humanities. IMO, direct admissions are just less convoluted and achieve precisely the same thing (while saving people time and disappointment lol)
+Fair. Raising the GPA cap is the most viable path then.
+Yeah I'm with you on that. Believe it or not, not everyone wants to go to grad school and study AI/ML/cloud computing/[insert hot CS niche here].  
+
+Some of us just want to get good jobs, pay the bills, and live a normal life.
+yes, agree, but there is an assumption in there that higher gpa cap -> less bipoc
+Wait 0%??? Wtfff, that's actually horrible with such a large CS program...
+[deleted]
+There is a benefit to the L&S way to do. You can see above that indeed LSCS has pathetic diversity in terms of race. But it actually has significantly better diversity than EECS in terms of gender.
+
+Perhaps a second step app will bring the best of both worlds.
+That’s me lol
+??? i never assumed that higher gpa cap means less bipoc, i said that they shouldnt make it less accessible to bipoc, in whatever form that comes. i myself as a latino am on the track to declaring but i am literally a statistical outlier and ik latinos who would love to explore cs but are forced out of it by things out of their control
+yeah and i dont mean less than 1%, i mean 0 black graduates
+if i knew the answer to that, they would too and there wouldnt be a severe underrepresentation of bipoc cs students
+Just don't see why you can't do that to begin with lmao. Also, diversity on the basis of financial background is the only one that's legal in cal afaik
+The GPA cap is uniformly applied.
+what factors, exactly, are forcing latinos in particular out of CS? are you referring to socioeconomic issues or cultural issues?
+I agree, I was responding to your question in the first comment. You asked why people were downvoting you and I gave a reason.
+I think that's the most mind-blowing thing I've heard this week... Jesus christ...
+Making it a direct-admit major (like most other good unis) is the way to go. You can crowd control and adjust for socioeconomics in the admissions process. Also...I think the emphasis should be on lower-income students not being left behind (cuz race based distinctions aren't technically allowed afaik \*cough\* prop 16)
+The theory is that the two step process is better for gender diversity because girls tend not to be pushed into the EECSy ECs and programs in HS. However, many are interested in CS, they just don't know it. They wouldn't get into EECS because they don't have the HS qualifications, but once in college are perfectly able to meet the GPA cap and excel.
+
+The point isn't to turn explicit levers excluding people of the dominant groups, but to turn implicit levers that hamper people from minority groups.
+while i do not represent the latino community and it is not a monolith, there are many reasons for it: yes socioeconomic (which can affect all races but it is highly correlated with race), yes cultural (a lot of the time, Latinos arent even expected to go to higher education), but it goes past that. if the stats hold, i am 1/16 of the latino cs majors that in my graduating class. imagine putting together all of us, we dont even make up a single section: that is very, very depressing and not seeing other who look like you in the major u want will not lend to success. it is easy when youre in the majority to say i *should* be able to succeed.
+
+note, i dont know how many Latinos end up dropping from cs bc of the cap or any other factors, but 16 latino cs graduates per year fucking infuriates me, and is indicative of a problen
+fair enough
+I think making it a second application would do a better job actually of admitting underrepresented students (gender/other). Let people get to Cal, figure out they like CS when they possibly weren't exposed to it (or not exposed beyond one AP class), then apply. If it's ""holistic"" review, with GPA and other factors, then the CS dept can attempt broader representation of our population in the major. I like the idea that above a certain GPA you are an automatic admit.
+Ahh, I see. A second app could possibly help with that... but if the app period is after like 2 years (e.g. haas iirc) that would suck. Many people do upper divs in the second year, and would like to get enrolment priority for those classes. And if you can apply at different points, that would make comparing applicants kinda hard.
+I'm not doubting your experiences, I'm just not sure what you want the CS department to do about it.
+If the app period is after like 2 years though that would suck. A GPA req raise would be better than holding back people from declaring in that case
+not make it more difficult for bipoc to declare cs
+While it's clear (and if one didn't know, credit to you for making it so) that people who aren't white/asian are underrepresented in CS, what ideas do you have for reversing this?"

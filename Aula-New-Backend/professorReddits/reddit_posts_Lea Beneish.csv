@@ -1,0 +1,56 @@
+title,link,post_time,post_text,comments
+"Math 113 with Lea Beneish, Rachel Webb, or Daniel Bragg?",https://www.reddit.com/r/berkeley/comments/mxdsv6/math_113_with_lea_beneish_rachel_webb_or_daniel/,2021-04-23 22:56:49,"I can't find any information about Webb or Beneish. Bragg's class seems to have a pretty high average (according to berkeleytime), but another post here warned against taking his class...any help would be much appreciated.","Both Webb and Beneish are new instructors. Imo, you're safer with one of those two. However, at least you know what you're getting into with Bragg. You'll just have to figure out a lot of stuff on your own, as he does little apart from state theorems and skeletal proofs in lecture. If you're experienced with upperdiv math, it'll probably be fine, just really hard. Honestly, his class isn't 'bad' it's just much faster and more advanced than regular sections, and would be better labelled as H113 based on the content he covers. I dropped his class because I wanted to have a strong foundation with the basics of Algebra, not push it with advanced topics.
+thanks!"
+"CS 170, EECS 126, Math 113 Course Reviews",https://www.reddit.com/r/berkeley/comments/uv4jlf/cs_170_eecs_126_math_113_course_reviews/,2022-05-21 22:42:59,"**CS 170 w Raghavendra and Wright**
+
+Pretty enjoyable and standard CS course. Honestly, I thought this class was easier than most of the other mathy CS courses I've taken, but it's possible that's because I've been programming for a while, am used to thinking algorithmically, and was familiar with some of the key concepts in the course already. So take my review with a grain of salt. The pacing was pretty approachable, definitely slower than 70 and 126. The homeworks didn't take too long either. I feel like I spent 2-6 hours on each homework; near the end of the course it, was closer to 2-3 hours on each pset (At the end of the course I started getting pretty shit grades on hws, so you probably need to spend more time if you want higher hw grades). I feel like I learned a lot, and I really liked how every lecture presented a concept that made you think ""woah that's smart."" The complexity stuff at the end was especially interesting (P v NP). I wish we could've learned more about quantum tho, esp cause Wright is a quantum expert; the amount we learned about quantum computing is basically useless. Everyone says you don't need 170 for leetcode, which is true; however, I think CS 170 will make you pretty decent at leetcode without any external prep. Exams were hard, but the class is curved, so I'd say you can expect to do a little worse than you did in 70 given the same effort. Both lecturers were good, although Wright sometimes seemed as if he had read the textbook the night before he lectured (which is probably the case as he hasn't seen this material in a while). Oh, also the textbook is great and well-written; they were gonna develop comprehensive notes for the course, but I don't really think that's necessary because of how good the textbook is. Overall, well-run course with interesting content. Definitely a must-take for any (EE)CS major; I don't think anyone should graduate without this knowledge.
+
+Rating: 8/10
+
+**EECS 126 w Ramachandran**
+
+Holy shit. Probably the best lecturer I've had for any STEM subject. Ramachandran proved to me that material is only as difficult as the lecturer makes it; often, when material seems difficult, it's because the lecturer isn't doing a great job. 126 material is definitely fast-paced and difficult, but it honestly felt as difficult as 170 because of Ramachandran. More work than 170 in terms of psets. I probably spent 5-10 hours on each pset. At the end of the semester, it was towards the lower end. Not sure if I got better at doing the homeworks faster or if it was because the homeworks became more straightforward.
+
+126 material is truly awesome. Every single homework and lab was rewarding. The labs were especially well made and thought out; thus, I think they edge out the homework for being the most rewarding part of the course. I would rank this in the top 3 courses I've taken ever, maybe slipping into first place. This class has singlehandedly made me consider adding a stats major/minor. So much of it felt like magic; the material is so powerful for a wide range of applications.
+
+The people in this class are sharp, though. Putting in the same effort into studying for tests as I put into 170 and other mathy CS classes, I'd score basically a full standard deviation lower on exams. A lot of kids (esp math comp kids) know some of this material and especially some of the tricks and approaches you need to know to do well on exams. Expect to put in a lot more time studying for these tests if you want to compete with them. Although the bar for an A is lower than most other CS classes, so you'll probably receive on average one grade lower than what you got in 70.
+
+Only thing about this course that I'm not a fan of is the 5-week probability review at the beginning. I think we should've spent like 2.5 weeks on review; basically everyone in 126 has already seen that content. The amount I actually learned (/ the skills I gained) in those 5 weeks is probably equivalent to like 2.5 weeks max of other 126 content.
+
+If you enjoy stats/probability even a little bit, this is a must-take. If you don't, you should probably avoid it.
+
+Rating: 9.2/10 (awesome class but I don't give out 10s)
+
+**Math 113 (Abstract Algebra) w Lea Beneish**
+
+Pretty disappointed with this class. Lecture quality was poor. She basically just stood at the blackboard and recited the textbook. She really lacked an understanding of what concepts take a second to wrap your head around and which are pretty intuitive. Thus, she would write out the textbook at a constant speed, spending way too little time on difficult concepts (and thus making the rest of the lecture pretty difficult to follow as you don't understand the difficult concepts) and too much time on the more simple concepts. In hindsight, I wish I just read the textbook and never gone to lecture.
+
+She also presented no motivation for any of the concepts in the course, so I felt like I was memorizing meaningless definitions and theorems. (Yes, memorizing; her tests would ask us to recite some definitions and theorems). You can define any arbitrary algebraic structure and study its properties, but why do the ones we are studying (groups, rings, and fields) actually matter? Why were these definitions chosen? Why are they relevant? When I started to discover the motivation for the concepts by the end of the course, it was already too late. If someone told me that these structures could be used to, say, show that 5th-degree polynomials have no general solution, that would've been enough motivation for me. We didn't get that. If she connected group actions to matrix-vector multiplication, I would've cared about that content infinitely more. Everything just felt really arbitrary and meaningless. You had to go out of your way to motivate the concepts in this course. It's possible that a truly mathy person would find this motivation more intuitively, and they wouldn't need an explanation for why these specific definitions should be studied, but that's not me.
+
+This class showed me the difference between CS and other courses at this school. CS courses are incredibly well-run, the lecturers tend to be pretty decent, and you need a decent understanding of any topic to get an A. I ended up with a pretty high A in 113, and I don't know shit (thiccc curve). I dropped almost half of the homeworks and spent maybe 3-6 hours per week total on the course; my level of understanding would never fly in a CS course. I'm disappointed because—now that I understand the power of abstract algebra—I want to learn it yet I have a very mediocre understanding.
+
+Rating: 4/10
+
+Overall, this semester was pretty good. I had a good amount of time to mess around, meet people, and do non-academic things. And I think this course load (plus the AC I took) was the perfect amount of work for me at this point in my college career. This semester has made me really develop an affinity for Berkeley courses. This school is pretty awesome; I feel pretty lucky and grateful to be here. I don't think there are many universities that would've been as good of a fit for me as Berkeley.","I won't ever take any of these but it's a pleasure to read writing by someone who clearly cares so much about learning and is so positive about their academic experience. you remind me whats important about studying, thank you
+Based. We need more of this ngl
+I want to see Ramachadan’s lectures :( but they’re not avaliableeee
+>The homeworks didn't take too long either. I feel like I spent 2-6 hours on each homework
+
+The fuck you talking about? The only class I've taken with longer/harder homework was CS 70 over the summer, and that had 2 weeks of material crammed in.
+I think you overhyped 170 and underhyped 126 but I generally agree with your ratings
+Sick review! I’mma jack your format for reviews of my classes!
+Thanks Fantano, your 8 means a lot to us, given that you gave Blonde an 8
+You summed up 113 quite well. I was in the same class and i'm glad to hear I'm not the only one with those thoughts. There's so many amazing youtube lectures covering what we covered and if I could go back I would definitively just follow Visual Group Theory by Professor Macauley, that playlist is great but I only found it like 2/3's the way through the semester..
+There are 2 types of people - people who like and get algebra and people who don't like and don't get algebra.
+
+A course in algebra will NOT change the type of person you are. Algebra 1 and 2 are literally taught the exact same way in every top 100 school, and they are almost always dry as a bone. 
+
+The same criticism that OP levels at their prof can be said about virtually most of upper-division math - you learn a definition, derive a few key theorems and learn to solve problems with those. The ""gain"" is that you can now apply these theorems, which is what the point of a pure math education is.
+
+I'd be curious to hear of an upper div pure math class OP has liked.
+did u make an account just for this haha…anyways ty!
+yeah he's pretty uptight about people sharing his lectures even off-the-record, i think he's for good reason though. 
+
+My friend took ee123 with him and after he recorded lectures everyone just watched the recordings and Ramchandran had to lecture to an empty class 💀 
+
+Now he's against recording lectures since he notices a huge increase to student attendance and generally learning. Cant blame him ngl but I sure did as a student who was too lazy to go to lecture lmao. Great lecturer though 10/10"

@@ -1,0 +1,236 @@
+title,link,post_time,post_text,comments
+[Pamela Fox] My experience as a Unit-18 Berkeley Lecturer,http://blog.pamelafox.org/2022/05/my-experience-as-unit-18-berkeley.html,2022-05-23 13:12:36,,"wow, sounds like a pretty bad experience all in all. don't blame her at all for leaving for industry.
+The kids she’s teaching probably be making double of her. Guess that’s why profs leave
+100k for someone with a SWE background in the Bay Area. And that’s more like 100k TC rather than base salary since the other perks described in the post all sounded like shit.
+Oh wow this is a very informative account, I never realized how much work adjunct professors put into this
+This is a great read for anyone planning to do this.  She gives a fair evaluation, including both pros and cons.
+genuine question but why do core classes always go through changes? fox mentioned 61a, and there was the notorious 61c being overblown with work over the years. like fox mentions, it takes time to create new assignments and projects, some of which bug out for the guinea pig semester, and you have to teach staff.
+I genuinely don't understand why, in a famously CS/EE-oriented school, business/econ profs make the big bucks while CS profs and lecturers scrape by. Someone please help this make sense...
+Its a shame that the current academic system is like this and I’ve always believed that teaching should be one of the highest paying jobs especially at college but alas, thats the reality we live in. Pamela, if you’re reading this thank you for a wonderful experience in cs61a it was amazing learning from you!!
+For those who want to do the math - $55/hr when you count benefits.
+
+For a comparison, unqualified teen nannies can make $30-35/hr. And GSIs make $2700 or so a month.
+
+Meanwhile, the average student pays $2.5k in tuition+fees for a 4 unit class. CS61A - a class with 1600 students in Fall21 when she taught it brought in **4 million dollars** for Berkeley.
+
+Meanwhile, DeNero got paid 100k for that semester, Fox got paid 50k for that semester, and a bunch of uGSI grunts and GSIs got paid 5-10k each.
+
+Which leaves the question - where did 2-3 MILLION DOLLARS from tuition just for that class go?
+Is she still teaching 61a next semester or did she leave Berkeley? If she’s not teaching I will be tremendously sad, one of my favorite people at cal
+I'm incredibly saddened by this, but I'm happy that Professor Fox is leaving for better opportunities. I only took CS61A for about 4 weeks this past spring semester but really enjoyed her lecturing style and learned tremendously in those few weeks. I ultimately got off the waitlist for CS88 (I'm an intended DS major) and left the class but Professor Fox left a really great impression on me. The school needs to do better on compensating lecturers and guaranteeing students' education. I'm paying 70k a year (OOS) and I want my money to go towards people teaching me, not the head coach of a football team that's performing poorly.
+I don't know Pamela Fox, but she seems like a thoughtful and kind person I'd love to have as an instructor.
+Gonna love how she calls out the degenerate temper tantrum for points in her emails
+I met professor fox once in the elevator of soda hall fall 2021 when I was taking 61a. I was completely starstruck (after seeing her strictly on zoom lol) but told her I was in her class. She was so enthusiastic and kind and asked my name and how I liked the class. 
+
+People always said they preferred Deneros lectures, but Fox’s lectures were way more comprehensive imo!!! What an amazing teacher. I really don’t think I would like Berkeley CS if it wasn’t for her teaching 61a and how enthusiastic and clearly excited she was to be teaching. It’s even more impressive that she was able to continue portraying her passion for CS while going through so much and not being treated well behind the scenes. Also just her being a cool woman prof as my first introduction to CS at Berkeley when I was afraid of the gender ratio rumors just put me at ease. 
+
+Thank you for all your hard work Berkeley CS will never forget you <3333333
+Her story makes me think that bigcos should offer devrel leave for, say, selected L5+. You go work for a uni for a couple of years (as a uni employee) but they just don't clear your RSU grant schedule and refresh your schedule at whatever calibration your uni eval says (scaled to meets, exceeds, etc.). Then the main delta in overall income (once you go back and your RSUs vest) is just the delta in base pay, which is not as huge.
+
+Call it, ""test and vest.""
+Amazon is to FAANG is what Berkeley is to T1 schools, no one's working their in a few years because of the reputation.
+Berkeley CS kids never donate to endowments, now their fucked
+So, basically the Amazon of teaching... Berkeley is becoming a T2 department
+It’s sad. She taught me 61A in sp21 and was a terrific lecturer (especially compared to hilfinger, speaking as someone who was brand new to CS and had no clue what was happening). 
+
+Incredibly annoying to pay OOS tuition just to CONSTANTLY hear about how every Berkeley thing that seems relevant to me is always out of money
+For me, there were some 61A topics that I really didn't feel comfortable teaching, and would not have included in the course had I originally designed it. The topic changes were fairly minor in terms of my lecture changes, but they did require a decent amount of content changes.
+
+For example, I removed ""self reference"" (aka delayed recursion) and ""mutable functions"" (aka inner functions that stored state in their parent functions frame), as I found all our examples to be contrived and didn't feel like students were coming away from them with good, Pythonic programming practices. 
+
+It was very easy to remove them from lecture (delete!), but removing from assignments meant replacing some project questions and coming up with some new content instead. Shoutout to our great content TAs this semester (Jamie and John) for making those changes!
+I've genuinely been thinking the same thing. I assume it's because haas/econ will donate more? but honestly eecs/cs folks can donate just as much, they just don't really care(?)
+
+either way, if anyone knows why this is please please share with us
+A lot (I would guess most) of full professorships in the econ department are chairs or named professorships. This usually means a donor paying a big part of the Professor's salary (plus some research funds and whatnot).  
+
+
+For Haas, MBAs and Master programs bring in huge amounts of money (and there are donors as well).   
+
+
+I disagree that Berkeley is a ""CS/EE-oriented school"", though. This is clearly true at the undergraduate level, but for graduate programs/research Berkeley excels in pretty much every field.
+The important distinction at *any* major university isn't EECS versus business; it's tenure-track (aka ladder rank) versus adjunct.
+
+Source: Worked for a big university where I hired adjuncts.
+Lecturers in the EECS department get paid the best out of most Lecturers.
+Aw thanks, glad you enjoyed it!
+I think college should be free and subsidized by the state, but let’s be honest It obviously takes a lot more than just instructors to keep the school open. Construction costs, the salaries of non education faculty such as the janitorial and landscaping staff but also the library staff and admissions staff among many others, the energy it takes to keep the lights on, software and hardware costs campus wide, the lawyers to fight legal battles over what they can and can not do at people park, a lot of those fees go directly to the student government to be distributed to clubs… again I think students pay way to much and it should be subsidized more or entirely by the state as graduates benefit the state of California, but I’m sure it’s not hard to add up all the actual costs beyond education staff that it takes to keep a university running and have it fall well short of the income produced by students (we know it is since so many of the professors have to use Grants and outside funding to do their research)w
+DeNero didn't make anywhere near $100k for the semester. His total pay is $140k/year:
+
+[https://imgur.com/a/sG2goWz](https://imgur.com/a/sG2goWz)
+
+From: [https://ucannualwage.ucop.edu/wage/](https://ucannualwage.ucop.edu/wage/)
+Understanding the finances of the University is incredibly challenging. But salaries, then physical buildings/management/etc do add up to most of the money the University brings in. 
+
+But who they're spending money on is a real challenge. The top few dozen administrators cost 50% as much as all 1500 lecturers on campus. Now, being a top level admin is a 24/7 job in some cases, something is definitely out of line.  
+
+
+Then again, these are the exact same patterns we see in corporate america too.
+They are used to keep the scientific infrastructure at Berkeley running. There are quite a few faculty that do not teach, or only teach graduate courses/research seminars. These do not bring any revenue, but those who teach them are the very best, and thus the most expensive. Similarly, someone has to pay for research labs, graduate stipends, seminars, conferences, etc.   
+
+
+In my view, at the core of the budget problems here is the fact that Cal is a public university, and thus offers heavily subsidized tuition for in-state students, but the funding provided by the State is not nearly enough to cover it. So we have a dilemma: top UCs like Berkeley, UCLA and UCSD are supposed to compete in research at the very top, but it also has to provide education to a large number of students at a fraction of the cost. The result?  A lot of the teaching elbow grease is done by Lecturers, which are severely underpaid, and GSIs, which at Berkeley usually work every semester and often at summers (equivalent programs in Ivies/Stanford/MIT usually teach once a year with one or two years off, at least in my area.)  
+
+
+The solution? State Funding should cover the differential per in state student, not just a lump-sum each year.
+Our pointless football team
+As a GSI for the past 3 semesters… wish we made $2700 lol
+
+Spring 20- I forgot 
+
+Fall 21- 2,256.90
+
+Spring 22- 2,324.65
+
+Fall 22- 2,324.65
+Aw thanks. I had my first day at Microsoft today, so nope, I am not teaching next semester. 
+
+(Am also a fellow Lorax lover. I once sidewalk chalked it on Solano Avenue for their annual Chalk & Chocolate festival!)
+There are limited examples of this - though not quite as the level you suggest. However, companies that offer such programs (Google is in fact one!) do, and definitely should, focus on schools other than Berkeley. There are a ton of challenges at Berkeley but they're in many ways more acute at community colleges, HBCUs, and other places that do not attract the attention that Berkeley does.   
+
+
+If you're into teaching  but not necessarily college-level, you should definitely consider Microsoft's TEALS program where you get to volunteer in a high school CS course.  
+[https://www.microsoft.com/en-us/teals](https://www.microsoft.com/en-us/teals)  
+It's awesome - was founded by a former Berkeley grad (and TA), and still has a few Berkeley folks running parts of the program too!
+I want to know why we hire a million vice provosts of XX that do nothing to improve student experience, diversity, (Insert a multitude of other campus issues that aren't addressed by any of these administrators), pay them mid 6 figures, instead of the faculty that actually make a quality education.
+thanks for the response!
+i also have other questions that in curious about: what did the 6 hr of lecture prep time breakdown look like (since you mentioned you went over the s21 61a) was it because you made changes to 61a that contributed to this work? and i thought head TAs were designated with choosing the corresponding hw questions/discussion worksheet; in sp22 you listed new assignments apart of your workload, so im assuming it's a very collaborative process between prof and head ta?
+
+and last question for curiosity's sake: how the heck do people write exams/ assignments? is it tweaking old exams? if you ask me to come up with exam questions to test knowledge in an open way i would be completely blank. my only guess is that professors/ head ta just think of an open scenario in which the knowledge applies, solve the question, and then evaluate its difficulty (very throw darts at the board and sees what sticks), but i have a huge feeling im wrong and people are insanely smart enough to craft elegant and challenging questions
+Probably because they didn't enjoy their experience here because their department was massively underfunded
+I don't think the Econ folks are massively out of alignment compared to CS. And for the economists who have a finance background then the pull to industry faces the same challenges.   
+
+
+Haas is an entirely different story. The faculty in Haas (on average!) do way better salary-wise, but a lot of this is funded by ridiculously high paying programs - not just the regular MBA, but stuff like ""executive education"" and courses where the fees are very high.
+Your claim falls flat on its face in the face of economics and what the future of education looks like.
+
+There is no other industry - not Uber, not Doordash, not even Amazon - where the people who generate 90% of the ""product"" receive, cumulatively, less than 25% of the revenue. Yes, the school needs librarians, but its administration is bloated out of proportions to the point where it is unclear what they exist for.
+
+If you privatized Berkeley, they'd find a way to cut 50% of the useless administration 2-3 weeks from a take-over.
+
+The other often-not-spoken about truth is that departments that provide classes at scale are vastly underpaid compared to departments that have small classes. If the Math and CS departments got paid adequately, every other major would have to balloon in costs to compensate for the lack of subsidies.
+
+And note - the 2.5k figure is without factoring in any grants and state-cost-covering per student. Likely, the revenue per student per unit is well above $1k given how many people, especially transfer students, register for 13 units for their entire time here.
+
+If I took the average across all the students I have taught in Berkeley, I have received about $300 per student as a GSI, out of $4k that they pay to be enrolled in the classes that I am helping teach. This is for about 300 hours of work per semester. The supervising faculty would usually have about 8x the amount of students I have, and about 6-8x the salary, so it ultimately ends up that less than $500-600 is spent on the actual education. And no, the custodian services + keep the power on is not anywhere close to how much the university spends on payroll. For every 4k spent, about 1.3k goes to infrastructure and 2.7k goes to payroll. So only a tiny tiny tiny fraction of payroll goes to instructors (less than 25%).
+
+I really wish someone would do a deep dive in all the grift that is clearly going on in the school. As it stands, the universe is just waiting for a good remote university to pop up that offers ETS style on-site testing that can deliver the same instruction at a fraction of the cost.
+
+EDIT: I reread what I wrote above, and it does sound a bit entitled - there are plenty of industries where people get exploited many times over. There are people ploughing deserts in India to make salt for $4 (four DOLLARS) per ton.
+
+The point is that education should not be one of those industries, given how important it is for education to function. There is clearly grift and exploitation in Berkeley and other similar schools, just like there is in those other industries.
+I agree that all professors and lecturers and GSIs should be paid more. But, a large chunk of the salary of the professors that do research (especially in scientific fields like biology and chemistry) comes from grants. These grants also pay for most of the lab expenses and salaries of researchers in the lab (not just the PI). Additionally, institutions generally take some money from each grant to pay for things like lab space, electricity, etc. The professors that only do research or only teach graduate courses aren’t sucking money away from other departments, part of their job is figuring out how to pay for it and bringing in that money.
+Incorrect. Athletics finances are roughly (not entirely, obviously) separate from those for the teaching/research arms of the university. In fact, football actually brings in revenue to support other sports (some of which we actually do well in), such as water polo, gymnastics, and swimming/diving. But I don’t see anyone on here complaining about tuition money going to fund rowing 🤔
+Football is the only consistently profitable program we operate and it pays for every other athletics program we have. No football means no swimming, volley or golf.
+accurate. why can't the funding be subject to how often they win ... they'd definitely be making a lot less money if that was the case
+
+sports buffs please correct me if I'm misunderstanding anything
+This is after taxes, correct?
+
+Now do before taxes.
+Congrats on your new role! I had you F’21 for 61A and sadly never got to meet you in person. What made you decide to try out lecturing here at Berkeley in the first place when industry SWE had much better benefits (salary wise / hours)?
+Congrats on your new role! I had you F’21 for 61A and sadly never got to meet you in person. What made you decide to try out lecturing here at Berkeley in the first place when industry SWE had much better benefits (salary wise / hours)?
+Interesting, thanks for the pointer!
+I always teach programming using slides written in HTML, for various reasons. (See my meta slide deck about it here: [https://pamelafox.github.io/html-slides-for-programming/](https://pamelafox.github.io/html-slides-for-programming/)) Denero's slides were in Keynote, so much of the time was spent porting those to the format I was comfortable with, and then tweaking them to match my own lecturing style and preferred examples. I also made changes this semester based on notes from last semester about what worked well, what was missing, etc. 
+
+I could have certainly spent much less time on lecture prep had I simply modified his Keynote slides. I do think that Denero's slides are great, it's just not my preferred slides format for teaching programming.
+
+The head TAs come up with many of the assignment questions, yes. I tried to offer ideas since I was the one asking for the change and I reviewed their new questions in both synchronous meetings and in pull requests.
+
+As for exam design: I first outline all the topics that an exam covers and any approximate point distribution. I then think of questions for each topic, sometimes inspired by a similar assignment problem, sometimes inspired by a way in which I've used a topic in production Python codebases. I send each question to multiple course staff members for review, and they comment on aspects like time spent, perceived difficulty, confusing verbiage, etc.
+I think you miss read something in my post. my only point was that the assumption that the sole costs were the educators was wrong, and so I provided an incomplete and very limited list of examples of other costs that the university takes to run, I made no claims or defense of the fact that those costs are or should be higher than educators.  I agree educators are underpaid and made 0 claims to the otherwise above, but that doesnt mean the costs of maintaining a campus and research institution just disappear when discussing the budget. You asked where the money is going so I thought you might have actually not considered the administrative and campus maintenance costs as those are astronomical for an institution the size and complexity of Berkeley.
+Indeed! In fact, the standard ""overhead"" rate the University charges most faculty research grants is nearly 60% in many cases!
+I'm aware of overhead, but to my  knowledge in most departments grants do not pay a prof's salary itself, just things like summer pay. Things might be a bit different in subjects like chemistry with huge grants, but at humanities and stem like math and statistics grants aren't really large.
+Not necessarily. In spite of impressive incomes, many college athletic programs (including football) lose money. 
+
+https://www.bestcolleges.com/news/analysis/2020/11/20/do-college-sports-make-money/
+That is before tax. We do get SHIP insurance and tuition/fees reduction which is really nice, but it's not ""money in account"" salary. The union is currently trying to negotiate a better contract for the future, so TBD.
+
+&#x200B;
+
+You can see the exact details of the current rate here: [https://hr.berkeley.edu/labor/contracts/BX/current-rates](https://hr.berkeley.edu/labor/contracts/BX/current-rates)
+
+I was/am a half-time GSI Step I (based on the # of semesters taught), so divide the website # by 2. By contract, I work 20 hours/week. ngl, some weeks it was less, some weeks it was more, so I would say average comes out to \~$30 or so an hour. I would say not the worst salary all things considered, but could still be better.
+I honestly have so much respect for lecturers/professors that use slides they've made themselves instead of someone else's slides.
+
+It's very obvious when a Professor hasn't read the slides their presenting and it affects student learning a lot: I think that's something the above commenters didn't really think about that's worthwhile for me to add.
+
+can you talk about the details of managing staff? in my naive perspective i thought you just talk about assignments with your head TAs, outline key points to go over for lab/discussion with those head TAs, and then have the head TAs talk to the discussion / lab TA and lab assistants
+
+in terms of managing the TAs in other stuff you would just have more senior TAs manage them and report to you
+No, overhead and grants don't directly pay salary. But not all of faculty salaries come from state funds. So, the overhead that goes to central campus in part goes to fund things like salaries of faculty (and admins, and staff) who also contribute to research but aren't necessarily line items on a grant.  
+But really, I think it's somewhat disconnected from individual pay anyway -- even when there's an endowed professorship, it's not like your salary is directly tied to the endowment funds - the University can supplant the pay if the want. 
+
+For those who are curious the total salary costs are currently around $1.4bn per year, with another $400m or so in benefits, etc.  Of this, faculty is only about ⅓ or so, IIRC. It's relatively easy, I think to trim let's say $50-100m of stuff we each might not think is necessary. But really restructuring costs more significantly is definitely not obvious.   
+
+
+The budget overviews the University puts out definitely are not simple, but they're not too ridiculius to understand either. [https://controller.berkeley.edu/sites/default/files/2020-21\_financial.pdf](https://controller.berkeley.edu/sites/default/files/2020-21_financial.pdf)
+I attend both the heads meeting and the all-staff meeting, since it's important for me to hear the feedback from all staff members on how things are going. But yes, generally, when things are going well, staff management is fairly straightforward and involves a lot of delegation/trust in staff.
+
+Things don't always go well though: some staff members may neglect to do their duties, and I need to reach out to figure out what's up and reallocate staff as needed so that the course keeps running. Some staff might have tension (or worse issues) with other staff members, and I need to mediate that. 
+
+Generally, in these big courses, it's all the edge cases that add up to lots of time. With 2000 students and 100 course staff members, things will happen that can't be obviously automated/streamlined/bulk handled.
+makes sense, thanks for taking the time to respond"
+pls help: CS 88 w/Michael Ball VS CS61A w/John Denero&Pamela Fox,https://www.reddit.com/r/berkeley/comments/ny068z/pls_help_cs_88_wmichael_ball_vs_cs61a_wjohn/,2021-06-11 23:16:33,"I still need help choosing between these two classes for next sem: i rlly don’t know which to pick. I’m most likely going for DS minor cuz double major w DS will prob be rough for me at this point. ppl tell me to go w/88 bc most who go data science pathway do that i guess, but then others tell me 61A will be more worthwhile. Is there a big difference in level of difficulty between the two? If 61A is significantly harder, might just try to enroll in 88. I’m already enrolled in 61A on waitlist but like #41 so i’m sure i’ll get in. But if it’s a lot harder i’ll just try to get into 88. But if it’s not much of a difference, I think i’d rather take 61A to learn some useful technical skills. The only thing “close” to programming i’ve had is taking data 8. I liked the class more than i thought but it wasn’t a walk in the park for me personally, for reference.","I recommend Cs 88. However you might find 61B a bit harder coming from cs 88 rather than 61A. Just a thought.
+I recommend CS88. The only topic you will miss is Interpreters/Scheme at the end, but you will get all of the Python topics, and those will serve you quite well in Data Science.
+
+In addition, CS88 will go at a more manageable pace. Students generally struggle in 61A if their only introduction to coding is Data 8, as 61A goes very fast through difficult topics. CS88 gets to spend a little more time on each of those topics, and many of your classmates will come from similar experience levels as yours.
+[deleted]
+I’m going ds minor so i won’t need to take 61B! but i definitely was thinking about that when i was considering taking the major instead before.
+my other classes are not hard. but i didn’t find data 8 super manageable. it wasn’t like getting out hand for me but it still didn’t come super easily to me -specifically the exams. i couldn’t get away with skipping lectures and not going to OHs. but i def am someone who is slower just in general LOL so if CS 88 covers less over more time, that would be good for me. dang it. so conflicted cuz i’m in a good waitlist spot for 61A. idkkk if it’s possible during phase 2 for me to get a  CS 88 spot. do you know the liklieness for that?
+Damn you escaped some hell bruh
+[deleted]
+You will 100% get into CS61A at Adjustment time.  If fact, you could drop/swap the class with something else rn and add CS61A at Adjustment time and still get in.  That’s how confident I am.  (Well, might be too late  rn since I think Phase 1 is over).
+lmaoo. Rlly was tryna tell myself to go for the double major but i don’t think i’m built like that
+Will it not swap the classes if 88 ends up not being avail? so that i can save my spot in 61A in case.
+oh wow i didn’t know 61A was that flexible. i thought that was the class that i needed to get first so i signed up for it first:/ ya phase 1 over... hopefully i can just swap next phase...
+[deleted]
+Yeah, shouldn’t be a problem to do that.
+ohhh i see. and does it swap you into waitlists or ONLY actually enrolls you fully.
+do you think i’d be able to land a spot in CS 88 tho during Phase 2?
+Maybe, I would say 50-50.  Are you a rising sophomore?  If so, then you have a better chance than if you are a rising junior.  Chances are a lot of incoming transfer students will eat up the remaining slots for juniors I suspect.
+I’m a rising junior"
+thoughts on cs169,https://www.reddit.com/r/berkeley/comments/osrgnx/thoughts_on_cs169/,2021-07-27 10:38:33,"what is the difference between cs169A and cs169L from someone who has taken the class?
+
+I really enjoy projects, so is this a project-orientated class?
+
+are pamela fox and michael ball good profs?","A charges you $30 for a proprietary anti pirating textbook. Waste of money.
+Took both, as usual profplum is right with the descriptions. Both are project oriented, but L gives you a full semester to work on a software engineering project while A uses mini projects to teach the fundamentals you need to take L. 
+
+There were a lot of technical problems when I took it last year bc it was a new system, but some of the legendary TAs took the time to revamp it and so it should be a much more polished experience going forward. 
+
+M Ball is the best, he's passionate about teaching and has plenty of domain knowledge and experience to share.
+A charges you $30 for a proprietary anti pirating textbook. Waste of money.
+A is the software engineering concepts class, L is the 2-unit team project where you build an actual system with a customer.  You can’t take L without A (except for rare circumstances).
+One interesting thing about the 169L class is that the grade you get is sort of the way you are evaluated at work, as opposed to how you would normally be evaluated in a normal class.  In a normal class, you do really well on projects and tests, you get a good grade, say an A.  The criteria for 169L is slightly different - sustained week by week effort and maybe even more than that is very important in your evaluation (grade). So if you’re the type that waits until the last minute and then spends 40 hours a day getting the autograder to give you those last few points, that won’t work too well in this class."
+What is your favorite class you’ve ever taken at Cal?,https://www.reddit.com/r/berkeley/comments/w6p4au/what_is_your_favorite_class_youve_ever_taken_at/,2022-07-23 23:34:11,i’d love to know why too. also bc i wanna see some interesting classes / decals to take in the future :),"Psychology of Sleep with Matthew Walker. Absolutely incredible material, plus very useful information for your daily life and sleep health.
+Most interesting (but hard): 
+Psych 114 - biology of learning 
+
+Class I think everyone should take: 
+psych 167ac - stigma and prejudice 
+Ugis 110 - intro to disability studies
+Music 155 (Music composition) is quite fun with the right professor, and there are basically no prerequisites to enroll. You probably don't even need to know how to read sheet music - there are so many other possibilities like graphic notation. On a related note, anyone who likes composing will enjoy the Undergraduate Composers Club as well.
+
+University Chorus with the right repertoire is great too, although the rehearsals can get boring sometines. If you're a real music nerd, Harmony IV is a great class (assuming Yamasato is still teaching it) but requires lots of prior knowledge.
+
+And of course there's Astro C10, but you probably didn't need me to tell you that
+CS 161 with Nick Weaver
+SOC149 Sociology of Policing or SOC140 Politics and Social Change. Both taught by Lahleh, one of the most amazing professors.
+CS 267 (Parallel Programming) is probably my favourite CS course. It completely changed the way I think about computation and program design and the assignments were all really cool, albeit quite difficult and time-consuming.
+Loved Astro C10, ME163 (engineering aerodynamics) and MEC180 (FEA). I also really enjoyed ENRESC100 (energy and resources, Dan kammen is the bomb)
+History 190 History of Soccer/History by James Vernon. An amazing lad and great GSIs.
+MCB 110/110L. Great professors. It is astonishing how much cutting edge information we got. I still remember being taught about some of the science that would become CRISPR years before it became a successful technology.
+Whichever class field entomology is (i want to say espm 147 or something). Super cool Professor, very chill requirements, you get to go on field trips and play with gear
+EPS 101, geological field mapping of the Berkeley Hills, was an amazing class. I learned a lot and it was so much fun
+Drugs and the brain by presti and 61a with Pamela fox
+this is controversial but i really enjoyed MCB 102 (the first two sections only). It is not an easy class but I learned so much about the molecular basis of life and also gave me a different appreciation for my body and everything it does to keep me functioning. ESPM 162A (health, medicine, society, and environment) was one of my favorite classes here as well. I learned a lot about structural inequalities and how these manifest as health issues especially for marginalized groups.
+Chem 12B
+CEE 60 in which we civil engineering students play with concrete. ASAMST 128 AC where Prof Hatim Bazian roast US government for discriminating minorities.
+Soc 101 A/B with professor Buravoy (sic?) in the ‘90’s.
+A decal- social welfare 196 “re-thinking the war on drugs.” As a fairly liberal person going into it, it made me reconsider all of the bias and stigmas I didn’t consider. Very well run, and I made a lot of friends. Took it fall 2021
+philosophy 12a, really loved learning about logic and deconstructing language
+Historical Archaeology as Social Justice by far. Prof Wilkie is the most funny, relaxed, thoughtful/thought provoking teacher I’ve had. She was the best
+Love Lahleh so much! She’s such a wonderful professor
+That’s a great class! I learned more in that class than probably any other mcb class and continued to help me in every mcb class after that. Definitely not an easy one, but super informational
+I am planning on taking MCB 110L. I think I will have Le Blanc. Did you have them? How time intensive were lab reports and assignments?"

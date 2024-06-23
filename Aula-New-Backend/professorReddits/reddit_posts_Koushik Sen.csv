@@ -1,0 +1,30 @@
+title,link,post_time,post_text,comments
+CS 164 With Koushik Sen,https://www.reddit.com/r/berkeley/comments/1aegwpe/cs_164_with_koushik_sen/,2024-01-29 21:27:56,"For people that have taken the course with him recently, how hard is it to get a B/B+ in this class? Are his exams hard? I noticed that there’s only 2 OH slots a week so I’m nervous for the projects too.","I don't know how recent is recent, but I took 164 with Sen in 2018. I got an A or A+ in the class. Probably my proudest grade during my time at Berkeley, and my most enjoyable.
+
+
+If it's still ChocoPy to RISC-V compiler, then the projects are fairly straightforward. The assignment instructions are quite clear and it's just a matter of implementing it. The hardest part is probably the group dynamic because it's so straightforward, I reckon one person could do it, so it's hard to divvy the work up cleanly, but Sen had us work in pairs. I think we knocked it out after hacking away at it for a few hours, for a few days in the library. If you start early, should be no problem.
+
+
+The lecture and exams focus a lot more on the theory of compilers, but the homework and discussion handouts are really good practice. Unlike other classes I've been in, I felt that the homework matched the exam quite well. I was pleasantly surprised how well I did on the exams, tbh.
+
+
+If you're interested in compilers, I think it'll be pretty easy. I found that people who take 164 generally self-select for people who like it. It's not like 162 where everyone takes it because people tells them it's important. So my experience might be a selection bias thing.
+
+
+Anyway, I think you'll do fine. Good luck.
+Thank you for this great response! Since you said it’s self-selecting, is that reflected in the curve (as in the mean is generally higher since students who like the theory of compilers take it) or was that not the case in your experience?
+Hey! I'm contemplating taking the class but I'm unsure about whether or not it would be a good course for me to take. I have yet to take 162 (I'm doing that next semester) but I am trying to gauge how much I like systems stuff at the moment (which is why I'm taking 161 this semester, and I'm liking that a good bit so far). Do you think the class would be interesting/useful to someone in my position (someone who's just curious about low-level stuff in general) or do you think only people who know they really like compilers should take it?
+I want to say that the curve wasn't different from other classes I've taken. I took a look at the BerkeleyTime (https://berkeleytime.com/grades/1-2338-fall-2018-_-1-sen,-k) and it says that the curve was mostly bimodal with lots of students getting A's and lots of students getting B's and fewer getting other grades. In other classes I've taken, the +/- grades get more students in that bucket. In the end, I think it's still curved to the EECS guidelines of 3.3. I want to say the students who do well tend to get an A and the students who do the projects but are tripped up by the tests get a B.
+
+I don't recall the curves on the tests/projects, so I can't really explain more on this. As a B+/A- student generally, though, I was surprised to find that I got an A/A+ in the end.
+
+In the end, all this was just a roundabout way of saying I don't know... Sorry... Lol
+Yeah, it sounds like you like the interface between the high level and low level, which 161 and 162 get into much more, like the stack buffer manipulation in 161 or the stack and memory management part of 162.
+
+164 doesn't really touch on low level stuff, except for the penultimate part of the class, which deals with code generation. To be fair, that stuff might be interesting, but it's not a huge part of the class. What I found most interesting about 164 was learning about how RegEx works under the hood and the theory behind RegEx, type checking, and the multitude of ways that graph and backtracking algorithms are used in compilers. So, it's less of low level, bare metal code, except for the theory of stack and register machines. I will say that if you are interested in low level stuff, the section on intermediate representations like LLVM was very interesting in my view, though it's technically an intermediate language and not low level by its very nature. Overall, the class doesn't touch much on low level except for the fact that all compilers have to compile to some assembly language in the end. If those topics interest you, I say go for it."
+CS164 with Koushik Sen,https://www.reddit.com/r/berkeley/comments/b2cjc4/cs164_with_koushik_sen/,2019-03-17 18:10:44,"The schedule for CS courses in the next semester is recently released. As a rising sophomore who is really interested in programming languages and compiler, I definitely will take CS 164. But I'm a little bit disappointed that the professor is Koushik Sen instead of Paul Hilfinger, whose ""legendary"" stories teaching this course is well-known. I found few information about Koushik via internet (ratemyprofessor and etc.) . Had anyone ever taken his CS164 or any other courses? How's his teaching style and workload? A lot of thanks!","here we see a man sad about not getting hilfinger'd 
+Just as a side note: I'm taking 164 with Hilfinger right now, and it seems like he's just using the same projects that Sen used last semester (ChocoPy) so I don't think you're missing out on much by taking it with Sen instead of Hilfinger
+Anecdotally, I had Hilfinger for 164 and it was great. The projects were super hard, but I still enjoyed them. If you can wait, I'd recommend it.
+You're taking 164 as a first-semester Sophomore? I'm sending my thoughts and prayers."
+CS 164 Workload?,https://www.reddit.com/r/berkeley/comments/1cbqev6/cs_164_workload/,2024-04-23 22:27:17,"Can anyone who has taken CS 164 with Koushik Sen speak about the weekly workload? And if possible, difficulty compared to other upperdivs like 170, 186, or 161. Thinking of taking it alongside 162 since I can't get into 168.","Wouldn’t take 164 and 162 together unless they are your only classes.
+I wouldnt recommend 162 and 164 combo during recruiting season"

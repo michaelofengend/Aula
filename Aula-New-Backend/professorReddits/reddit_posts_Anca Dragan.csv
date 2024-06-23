@@ -1,0 +1,80 @@
+title,link,post_time,post_text,comments
+CS or EECS for unit ceiling at Cal,https://www.reddit.com/r/berkeley/comments/16haesd/cs_or_eecs_for_unit_ceiling_at_cal/,2023-09-12 19:08:13,"Hello, 
+
+I'm considering transferring to Cal from a CCC for EECS or CS and I'm curious about the experiences of others in managing the 5-semester timeframe set by the CoE. 
+
+Has anyone found this time limit restrictive, especially when aiming to enroll in a series of highly rated courses such as: 
+
+\- CS70: Discrete Math and Probability Theory (offered by Satish Rao or Anant Sahai)
+
+\- CS170: Efficient Algorithms and Intractable Problems (by Christos Papadimitriou)
+
+\- CS188: Introduction to Artificial Intelligence (taught by a team including Anca Dragan, Pieter Abbeel, and Dan Klein)
+
+\- CS189: Introduction to Machine Learning (with Johnathon Shewchuk)
+
+\- CS161: Computer Security (Nick Weaver)
+
+\- CS168: Networking (Scott Shenker)
+
+\- CS186: Databases (Joe Hellerstein)
+
+\- CS164: Programming Languages and Compilers (Paul Hilfinger)
+
+\- CS162: Operating Systems (Ion Stoica)
+
+\- CS184: Computer Graphics (Ren Ng)
+
+Would it be better to apply for CS in the College of Letters since I received most of my credits through AP or dual enrollment during HS?
+
+I would love to take all of these courses if feasible. Would it be better to consider taking some of them (if possible) or their equivalents during graduate school instead?
+
+Thank you!","I don’t think it matters since CS is direct admit now. It seems doable in 5 semesters.
+Typically you’ll want to take 2 techs a semester and transfers usually redo cs61a and Cs61C, many do 61b as well. Also, eecs16a and 16b are mandatory for EECS, so basically junior year is for lower divs. Then with three semesters left you can take 6 techs comfortably or 8/9 very uncomfortably (or using summers). There are two CCCs that can give you credit for 61C and 61B I think.
+So does that mean that CS also must be completed in 5 semesters? Is it not in the College of Letters and Science?
+The 5 semester ceiling is only for CoE transfer students in EECS. 
+
+For L&S CS, you can go as many semesters as you want as long as you are under 130 units (for a single major).  In reality, it would be extremely difficult to go over say 6 semesters without going over 130 units.
+No CS has a unit ceiling policy where you can keep extending if you have <= 130 units."
+"Assistant EECS professor Anca Dragan studies interactions between humans and robots as a colleague of Professor Stuart Russell, whose book on artificial intelligence first inspired her to join the field in high school. ""Now, I get to be a colleague of Stuart's, and he's just a few offices away.""",https://www.marketplace.org/2017/04/10/economy/robot-proof-jobs/robot-proof-jobs-carnegie-mellon-skills-math,2017-04-11 22:04:45,,Go Anca!!
+Fuck Pacman,https://www.reddit.com/r/berkeley/comments/kezicr/fuck_pacman/,2020-12-17 07:30:44,"Fuck Pacman. Fuck Tom and Jerry. Fuck Shrek and Lord Farquaad. Fuck Pac-ghost and Pac-baby and Fuck Rob and Mesute. 
+
+i don't care about their petty back story. They ruined my life and now i can't fucking sleep.","u cant fuck the course staff i already call dibs
+I saw pacman in the title and immediately knew it was about 188 despite not having taken the class lmao
+Wait you mean like actual pacman or is someone in the faculty named pacman?
+Honestly 188 is the worst class I've taken it Berkeley by far. The amount of stress it has caused is absolutely insane. It has literally contributed negative utility in my life, and that's not even considering the opportunity cost of taking the class.
+What's a Mesute?
+Name checks out.
+Don't take it!
+Nah 188 with Anca Dragan was one of my favorite classes. She’s super enthusiastic and makes the material fun to learn. One of the few CS classes I got an A on during my time here.
+I hear so many contradicting things about 188. It seems people love it or hate it.
+
+I had the opportunity to take 188 this semester, but I dropped out of it due to other commitments. I kinda regret that in hindsight, especially since Prof. Dragan seems like such a great lecturer. I attended the 1st lecture for the class this semester and her enthusiasm was very evident. Also loved her story about how her husband built a robot to propose to her lmao
+Yeah I really think the professor makes a huge difference in the experience of a hard class. For me ee16a and cs70 with Sahai were 2 of my least favorite classes while 188 with Anca and stat 140 with Adhikari were 2 of my favs
+I think Anca is absolutely a great professor, but honestly for those of us that didn't do well in the first midterm. Her tone after it was honestly pretty condescending and I know several people that felt this way who didn't do well. If you ended with an A I'm really not surprised that you liked her, because the class worked for you. 
+
+The mark of a good class is one where a student can walk away with a bad grade and still think they got something out of that class."
+Questions about CS courses from visiting students for 2019fall,https://www.reddit.com/r/berkeley/comments/cbplyu/questions_about_cs_courses_from_visiting_students/,2019-07-10 18:42:01,"Hi,
+
+I am a visiting student and is about to spend my first junior semester in UC Berkeley this fall. I am looking for some suggestions about how to do well in the following CS courses(People keep telling me that Berkeley CS courses are challenging). Because I would only stay in Berkeley for one semester, the grades really matter for me for my future application.
+
+So I have read some of the posts about CS61B, CS188. And I am really into robotics so maybe take EECS106A into my consideration, among these three courses, how can I do and in what aspects specifically should I really put my effort in order to get high grades(>=A)?
+
+Specifically, here is some information about these courses in 19fall:
+
+1. 61B by Prof. Paul N Hilfinger
+2. CS188 by Prof. Anca Dragan
+3. EECS106A by Prof.Sosale Shankar Sastry
+
+I found the information on Berkeley Acedamic Guide and hopefully I got the information correct.
+
+If you have taken some of the courses above or know the professors quite well, I would really appreciated if you can offer some specific suggestions on how to success/get a decent scores on these courses.
+
+Also, you are welcome to give other suggestions on my schedule or anything else(Whether it's too much load or anything else)!","Taking 188 or 106A will be really dependent on your college math background. If you tell us what maths you've been exposed to it would help us help you make a better decision.
+Hilfinger's 61B is known for it's extremely difficult and large scale projects (dozens of hours per project even though it's a lower division class). Also his projects are all solo, so don't expect to only write the parts of the project you feel most comfortable with. Having taken it last year, even with decent programming background the class is a huge time sink so be ready for that if you take it.
+All that being said, if you can succeed in the projects the grade distribution ends up being very favorable at the end of the semester.
+I have taken mathematical analysis, calculus and linear algebra during my freshman year. And signals and systems and probabilities on my sophomore year. Though I got fair good grades on most of the courses, I wouldn't say that I am super good at math...Actually, I heard that 189 is really math consuming and requires deep understnading of the intuition behind math so I kind of give up on that one...
+
+Not sure if this helps?
+You should be fine then. The main prereq needed for 106A is signals/systems, and for 188 is probability. 189 does desire a much higher understanding of probability theory and linear algebra beforehand which is why it has that reputation, but some people take it without that much prior experience and do fine.
+Thanks for your advice."

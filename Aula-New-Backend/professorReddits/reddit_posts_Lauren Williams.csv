@@ -1,0 +1,30 @@
+title,link,post_time,post_text,comments
+When/What to take -- Math 55 and Math 110,https://www.reddit.com/r/berkeley/comments/77b2xw/whenwhat_to_take_math_55_and_math_110/,2017-10-18 17:53:15,"I'm an intended stats major and should be able to declare at the end of this semester. Some of the upperdivs I'm interested in taking recommend linear algebra knowledge and say proof-writing techniques might be helpful. So, the question is which do I take next semester? Is it worth taking 55 at all? If I should do both, in which order?
+
+Note: I'm only going to take one, since if I did both I'd have 3 technicals (don't want that).
+
+EDIT: Lauren Williams will teach 55 and Frenkel will teach 110 next semester, if it matters.
+
+Thanks!","It would help if you said what upperdivs you were interested in.
+
+If you're doing both, you should do 55 first or do it concurrently. 55 is Berkeley's intro to proofs course. Before taking 110, you should know basic set theory, counting, basic logic (to understand what the statement of theorems mean), and induction (and other proof techniques). If you're already comfortable with proofs then go ahead and take 110.
+
+I'm going to point out that the upperdivs you're looking at probably don't recommend 110 but a working knowledge of 54 material. I actually can't think of any class that explicitly requires 110, but the material is certainly helpful to know.
+Do you have any experience writing proofs? 110 will be much less focused on computation and much more focused on proving statements. 
+I'm mostly interested in taking Stat 154, Stat 155, and maybe Stat 150 (depending on how 134 goes). 154 especially seems to recommend solid knowledge of linear algebra and 155 says it's important to have at least a working knowledge of it. 
+
+Honestly, I didn't really understand 54 well and only got a B so I'm kind of hesitant to jump into 110. Maybe it's best to do 55 then. I am familiar with but don't feel super confident about my knowledge of set theory, counting, basic logic, induction, etc...
+
+What do you think?
+No I don’t, at least not formally. We did some proofs in 54 but probably much fewer than in 110. 
+If you can get through 134 then you can get through 110. Yes, taking 55 will make 110 much easier for you (it is after all  subjectively the ""easiest"" upperdiv math class) - but it might not be worth spending an entire extra semester just to facilitate it, especially if you don't plan on taking higher level math beyond linear algebra. Instead of taking 55, I suggest reading a proof-writing book over winter break (Solow) and then dive into 110.
+I can't speak for Stat 154 but I can speak for 155 and 150. 155 isn't actually that computationally intensive. The undergraduate stats program at Berkeley barely uses any matrix probability. It probably should, but it doesn't. It is, in my opinion, important to be able to read and write proofs while taking 150 because of the underlying analysis going on but you don't have to understand more than a couple derivations.
+
+What part of 54 did you not understand? If it was the differential equations, they make no appearance in 110. If it was the definition-theorem driven part of 54, it will make a full appearance in 110. At the end of the day if you've never been exposed to abstract math, you should take 55 first since it will make the transition smoother.
+If you feel a bit uncomfortable writing proofs, as others suggested I would recommend taking 55 first so you get a better feel for it. It’s something that just takes practice and experience with the techniques and thinking required. From now on, most of your math classes will be proof-based, not computation-based. 
+The hard part for me with 54 was mostly the differential equations. I feel like I had a pretty decent understanding of the linear algebra, so it might come back to me for 110. 
+
+Another commenter said taking 55 might not be worth it if 110 is the only upperdiv I plan to take, which it kind of is right now.
+110 could very well be the only upperdiv math I take. In that case is it worth taking 55 next semester and then 110 fall 2018?
+I would go ahead and do 110 (I actually did 110 and 134 the same semester, in fact).
+I think that’s a reasonable plan, as long as you are ok with deferring your upper div stats classes that require 110 until after fall 2018. "

@@ -1,0 +1,97 @@
+title,link,post_time,post_text,comments
+"Course Reviews Spring 2022, CS 161, CS 162, CS 188, CS 189",https://www.reddit.com/r/berkeley/comments/upa9fj/course_reviews_spring_2022_cs_161_cs_162_cs_188/,2022-05-13 22:23:07,"Doing reviews for the Undergrad Systems + AI speed run
+
+CS 161 (Nicholas Weaver):
+
+Rating: 9/10
+
+Workload: \~4-5 hr/week, \~15hr/week when project 2 was being implemented
+
+Pros:
+
+* I found the content very interesting. It opened my eyes to a lot of security vulnerabilities and even improved how I approach my own personal security (security keys anyone?).
+* Weaver was very passionate about the material (especially crypto) and  was a fantastic lecturer overall. If you read this post, best of luck being the CEO, Janitor, and Chief Mad Scientist of Skerry Technologies!
+* Projects 1 & 2 are some of the coolest projects I've had to do for a class here. In Project 1, I felt like I was a hacker hacking into old decommissioned Gobian Union satellites. I thought the lore added some character from the otherwise same old same old CS project requirements (although obviously not required).
+* For Project 2, I loved the systems design with security component of it. I found developing Project 2 very rewarding, as I not only learned Go, but I had practice applying a ton of the cryptographic primitives learned in class.
+
+Cons:
+
+* While there was an attempt to perhaps make how they are assigning grades more transparent, I felt that the binned grading scheme caused a good bit of stress for me. I think the bins are currently set unreasonably high, and there is a rumor that the bins will be shifted. I personally prefer a curve where you can estimate your position than unreasonably high bins with possibility (but not necessarily guaranteed) of a downward shift.
+
+Overall, I strongly recommend any EECS/CS major to take CS161. It is super fun and the work around Project 2 can be managed.
+
+CS 162 (John Kubiatowicz and Anthony Joseph)
+
+Rating: 8.5/10
+
+Workload: \~20 hr/week
+
+Pros:
+
+* Content is generally really interesting and very helpful in understanding systems.
+* Working within an existing codebase like Pintos was initially rough, but it ended up becoming rewarding, as you end up seeing how so many of the core OS functions are implemented.
+* Design documents and design reviews force you to actually think about all sorts of aspects integrating features into a large codebase. I think my systems design skills definitely improved by the end of the course.
+* Both Professor Kubi and Joseph are solid lecturers! I highly recommend them.
+
+Cons:
+
+* I think at some point there was a Homework, Project, Design Document, and Midterm in the span of 2.5 weeks. I wished the workload was more distributed or that the deadlines were spaced out better.
+* Workload around project due dates was very high (almost like a full time job), but this could have been mitigated through better time management.
+* Good group is an absolute must (or enjoy having your back broken)! I was fortunate to have a great group and I survived.
+
+Overall, I would highly recommend this course to anyone who is interested in becoming a SWE or who has an interest in systems.
+
+CS 189 (Jonathan Shewchuk)
+
+Rating: 8/10
+
+Workload: \~10-12 hrs per week
+
+Pros:
+
+* I've been slow to pick up ML before due to the heavy math and I wasn't able to learn effectively from online resources. This class definitely pushed me over this hump, and now I find ML very exciting.
+* I think Shewchuk's iteration has the right amount of theory to the point where I can understand the intuition for the algorithms as opposed to just memorizing certain formulas.
+* Majority of the homeworks were very helpful in understanding concepts. In general, homeworks included both traditional math and theory based questions but also code implementation of certain algorithms. I'm glad there was a balance so I could see how the theory related to code in practice.
+* I loved Shewchuk's lectures!
+
+Cons:
+
+* As someone who took neither EECS126/127 and survived off of the backs of EECS16B and CS70, I found HW2 very challenging and long. While I did learn many concepts, like multivariate Gaussians, I found some of the proofs unnecessary and too much work for someone who is inexperienced at math compared to my peers.
+* HW difficulty and workload is generally inconsistent. Some homeworks are somewhat short, but other homeworks like 2 and 6 become very long.
+* Grading bins are not transparent, but I've heard bins are generous.
+
+Overall, I think it does a great job of introducing ML topics at a good level of depth. It is definitely a worthwhile course to take, and if you are interested in ML, if you can survive HW2, you should be fine in a Shewchuk semester.
+
+CS 188 (Stuart Russell and Dawn Song)
+
+Rating: 3/10
+
+Workload: \~5-7 hr/week
+
+Pros:
+
+* Projects for the most part are really easy plug and chug. Definitely takes the stress off if you have a ton of other work to do.
+* A small amount of content actually helped me understand some of a new research project I'm working on this summer.
+
+Cons:
+
+* Content at the end of the semester was very rushed, and in my opinion it is some of the most interesting.
+* I have absolutely 0 clue why we decided to spend 2 whole weeks on a logic unit where we could have added at least taken one of the lectures and put it towards RL.
+* No idea why grading policy claims participation is optional 5% extra credit, when the reality is that the bins are 5% shifted up from Fall 2021. The participation is only optional if you are a genius and absolutely crush the exams. To have a shot at even making a similar level bin as Fall 2021 you have to go to discussion or participate on Piazza. I don't have an issue with participation, but please don't claim it as extra credit when it is required for mere mortals like myself.
+* The way the material is presented does not develop a sort of intuition you can get like from CS189, for example. I felt a lot of it became know X, Y, Z formulas (or I guess write it down on your cheat sheets).
+
+Overall: If you are taking/have taken CS189, I don't think it is justifiable to take CS188 as a whole separate course when you could probably learn the relevant RL portions in 2 weeks tops (IMO if you are interested in RL, CS189->CS285 would probably be better). If you find Bayes Nets/HMMs fascinating, then take this course, but do it at the peril of wasting your time. It could perhaps be a good introductory course for those who don't want the hardcore nature of CS189 but still want some AI background.
+
+EDIT: I don't want to rail on CS188. I think the course staff was helpful for project completion, discussion, etc. I just felt like the content actually taught in the class did not meet the high bar set by the other three classes mentioned here.","Damn ur crazy
+it's funny that there's a whole unit on scheduling in 162 and course staff was absolute ass when it came to scheduling assignments this sem
+U took four techs🤠
+Cs 188 is a dogshit class. Keep railing :)
+Fwiw we covered HMMs and PGMs in 189 too. So 188 is actually completely useless lmfao
+Also will be saving this post!! :)
+I love seeing people who want to get by the CS degree the easy, less stressful way by taking light techs like 160, 161, 186, 194s. Then they naively choose to take CS 188 and just get absolutely railed with the impossible difficult exams.
+So you think 188 is harder than those?
+188 is ""easy"" up until the exams. The content is so wishy-washy and everyone gets 100-ish on the projects and HW. 188 isn't a ""hard"" class, but 188 is a ""hard class to get a good grade in because wtf did we even learn"".
+I took all of the classes OP mentioned and 188 ruined my 4.0 GPA (i got a B+)
+
+It’s also his/her/their worst rated class. So yes, 188 was harder than all if those IMO. Your effort in this class doesn’t correlate well to the exams and the concepts don’t even come up as someone who’s interviewed for many ML engineer positions.
+Seems like an odd way to run a course... so was it more useful to look at past exams?"

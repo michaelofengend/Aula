@@ -1,0 +1,50 @@
+title,link,post_time,post_text,comments
+Zoom Proctoring has been disallowed by the Chief Campus Counsel,https://www.reddit.com/r/berkeley/comments/fprgkx/zoom_proctoring_has_been_disallowed_by_the_chief/,2020-03-26 22:35:08,"The following message was recently sent to all EECS instructors from Professor John Canny, who was asked to forward this message from Dean Tsu-Jae King Liu:
+
+> Campus leaders have been (and still are) working to find an acceptable way to help ensure academic integrity on exams. **Chief Campus Counsel David Robinson has made it clear this afternoon that presently there is no acceptable remote proctoring option.** Instructors should either allow students to take exams unproctored, or postpone exams until an acceptable proctoring option is communicated from campus leaders.
+> 
+
+Several departments (including the EECS department) are going to hold emergency meetings to determine what to do for the remaining midterms in the coming days. This information was just released a couple of hours ago, so nobody really knows what's going to happen.","would final projects be a viable option for cs classes(particularly upper div)? I can't see self-proctored exams working  out well for them from my experiences taking cs61 courses....
+Emmmm can someone explain to me why Zoom proctoring is a bad idea? Of course it's not perfect but I think it at least discourages people from collaborating during the exam.
+Thank god
+>I can't see self-proctored exams working out well for them from my experiences taking cs61 courses....
+
+To be fair, I think that's why the entire university has been pushing P/NP so hard. It's going to be a clusterfuck, there's no way for it not to be. So they want everyone to be cushioned by PNP at least.
+We have been considering a take-home project-like final for CS 61C. 
+
+>I can't see self-proctored exams working out well for them from my experiences taking cs61 courses....
+
+Yeah– most of the head TAs I know agree with you that self-proctoring will not work out well for CS at all. This email puts everyone in a rather tight corner, with deadlines for upcoming midterms coming up really quickly. :/
+Really depends on the class. If it's not already set up that way, I think it'll be pretty tough. You'd probably have to release very flexible specs and just let people do whatever they want. Not sure you could build the kinds of projects EECS classes often use, which tend to be very thoroughly developed. I have no idea what you'd do for more theoretical classes like CS170.
+It's certainly an option for some, but it might also be more work for students?
+
+Damn, I hate exams so much....
+Not all students have a quiet room in their house, nor now in public such as library, cafe, etc to take or proctor the exam. Also, timezone issues, internet connectivity for some students and lack of a laptop for students, privacy, class/assignment/midterm overlaps, its a bit of a mess; while I understand the need to combat academic dishonesty
+Well, I have a desktop without a webcam, and am living with my mom who is in an at-risk group so I'm not about to go to Best Buy and get one. I was going to order one on Amazon, but it was delayed until April 22.
+
+There are also a lot of students in the positions /u/asucisevil101 mentioned. I just don't think the university should make any decisions under the assumption that all students have a reliable way to use Zoom.
+Idk but it feels like a weird invasion of privacy ig? Because normally you don't feel like there's a watchful eye staring at you while you take exams in an exam hall, but zoom proctors are kind of a constant thing to consider in your mind while taking an exam and that can be quite distracting and intrusive in and of itself regardless of if you are being academically honest or not (hopefully the former ofc).
+i wish mandatory p/np was implemented :( this feels like an unideal half-measure rn
+Hackerrank challenge?
+While definitely some of the things you mentioned were valid concern However, I do feel that the benefit of discouraging cheating outweighs some of the drawbacks. I feel that most students benefit from the curve that's not affected by group cheating. I mentioned this before but I know personally there are people in one of my classes that are thinking about collaborating during the take home exam. I don't feel that this is fair for other students at all.
+Privacy, definitely. Likely accessibility, though I think this should be mostly OK. But also just what it means if we are storing recordings of students in their own homes... that's not really data the university wants to protect.
+I was thinking along the lines of 1 GSI proctoring 30 students. It's more of a symbolic deterrence that will hopefully discourage blatant collaboration during the exam. I get where you're coming from but I don't see how that's different from taking the exam in a lecture hall while the GSI is proctoring the classroom.
+Rao says ""perhaps don't think of the TA's watching you as monitoring you. Think of TA's as rooting for you.""
+I was thinking along the lines of 1 GSI proctoring 30 students. It's more of a symbolic deterrence that will hopefully discourage blatant collaboration during the exam. I get where you're coming from but I don't see how that's different from taking the exam in a lecture hall while the GSI is proctoring the classroom.
+""Unideal half measures"" is apparently the title of the nation's playbook for dealing with this pandemic
+How does that prevent cheating and collaboration?
+You gotta remember that this is an order coming from the school's legal department. This mandate was sent out not to ensure academic fairness, but rather to protect the school from potential lawsuits in the future regarding privacy and accessibility issues.
+Honest thought, but how much cheating goes on under ""normal"" circumstances that we can't really catch? I'm afraid to know sometimes... I am fully aware that some students cheat, but most students are honest people, and a lot of attempted cheating (at least the stuff that I can catch) doesn't even have significant effects on people's grades.
+
+I wish we had better solutions for *detecting* cheating rather than trying to find everything to prevent it...
+Take the classes p/np like the university suggests and a wonky curve shouldn't be so much an issue it pushes you into failing.
+lmao love it
+this is why p/np should be mandatory this semester imo. it accounts for a lot of types of cheating by not allowing anyone to get a letter grade.
+It was actually a combination of both. Mostly because of accessibility issues and academic accommodations, which does encompass academic fairness. That and privacy as you mentioned, in addition to lawsuits in regards to tuition, FERPA, and right to academic choice.
+Ah that's good point.
+I think actually carry out harsher punishment such as expulsion for severe cases could definitely deter most people from cheating. I think part of the reason is that even when some of the cheaters get caught there are rarely any consequential punishments, most of the time it's a slap on the wrist, it doesn't set a good example.
+If Zoom is supposedly accessible then I'm curious how much of a concern the accessibility angle is... though, I imagine that quite a few different accommodations are exacerbated by home conditions aside from proctoring options.
+I think a lot of the cases are pretty severe penalties... Slaps on the wrist do happen, but that's usually for fairly insignificant cases of cheating. 
+
+Things like expulsion are usually reserved for 2nd offenses."
+UGBA 106 STUDY.NET user,https://www.reddit.com/r/berkeley/comments/c7r8aj/ugba_106_studynet_user/,2019-07-01 04:06:42,Does anyone has the cases files for UGBA 106 (Marketing taught by David Robinson) downloaded on STUDY.NET? Could anyone be helpful in sending me those files? Thank you!,

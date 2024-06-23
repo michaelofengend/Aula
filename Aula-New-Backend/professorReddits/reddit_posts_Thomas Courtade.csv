@@ -1,0 +1,44 @@
+title,link,post_time,post_text,comments
+a couple of gems from EECS127 this semester,https://www.reddit.com/r/berkeley/comments/uoei6h/a_couple_of_gems_from_eecs127_this_semester/,2022-05-12 16:42:34,"**Context**: EECS127 is an optimization course taught by Professor Thomas Courtade, who is actually a brilliant researcher and one of the youngest appointed associate professors at Cal (he became a professor at age 24).
+
+It was Courtade's first time teaching 127 and because of his background, the course was really theoretical this semester, and the weekly homeworks were known to be difficult. Likewise, the midterm and final really tested your conceptual understanding and had some abstract questions, but the main complaint from students was the lack of practice material (Courtade didn't have any since it was his first time).
+
+From personal experience, I thought Courtade was amazing, but he did make the course really difficult, I was spending like 10hrs a week on the hw
+
+The TAs were okay, the graduate student TAs were definitely carrying this course, but I guess some students really disliked them/the course. A couple of hilarious reviews are here:
+
+&#x200B;
+
+[based on a rumor that courtade was a criminal, which is false](https://preview.redd.it/76nzkcc2s4z81.png?width=890&format=png&auto=webp&s=515f73ce7b2806f8a0bf0712b15df3c3d32f7e8b)
+
+&#x200B;
+
+[I guess people who didn't do so hot on the final wanted to point out the chaos](https://preview.redd.it/2p8zrte9s4z81.png?width=895&format=png&auto=webp&s=6a8f1c297ea5dfb15b5e4c50222d5a5ce84244b8)
+
+&#x200B;
+
+[amazing shitpost, hope it passes the review](https://preview.redd.it/kiw6q8khs4z81.png?width=892&format=png&auto=webp&s=3e348aa340fbf5f65d4ba15231c8ca6c13c0b7d8)
+
+&#x200B;
+
+[stay malding](https://preview.redd.it/v73v0hujs4z81.png?width=890&format=png&auto=webp&s=a3b61451186ba0581237df4fedf54e8c95a27f7c)","Unfortunate to see Courtade being misrepresented like this. I had him for eecs 126 last spring and he is absolutely phenomenal at communicating advanced math concepts clearly. Definitely one of the best math teachers in the EECS department.
+unrelated but I wanna take this class with Ranade this Fall
+To be honest, the exams were very conceptually challenging. I think to do well on them, you had to truly understand the content, which requires a lot more work than just pattern matching. It requires you to understand and be able to replicate and or change some of the proofs from class, it requires a strong understanding of duality, perturbation, etc to a point where you can recognize, and alter the common knowledge about the subject. Pattern matching is what we are used to and when he throws a curveball when we have a weak and shaky understanding, it makes sense that the exam seems super hard. I like that he holds us to such a high standard(hoping he presents a juicy curve for us tho), it makes it such that next time we can learn to truly understand the content, not just skim the hw and hope for the best.
+I'm surprised, from 126 and 226 with him I thought he was kind of goated. Great lecturer and not too tricky of exams."
+How does EE126 + EE127 + EE120 + CS170 sound ._.,https://www.reddit.com/r/berkeley/comments/qatoz1/how_does_ee126_ee127_ee120_cs170_sound/,2021-10-18 12:12:39,"I'm aware it is an unreasonable workload. For my case, I'm a transfer on my 2nd junior semester so I don't have much time left. Should I move one of these classes into senior year so that I learn better? My Fa'22 schedule is looking like EE149, EE106A, breadth, and another undecided elective (likely something related to cloud computing, communication networks/ internet security)  
+
+
+I'm not mathematically talented, but I heard Ramchandran is the best for 126 so I wish to take it with him. Thomas Courtade seems like a good choice for 127 so it's high on my list. I've also read that 120 with Babak is chill, but I'm thinking of taking CS170 for intern prep. Could anyone give some advice? Really appreciate it.",">I'm not mathematically talented
+
+Sounds like death. Even 3 of those 4 will be quite difficult. I'd save 127 for another time if you are crunched, it is also much easier to learn optimization on your own than probability in my opinion.
+If you're aware its an unreasonable workload I'm not sure what kind of replies you're expecting. It's going to be a really difficult semester and EE 126/127 are essentially math classes so if you have time, spend winter break studying linear algebra for 127 and probability for 126. I would really suggest taking 3 classes at a max, and if it were me I would drop EE 120. Good luck
+this is so pset heavy that it comes down entirely to how fast you are with psets.
+
+if you could reliably finish cs70 psets in 5-7 hours on your own, I don't think this is a crazy workload. that's a *lot* of math to mentally digest per week though.
+> I'm not mathematically talented
+
+Yeah don't do it then
+What's your overall goal? Take as many classes as possible or do you have some career focus?
+Noted, thanks for the info. I wanna ask though, by any chance do you know how much of an overlap is there in CS170 and EE127?
+I ultimately hope to cover IOT and robotics by graduation. These math classes I'm planning to do is motivated by my machine vision internship. I found probabilistic math and optimizations to be core knowledge in algo R&Ds and hence why I want to do these classes
+Not too much overlap; the optimization section of 170 is not a huge focus for the course"

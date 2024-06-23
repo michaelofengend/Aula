@@ -1,0 +1,100 @@
+title,link,post_time,post_text,comments
+UC Berkeley CS Professor Sanjam Garg named on Forbes' 30 Under 30 List of 2016,http://www.forbes.com/30-under-30-2016/science/,2016-01-07 12:25:31,,"Colin Carlson, a 19-year-old PhD candidate at Berkeley, is also [on there, under Science](http://www.forbes.com/30-under-30-2016/science/).
+Sanjam is a huge deal in crypto. His PhD thesis from a few years ago solved a loooong-standing problem in the field and led to applications like obfuscation, functional encryption, and other cool shit.
+
+He's super super prolific, consistently publishing in the biggest conferences in crypto and CS theory.
+
+He's also really chill.
+Also a Haas UG student, Tai Tran, is under Marketing & Advertising.
+http://www.forbes.com/30-under-30-2016/marketing-advertising/
+19-year-old PhD candidate... Psh... He ain't EECS. I'm Unimpressed. /s
+Interestingly, he's the second PhD candidate I know at Berkeley that's 19 and under. The other is like 15 and also in bio. (He was in my chem 3A/3B classes like 4 years ago...)
+[deleted]
+Apparently he was only a bio e minor, not a double major. [Source.](http://www.dailycal.org/2012/10/30/berkeleys-youngest-student-unfazed-by-college-rigor/)
+
+But still, very impressive. 
+[deleted]"
+Is this a bad idea?,https://www.reddit.com/r/berkeley/comments/1d9c6ws/is_this_a_bad_idea/,2024-06-06 00:04:37,"Context: I'm an incoming freshman with quite a bit of CS & Math experience. I have pretty much all the undergrad coursework for math & cs majors (except for 61A and 70) through my local CC and am coming in with 70 transfer units (basically a junior). I have experience taking large workloads in high school (10 course workloads: 6 AP's and 4 college courses concurrently for a year)
+
+Do you think this is a reasonable schedule for my first semester or is it too many classes too close together. Also, if you have any recommendations for classes or specific professors please let me know.
+
+https://preview.redd.it/44eiavg1fw4d1.png?width=1099&format=png&auto=webp&s=360c8ba442ea6849e644a25433f9fca136af0b7e","Whenever someone tells me they're gonna take 4 techs, I ask what they're taking and try to convince them to pick easier classes or make sure they can handle it. Whenever someone tells me they're gonna take 5 or more, I just sit back and say nothing because
+
+1. they are cracked out of their goddamn minds, guaranteed
+2. they literally always do fine, never seen one of em do poorly even with that much workload
+3. I cannot stop them. nothing I say will change their minds.
+
+So yeah, go ahead :)
+huge difference if you're eecs or cs 
+
+1. cs majors will not be able to enroll any of these upper divs until you finish 61ab 70
+
+2. now if you are an eecs major, obviously i don't truly know how much cs and math you know but you can always look over the topics on all of their course websites to see what you know and don't know. that said it is honestly doable to do everything besides 186 if you put in the work. not to say 186 is incredibly difficult but the projects will definitely be time consuming and take up time needed for example 70 or 170 psets. if you believe you know much of the content in those classes many ppl can't stop you. but many ppl have a very similar hs background to you and they struggle with the triple crown 61b 16b 70. think of it what you will, the choice is ultimately yours.
+Are you even going to be able to enroll in those upper divisions? I'm not sure what the policy is these days. Take out 188 and you'll be good btw, that class is not known for being a good use of time.
+as someone who came into college with a similar amount of experience (in math it cs) you’re gonna want to enjoy your time in college but if you do this as soon as you start you’re gonna feel like you’re missing out. id say take it a bit easier, but you can prolly manage to get good grades in the classes if you really apply uourseld
+First of all, you need your check if you are declared for CS from Day 1.  The rules are a bit different on this now that CS has moved to its own school.  If not, you can’t take any upper division classes until you are officially declared for CS. 
+
+Secondly you need to understand the prerequisites.  170 is a complete hard stop without 70.  You shouldn’t take 186 without 61C.  188 is a no-go without 70. 
+
+Thirdly, this is Berkeley.  The classes are infinitely harder than any course you have ever taken, even the beginning classes.  This is not community college, this is not some run of the mill university.  There are no easy courses in CS at Berkeley.  All CS classes will either have high workload, tremendous difficulty with average test scores around 50%, or in most cases, both. Don’t let the high GPAs fool you.  Even taking 61A and 70 together your very first semester is iffy unless you’ve done some sort of competitive math or equivalent. 
+
+No one will recommend taking 4 CS technicals, much less 5.  My kid had a similar profile to you. Actually quite a few CS students have a similar profile. He actually took 4 technicals in 3 of his semesters at Berkeley. (Did it after freshman year).  He did pretty well a couple of the times, but one semester he had a nervous breakdown.  If you’re going to do so many technicals, do it after your first semester. 
+
+One final note on registration - you won’t be able to get into 186 until maybe later, it’s already full.  The best laid plans of everyone is usually messed up because of demand and lack of resources.  And also depends tremendously on your registration position.  In other words, you should have backup classes in hand.
+OP you are extremely underestimating the rigor of UC Berkeley. Quitely take 61A and 70 and explore the opportunities on campus. You have 4 years then why rushing to ruin your GPA right on the start. You can easily graduate in 3. If you are not EECS you can't take CS upper div anyways. No one stop you taking 4 upper div technicals once you are declared.
+will you come in as declared in CS/EECS? if not then you won't be able to enroll in the upper div CS courses
+if your high school/cc courses were known for being rigorous then you’re probably chilling, if not then i’d consider maybe swapping in an easier breadth class or some other requirement to be safe since you’ll end up having to take those anyways
+
+honestly if i were you though i’d skip 188 to just do 4 techs this semester and use the time for a research lab or clubs, then do 189 next semester. Ive been told that 189 should end up kind of covering most 188 topics as long as ur a fast learner and willing to do some learning outside of lecture.
+Go for it. If you crash and burn, well ya learned a lesson. If you succeed, then you know what you can handle and are going to go places.
+Do you have comp math experience? What the other guy in this thread said basically.
+I mean it depends on you. Tldr, this is roughly a 20-60 hrs per week workload depending on how good you are. 
+
+61A is probably a non issue for you.
+
+Cs70 is a non issue if you have comp math experience.
+
+Cs170 is a non issue if you have competitive coding experience. 
+
+Cs188 is a bit shallow, projects are spoon fed so don't take much time
+
+Cs186 projects are somewhat of a waste of time.
+
+Here is a rough breakdown of the time you'd need to spend per week on average (assuming you are cracked and watch lecures on 2x speed)
+
+Cs61a - 3 hours
+Cs70 - 3 hours
+Cs170 - 4 hours 
+Cs188 - 4 hours
+Cs186 - 6 hours (debugging time)
+Total = 20 hours per week
+
+The times calculated are assuming you know the answer instantly for all homrwork problems and the only bottleneck is physically writing the answer out.
+
+If you don't have prior experience, you can easily net +10 hours per week for each class due to getting stuck, being stupid, or having a bad teacher.
+So you are potentially looking at 20+40 = 59 hours per week.
+
+I mean you could go for this schedule if you want. You picked out 2 lower divs plus three easy upper divs. This seems like a schedule I would do if I could turn back time to freshman year.
+For your first point, is it true even if you were admitted directly to cs?
+yes
+I would like to do research, but I don't know how I would get into any lab in my first semester. Is it just cold emailing or are there any programs open?
+Yo suggesting five technicals could take only 20 hours of outside work time a week is actually bonkers. I’ve always seen the “for every credit hour, study for 2-4 hours outside of class” and while that specific measurement is def up for debate, that seems much more reasonable
+yes, you have a reserved spot in the cdss cs major. But you aren’t declared until you finish ur pre reqs, so you can’t take any upper div cs (probably spring for you)
+Ya, but u can look into 270 instead of 170, which is probably more interesting for you and is more project-based than exam-based. Grad classes are usually open to anyone that the Professor okays and ime that’s very easy to get
+Tbh I don't know cuz the new CDSS policies aren't exactly clear, you can probably check your calcentral to see if the CS major is on your profile. That'll tell if you can apply to upper divs or not.
+
+but please have fun for your first semester in college. this isn't high school where you're required to fill your schedule to the brim anymore. this also isn't high school in the sense that you can clown around for all your APs and grind study a night before tests. taking 5 tech finals isn't fun at all, let alone taking maybe 2 or 3 at 8am. explore other things while you're settling in - clubs, parties, recruiting (lol).
+
+but also again you don't have to follow anything i said bc im not your advisor (although they would probably suggest you to take 2 max first semester so i wouldn't listen to them either). bumping what i said in point 2.
+you my friend are a stud, i applaud you
+Urap and cold emailing
+I haven’t done upper div cs classes but if they are cracked and already have some related knowledge it’s not impossible. last semester i was taking 61B~1 hrs a week, 16B~5 hrs a week + 20 per exam, 70~20 hrs per exam and none on a normal week and physics 7b ~ 1 hr per week + 15 per exam so in total like 6 hrs a week plus 150 ish hours for studying for tests in total. 
+
+The 2-4 hours per credit hour is probably reasonable for the average student but anyone willing to take 5 technicals is probably some level of cracked
+I mean by this logic, 6 ap classes and 4 college courses simultaneously should be impossible. Some people really are just good. I dont blame you for thinking its unreasonable since thats understandable For example, as an average person, could you imagine running a mile in 3 minutes 43 seconds?
+
+I measured time based on personal experience. I have personally taken harder schedules and know kids that are even more cracked. If you just look through LinkedIn and resumes of random people, you will also occasionally find these kinds of cracked ppl on accident.
+
+Also cs70 can take 0 hours per week with the no homework option. You don't even need to study for exam or look at lectures if you have comp math experience. 
+
+So this course loadout is more like 4 technicals. And technicals are actually much easier for some STEM kids than humanities. People always tout technicals as super hard, but for me technicals have always been far easier than english or history. This workload of 5 technicals versus 10 ap/college courseload might actually be a reduction in workload."
