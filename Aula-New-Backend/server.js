@@ -42,7 +42,7 @@ app.post('/run-python', (req, res) => {
 
 app.get('/classes', (req, res) => {
   const results = [];
-  fs.createReadStream(`./CSberkeley_classes.csv`)
+  fs.createReadStream(`./berkeley_classesFA24.csv`)
   // fs.createReadStream(`./berkeley_classesFA24.csv`)
     .pipe(parse({
       columns: true,

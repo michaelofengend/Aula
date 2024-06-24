@@ -4,7 +4,6 @@
 
 .form {
   padding: 10px;
-
 }
 
 .form-control {
@@ -12,53 +11,61 @@
   color: var(--text-color);
   border: 1px solid var(--border-color);
 }
+
 .form-input {
   background-color: white;
 }
 
-.class-grid {
+.class-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 20px;
-  margin: 20px auto;
+  grid-template-columns: repeat(4, 1fr); /* Changed to 4 columns */
+  gap: 15px; /* Reduced gap */
+  max-height: 70vh; /* Adjusted height */
+  overflow-y: auto;
+  padding: 15px; /* Reduced padding */
 }
 
+.class-card-grid > div {
+  max-width: 100%; /* Ensure cards don't exceed column width */
+}
+
+/* Adjust ClassCard styles */
 .card {
   background-color: var(--secondary-color);
   border: 1px solid var(--border-color);
   color: var(--text-color);
+  font-size: 0.9rem; /* Reduced font size */
 }
 
-.card-title,
+.card-body {
+  padding: 0.75rem; /* Reduced padding */
+}
+
+.card-title {
+  font-size: 1rem; /* Reduced title font size */
+}
+
 .card-subtitle,
 .card-text {
-  color: var(--text-color);
+  font-size: 0.8rem; /* Reduced text font size */
+  margin-bottom: 0.25rem; /* Reduced margin */
 }
 
 .btn-primary {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
+  font-size: 0.8rem; /* Reduced button font size */
+  padding: 0.25rem 0.5rem; /* Reduced button padding */
 }
 
 .btn-primary:hover {
   background-color: darken(var(--accent-color), 10%);
   border-color: darken(var(--accent-color), 10%);
-}.main {
-  padding: 10px;
 }
 
-.class-card-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  max-height: 80vh; /* Adjust as needed */
-  overflow-y: auto;
-  padding: 20px;
-}
-
-/* Optional: Style the scrollbar */
+/* Scrollbar styles */
 .class-card-grid::-webkit-scrollbar {
-  width: 10px;
+  width: 8px; /* Reduced width */
 }
 
 .class-card-grid::-webkit-scrollbar-track {
@@ -71,4 +78,75 @@
 
 .class-card-grid::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-group .btn {
+  flex: 1;
+}
+
+.btn-outline-primary {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+
+.search-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.control-row {
+  display: flex;
+  gap: 10px;
+}
+
+.department-filter {
+  flex: 2;
+}
+
+.course-search {
+  flex: 3;
+}
+
+.course-level,
+.sort-options {
+  flex: 1;
+}
+
+/* Ensure consistent width for dropdowns */
+.dropdown-toggle {
+  width: 100%;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  .control-row {
+    flex-direction: column;
+  }
+}
+
+/* Adjust input group to align items */
+.input-group {
+  align-items: stretch;
+}
+
+.input-group .form-control {
+  height: auto;
 }
